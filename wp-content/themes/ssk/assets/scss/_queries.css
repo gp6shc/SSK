@@ -1,0 +1,13 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media screen and (min-width: 720px) { //above 720px (above 1st brk pt)
+
+}
+
+@media screen and (max-width: 720px) { //below 720px (1st brk pt)
+
+}
+
+@media screen and (max-width: 480px) { //below 480px (phones landscape)
+
+}
