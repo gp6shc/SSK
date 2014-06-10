@@ -22,7 +22,7 @@ function spacious_scripts_styles_method() {
 	*/
 	wp_enqueue_style( 'spacious_style', get_stylesheet_uri() );
 	wp_enqueue_style( 'sass', get_template_directory_uri().'/assets/css/theme.css', '1.0.0', true );
-	wp_enqueue_style( 'animate', get_template_directory_uri().'/assets/css/animate.min.css', '1.0.0', true );
+	//wp_enqueue_style( 'animate', get_template_directory_uri().'/assets/css/animate.min.css', '1.0.0', true );
 
 	if( of_get_option( 'spacious_color_skin', 'light' ) == 'dark' ) {
 		wp_enqueue_style( 'spacious_dark_style', SPACIOUS_CSS_URL. '/dark.css' );

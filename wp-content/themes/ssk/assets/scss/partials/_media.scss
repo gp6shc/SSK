@@ -1,0 +1,104 @@
+/*
+Media.scss - breakpoint targeting
+*/
+
+/* Breakpoint description - 
+-------------------------------------------------------------- */
+@media screen and (min-width: 768px) { //above 768px (nav trigger brk pt.)
+	#page{
+		max-width: 64%;
+		width: auto;
+	}
+	.main-navigation{
+		padding-top: 0;
+		background: $white;
+		border-radius: $rounded;
+		li{
+			padding: 0px 0px;
+		}
+		ul li a{
+			padding: 8px 12px;
+			color: $pink;
+			font-size: 13px;
+			text-transform: uppercase;
+			&:hover{
+				color: $white;
+				background: $pink;
+				border-radius: $rounded;
+			}
+		}
+		a{
+			height: 22px;
+			padding: 0 0;
+		}
+	}
+	.parents-thought{
+		margin-top: -70px;
+		margin-left: -30px;
+	}
+}
+
+
+/* Breakpoint description - 
+-------------------------------------------------------------- */
+@media (max-width:900px) and (min-width:769px) { // below 900, above 769 (for nav bar bug)
+	#page{
+		max-width: 82%;
+	}
+}
+
+
+/* Breakpoint description - 
+-------------------------------------------------------------- */
+@media screen and (max-width: 768px) { //below 768px 
+	.logo{
+		margin: 50px 0;
+	}
+	.parents-thought{
+		margin-top: -60px;
+	}
+}
+
+
+
+/* Breakpoint description - 
+-------------------------------------------------------------- */
+@media screen and (max-width: 480px) { //below 480px
+	#clouds, #sun{
+		display: none;
+	}
+	#push-down{
+		margin-top: 40px;
+	}
+	.parents-thought{
+		margin-top: -15px;
+	}
+	.dog{
+		margin-top: 35px;
+	}
+	
+}
+
+/* Breakpoint description - 
+-------------------------------------------------------------- */
+@media screen and (max-width: 320px) { //below 320px
+	.land{
+		height: 175px;
+	}
+	.ball{
+		margin-top: 100px;
+	}
+	.bowl{
+		margin-top: 110px;
+	}
+	.house{
+		margin-top: 20px;
+	}
+	.dog{
+		margin-top: 40px;
+	}
+	#push-down{
+		margin-top: 10px;
+	}
+	
+}
