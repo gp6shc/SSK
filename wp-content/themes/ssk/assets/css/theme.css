@@ -142,19 +142,6 @@ body.page {
   height: 260px;
   background: #8ec256; }
 
-/*revSlider*/
-.rev_slider_wrapper {
-  float: none !important;
-  box-shadow: #d8d8d8 -5px 5px;
-  border-radius: 4px; }
-
-.tp-caption {
-  color: white !important;
-  font-family: inherit !important;
-  font-size: 22px !important;
-  line-height: 24px !important;
-  white-space: normal !important; }
-
 /*flexSlider*/
 .flexslider {
   margin: 0 0 15px !important;
@@ -283,12 +270,14 @@ body.page {
 
   6%, 28% {
     opacity: 1; } }
+
 @keyframes bubble-fade {
   0%, 31%, 100% {
     opacity: 0; }
 
   6%, 28% {
     opacity: 1; } }
+
 /* Profound Max-Width Fluid Grid
 -------------------------------------------------------------- */
 article {
@@ -557,12 +546,14 @@ article div {
 
   100% {
     margin-left: -1000px; } }
+
 @-moz-keyframes moveclouds {
   0% {
     margin-left: 1000px; }
 
   100% {
     margin-left: -1000px; } }
+
 @-o-keyframes moveclouds {
   0% {
     margin-left: 1000px; }
