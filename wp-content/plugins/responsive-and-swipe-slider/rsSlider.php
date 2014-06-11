@@ -23,7 +23,7 @@ function rsSlider_script(){
 		wp_enqueue_script( "easing", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.easing.js", array('jquery'), '1.0', true );
 		wp_enqueue_script( "mousewheel", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.mousewheel.js", array('jquery'), '1.0', true );
 		
-		wp_enqueue_style('flexslider', RS_SLIDER_PLUGIN_URL . '/flex/css/flexslider.css');
+		//wp_enqueue_style('flexslider', RS_SLIDER_PLUGIN_URL . '/flex/css/flexslider.css');
 						
 	}
 }

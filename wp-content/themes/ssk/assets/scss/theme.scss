@@ -11,13 +11,12 @@ Description: theme.scss - Sass main file, using CodeKit to compile into: "../ass
 // Partials 
 @import "partials/grids";
 @import "partials/animation-cloud"; 
-//@import "partials/animation-??"; //TO DO: separate all animation specific elements of pages
+//@import "partials/animation-footer-"; //TO DO: separate all animation specific elements of pages
 @import "partials/media"; 
 
 // Third-party
 @import "vendor/animate";
-//@import "partials/flexslider"; //TO DO: add flexslider conditionally
-
+@import "vendor/flexslider";
 
 
 
@@ -162,47 +161,6 @@ body.page{
 	width: 100%;
 	height: 260px;
 	background: $green;
-}
-
-
-/*flexSlider*/
-.flexslider{
-	margin: 0 0 15px!important;
-	background: transparent!important;
-	.slides img{
-		margin-top: 4px;
-		margin-left: -1px;
-		border-radius: $rounded;
-	}
-}
-.flex-control-nav{
-	bottom: 6px!important;
-}
-.flex-control-paging li a{
-	background: $dark-blue!important;
-}
-.flex-direction-nav{
-	.flex-next{
-		background: url('../img/_parents-arrow-right.png') no-repeat 0 0!important;
-		background-size: 22px 25px!important;
-		margin: -3px 5px 0 0px!important;
-	}
-	.flex-prev{
-		background: url('../img/_parents-arrow-left.png') no-repeat 0 0!important;
-		background-size: 22px 25px!important;
-		margin: -3px 0 0 5px!important;
-	}
-	a{
-		width: 27px!important;
-		height: 36px!important;
-	}
-}
-.rsSliderContent{
-	a{
-		color: $white!important;
-		font-size: 20px;
-		line-height: 24px;
-	}
 }
 
 

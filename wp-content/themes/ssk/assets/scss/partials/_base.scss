@@ -1,5 +1,5 @@
 /*
-Base.scss - imports for all mixins + global project variables
+Base.scss - import/define global project variables
 */
 
 // colors
@@ -13,6 +13,10 @@ $shadow: #d8d8d8;
 
 // sizes
 $rounded: 4px;
+
+// fonts
+@import url("http://fonts.googleapis.com/css?family=Lato");
+$base: 16px 'Lato', sans-serif, Arial;
 
 // TO DO:
 // fonts, sizes, mixins?, etc.
