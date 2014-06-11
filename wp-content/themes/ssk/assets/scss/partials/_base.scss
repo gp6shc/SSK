@@ -2,14 +2,18 @@
 Base.scss - import/define global project variables
 */
 
-// colors
+// brand specific colors
+$lk-brand: #eb068b; //lauren's kids pink
+$lk-accent: #00959b; //lauren's kids teal
+$ssk-brand: #90D9EB; //ssk light blue (logo color)
+$ssk-accent: #154259; //ssk dark blue
+$grass: #8ec256;
+$shadow: #d8d8d8;
+
+// typical colors
 $white: #fff;
 $dark: #222;
-$pink: #eb068b;
-$light-blue: #90D9EB;
-$dark-blue: #154259;
-$green: #8ec256;
-$shadow: #d8d8d8;
+
 
 // sizes
 $rounded: 4px;

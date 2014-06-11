@@ -294,7 +294,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
 /*
 Media.scss - breakpoint targeting
 */
-/* Breakpoint description - 
+/* Breakpoint description - above 768px (above mobile nav)
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   #page {
@@ -323,12 +323,12 @@ Media.scss - breakpoint targeting
   .parents-thought {
     margin-top: -70px;
     margin-left: -30px; } }
-/* Breakpoint description - 
+/* Breakpoint description - below 900, above 769 (fix nav bug)
 -------------------------------------------------------------- */
 @media (max-width: 900px) and (min-width: 769px) {
   #page {
     max-width: 82%; } }
-/* Breakpoint description - 
+/* Breakpoint description - below 768 (below mobile nav)
 -------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
   .logo {
@@ -336,7 +336,7 @@ Media.scss - breakpoint targeting
 
   .parents-thought {
     margin-top: -60px; } }
-/* Breakpoint description - 
+/* Breakpoint description - below 480 (landscape)
 -------------------------------------------------------------- */
 @media screen and (max-width: 480px) {
   #clouds, #sun {
@@ -350,7 +350,7 @@ Media.scss - breakpoint targeting
 
   .dog {
     margin-top: 35px; } }
-/* Breakpoint description - 
+/* Breakpoint description - below 320 (portrait)
 -------------------------------------------------------------- */
 @media screen and (max-width: 320px) {
   .land {
