@@ -125,6 +125,7 @@ article div {
 .push8 {
   margin-left: 68%; }
 
+<<<<<<< HEAD
 .push9 {
   margin-left: 76.5%; }
 
@@ -133,6 +134,16 @@ article div {
 
 .push11 {
   margin-left: 93.5%; }
+=======
+/*flexSlider*/
+.flexslider {
+  margin: 0 0 15px !important;
+  background: transparent !important; }
+  .flexslider .slides img {
+    margin-top: 4px;
+    margin-left: -1px;
+    border-radius: 4px; }
+>>>>>>> origin/master
 
 /*
 Animation-Cloud.scss - animation styles for moving clouds in background
@@ -466,6 +477,7 @@ Media.scss - breakpoint targeting
     -webkit-transform: scale(1);
     transform: scale(1); }
 
+<<<<<<< HEAD
   30% {
     -webkit-transform: scaleX(1.25) scaleY(0.75);
     transform: scaleX(1.25) scaleY(0.75); }
@@ -473,6 +485,26 @@ Media.scss - breakpoint targeting
   40% {
     -webkit-transform: scaleX(0.75) scaleY(1.25);
     transform: scaleX(0.75) scaleY(1.25); }
+=======
+  6%, 28% {
+    opacity: 1; } }
+
+@keyframes bubble-fade {
+  0%, 31%, 100% {
+    opacity: 0; }
+
+  6%, 28% {
+    opacity: 1; } }
+
+/* Profound Max-Width Fluid Grid
+-------------------------------------------------------------- */
+article {
+  width: 100%;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  height: 80px; }
+>>>>>>> origin/master
 
   60% {
     -webkit-transform: scaleX(1.15) scaleY(0.85);
@@ -967,6 +999,7 @@ Media.scss - breakpoint targeting
     transform: scale(1.1); }
 
   100% {
+<<<<<<< HEAD
     opacity: 0;
     -webkit-transform: scale(0.3);
     -ms-transform: scale(0.3);
@@ -976,6 +1009,11 @@ Media.scss - breakpoint targeting
   animation-name: bounceOut; }
 
 @-webkit-keyframes bounceOutDown {
+=======
+    margin-left: -1000px; } }
+
+@-moz-keyframes moveclouds {
+>>>>>>> origin/master
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0); }
@@ -986,10 +1024,16 @@ Media.scss - breakpoint targeting
     transform: translateY(-20px); }
 
   100% {
+<<<<<<< HEAD
     opacity: 0;
     -webkit-transform: translateY(2000px);
     transform: translateY(2000px); } }
 @keyframes bounceOutDown {
+=======
+    margin-left: -1000px; } }
+
+@-o-keyframes moveclouds {
+>>>>>>> origin/master
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
