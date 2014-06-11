@@ -304,12 +304,12 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   -webkit-animation-delay: 3s; }
 
 #thought2 {
-  margin: -80px 10px 0 -230px;
+  margin-right: 20px;
   -webkit-animation-delay: 10s;
   animation-delay: 4s; }
 
 #thought3 {
-  margin: -100px 0 0 50px;
+  margin-right: 20px;
   -webkit-animation-delay: 17s;
   animation-delay: 8s; }
 
@@ -354,7 +354,7 @@ Media.scss - breakpoint targeting
       height: 22px;
       padding: 0 0; }
 
-  .parents-thought {
+  .buddy-thoughts {
     margin-top: -70px;
     margin-left: -30px; } }
 /* Breakpoint description - below 900, above 769 (fix nav bug)
@@ -368,7 +368,7 @@ Media.scss - breakpoint targeting
   .logo {
     margin: 50px 0; }
 
-  .parents-thought {
+  .buddy-thoughts {
     margin-top: -60px; } }
 /* Breakpoint description - below 480 (landscape)
 -------------------------------------------------------------- */
@@ -379,7 +379,7 @@ Media.scss - breakpoint targeting
   #push-down {
     margin-top: 40px; }
 
-  .parents-thought {
+  .buddy-thoughts {
     margin-top: -15px; }
 
   .dog {

@@ -242,74 +242,8 @@ function spacious_favicon() {
 		echo $spacious_favicon_output;
 	}
 }
-
-/****************************************************************************************/
-
-/*add_action('wp_head', 'spacious_custom_css');
-/**
- * Hooks the Custom Internal CSS to head section
- */
-/*function spacious_custom_css() {	
-	$primary_color = of_get_option( 'spacious_primary_color', '#0FBE7C' );
-	$spacious_internal_css = '';
-	if( $primary_color != '#0FBE7C' ) {
-		$spacious_internal_css = ' blockquote { border-left: 3px solid '.$primary_color.'; }
-			.spacious-button, input[type="reset"], input[type="button"], input[type="submit"], button { background-color: '.$primary_color.'; }
-			.previous a:hover, .next a:hover { 	color: '.$primary_color.'; }
-			a { color: '.$primary_color.'; }
-			#site-title a:hover { color: '.$primary_color.'; }
-			.main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a { color: '.$primary_color.'; }
-			.main-navigation ul li ul { border-top: 1px solid '.$primary_color.'; }
-			.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover { color: '.$primary_color.'; }
-			.site-header .menu-toggle:hover { background: '.$primary_color.'; }
-			.main-small-navigation li:hover { background: '.$primary_color.'; }
-			.main-small-navigation ul > .current_page_item, .main-small-navigation ul > .current-menu-item { background: '.$primary_color.'; }
-			.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a  { color: '.$primary_color.'; }
-			.small-menu a:hover, .small-menu ul li.current-menu-item a, .small-menu ul li.current_page_ancestor a, .small-menu ul li.current-menu-ancestor a, .small-menu ul li.current_page_item a, .small-menu ul li:hover > a { color: '.$primary_color.'; }
-			#featured-slider .slider-read-more-button { background-color: '.$primary_color.'; }
-			#controllers a:hover, #controllers a.active { background-color: '.$primary_color.'; color: '.$primary_color.'; }
-			.breadcrumb a:hover { color: '.$primary_color.'; }
-			.tg-one-half .widget-title a:hover, .tg-one-third .widget-title a:hover, .tg-one-fourth .widget-title a:hover { color: '.$primary_color.'; }
-			.pagination span { background-color: '.$primary_color.'; }
-			.pagination a span:hover { color: '.$primary_color.'; border-color: .'.$primary_color.'; }
-			.widget_testimonial .testimonial-post { border-color: '.$primary_color.' #EAEAEA #EAEAEA #EAEAEA; }
-			.call-to-action-content-wrapper { border-color: #EAEAEA #EAEAEA #EAEAEA '.$primary_color.'; }
-			.call-to-action-button { background-color: '.$primary_color.'; }
-			#content .comments-area a.comment-permalink:hover { color: '.$primary_color.'; }
-			.comments-area .comment-author-link a:hover { color: '.$primary_color.'; }
-			.comments-area .comment-author-link span { background-color: '.$primary_color.'; }
-			.comment .comment-reply-link:hover { color: '.$primary_color.'; }
-			.nav-previous a:hover, .nav-next a:hover { color: '.$primary_color.'; }
-			#wp-calendar #today { color: '.$primary_color.'; }
-			.widget-title span { border-bottom: 2px solid '.$primary_color.'; }
-			.footer-widgets-area a:hover { color: '.$primary_color.' !important; }
-			.footer-socket-wrapper .copyright a:hover { color: '.$primary_color.'; }
-			a#back-top:before { background-color: '.$primary_color.'; }
-			.read-more, .more-link { color: '.$primary_color.'; }
-			.post .entry-title a:hover, .page .entry-title a:hover { color: '.$primary_color.'; }
-			.post .entry-meta .read-more-link { background-color: '.$primary_color.'; }
-			.post .entry-meta a:hover, .type-page .entry-meta a:hover { color: '.$primary_color.'; }
-			.single #content .tags a:hover { color: '.$primary_color.'; }
-			.widget_testimonial .testimonial-icon:before { color: '.$primary_color.'; }
-			a#scroll-up { background-color: '.$primary_color.'; }
-			#search-form span { background-color: '.$primary_color.'; }';
-	}
-
-	if( !empty( $spacious_internal_css ) ) {
-		?>
-		<style type="text/css"><?php echo $spacious_internal_css; ?></style>
-		<?php
-	}
-
-	$spacious_custom_css = of_get_option( 'spacious_custom_css', '' );
-	if( !empty( $spacious_custom_css ) ) {
-		?>
-		<style type="text/css"><?php echo $spacious_custom_css; ?></style>
-		<?php
-	}
-}*/
-
 /**************************************************************************************/
+
 
 if ( ! function_exists( 'spacious_content_nav' ) ) :
 /**

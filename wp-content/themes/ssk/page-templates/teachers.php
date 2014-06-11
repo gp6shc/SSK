@@ -47,9 +47,9 @@ html{overflow:hidden;} /* for clouds animations */
 		
 		<article class="parents-footer">
 			<div class="col2 push2">
-				<img class="buddy-thoughts" id="thought1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought.png" />
-				<img class="buddy-thoughts" id="thought2" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought.png" />
-				<img class="buddy-thoughts" id="thought3" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought.png" />
+				<img class="buddy-thoughts" id="thought1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought1.png" />
+				<img class="buddy-thoughts" id="thought2" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought2.png" />
+				<img class="buddy-thoughts" id="thought3" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought3.png" />
 			</div>
 		
 			<div class="col3 push0 dog">
