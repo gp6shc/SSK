@@ -16,7 +16,7 @@ Description: theme.scss - Sass main file, using CodeKit to compile into: "../ass
 
 // Third-party
 @import "vendor/animate";
-//@import "partials/flexslider"; //TO DO: add flexslider conditionally
+@import "vendor/flexslider";
 
 
 

@@ -41,7 +41,7 @@ function spacious_scripts_styles_method() {
 	wp_register_script( 'jquery_cycle', SPACIOUS_JS_URL . '/jquery.cycle.all.min.js', array( 'jquery' ), '2.9999.5', true );
 	wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/js/wow.min.js', array('jquery'), '1.0.0', true );
 
-    wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Lato' ); 
+    //wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Lato' ); 
 	
 	/**
 	 * Enqueue Slider setup js file.	 
