@@ -125,7 +125,6 @@ article div {
 .push8 {
   margin-left: 68%; }
 
-<<<<<<< HEAD
 .push9 {
   margin-left: 76.5%; }
 
@@ -134,16 +133,6 @@ article div {
 
 .push11 {
   margin-left: 93.5%; }
-=======
-/*flexSlider*/
-.flexslider {
-  margin: 0 0 15px !important;
-  background: transparent !important; }
-  .flexslider .slides img {
-    margin-top: 4px;
-    margin-left: -1px;
-    border-radius: 4px; }
->>>>>>> origin/master
 
 /*
 Animation-Cloud.scss - animation styles for moving clouds in background
@@ -170,6 +159,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
   -moz-transform: rotate(30deg); }
 
@@ -197,7 +187,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: 200px;
   top: 90px;
   -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.8;
   /*opacity proportional to the size*/
@@ -214,7 +204,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -450px;
   top: -120px;
   -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.9;
   /*opacity proportional to the size*/
@@ -233,7 +223,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -170px;
   top: -20px;
   -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
   transform: scale(0.75);
   opacity: 0.75;
   /*opacity proportional to the size*/
@@ -245,7 +235,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -940px;
   top: -150px;
   -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
   transform: scale(0.75);
   -webkit-animation: moveclouds 450s linear infinite;
   -moz-animation: moveclouds 450s linear infinite;
@@ -255,7 +245,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -800px;
   top: -300px;
   -webkit-transform: scale(0.65);
-  -moz-transform: scale(0.65);
+  -ms-transform: scale(0.65);
   transform: scale(0.65);
   -webkit-animation: moveclouds 250s linear infinite;
   -moz-animation: moveclouds 250s linear infinite;
@@ -266,7 +256,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -350px;
   top: -190px;
   -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
   transform: scale(0.8);
   -webkit-animation: moveclouds 200s linear infinite;
   -moz-animation: moveclouds 200s linear infinite;
@@ -276,7 +266,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -950px;
   top: -500px;
   -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
   transform: scale(0.9);
   -webkit-animation: moveclouds 150s linear infinite;
   -moz-animation: moveclouds 150s linear infinite;
@@ -284,18 +274,6 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   opacity: 0.9; }
 
 @-webkit-keyframes moveclouds {
-  0% {
-    margin-left: 1000px; }
-
-  100% {
-    margin-left: -1000px; } }
-@-moz-keyframes moveclouds {
-  0% {
-    margin-left: 1000px; }
-
-  100% {
-    margin-left: -1000px; } }
-@-o-keyframes moveclouds {
   0% {
     margin-left: 1000px; }
 
@@ -477,7 +455,6 @@ Media.scss - breakpoint targeting
     -webkit-transform: scale(1);
     transform: scale(1); }
 
-<<<<<<< HEAD
   30% {
     -webkit-transform: scaleX(1.25) scaleY(0.75);
     transform: scaleX(1.25) scaleY(0.75); }
@@ -485,26 +462,6 @@ Media.scss - breakpoint targeting
   40% {
     -webkit-transform: scaleX(0.75) scaleY(1.25);
     transform: scaleX(0.75) scaleY(1.25); }
-=======
-  6%, 28% {
-    opacity: 1; } }
-
-@keyframes bubble-fade {
-  0%, 31%, 100% {
-    opacity: 0; }
-
-  6%, 28% {
-    opacity: 1; } }
-
-/* Profound Max-Width Fluid Grid
--------------------------------------------------------------- */
-article {
-  width: 100%;
-  margin: 0;
-  margin: 0 auto;
-  margin-bottom: 2%;
-  height: 80px; }
->>>>>>> origin/master
 
   60% {
     -webkit-transform: scaleX(1.15) scaleY(0.85);
@@ -999,7 +956,6 @@ article {
     transform: scale(1.1); }
 
   100% {
-<<<<<<< HEAD
     opacity: 0;
     -webkit-transform: scale(0.3);
     -ms-transform: scale(0.3);
@@ -1009,11 +965,6 @@ article {
   animation-name: bounceOut; }
 
 @-webkit-keyframes bounceOutDown {
-=======
-    margin-left: -1000px; } }
-
-@-moz-keyframes moveclouds {
->>>>>>> origin/master
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0); }
@@ -1024,16 +975,10 @@ article {
     transform: translateY(-20px); }
 
   100% {
-<<<<<<< HEAD
     opacity: 0;
     -webkit-transform: translateY(2000px);
     transform: translateY(2000px); } }
 @keyframes bounceOutDown {
-=======
-    margin-left: -1000px; } }
-
-@-o-keyframes moveclouds {
->>>>>>> origin/master
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -2955,9 +2900,7 @@ img {
 -------------------------------------------------------------- */
 body.home {
   background: url("../img/_landing-bg.jpg") no-repeat center center fixed !important;
-  -moz-background-size: cover;
   -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .center {
@@ -2984,13 +2927,12 @@ body.home {
 -------------------------------------------------------------- */
 body.page {
   background: #90d9eb;
-  -moz-background-size: cover;
   -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 #page {
   background: transparent;
+  -webkit-box-shadow: none;
   box-shadow: none; }
 
 #main {
@@ -3003,17 +2945,20 @@ body.page {
   border-bottom: none; }
 
 #header-right-section {
+  -webkit-box-shadow: #d8d8d8 -3px 3px;
   box-shadow: #d8d8d8 -3px 3px;
   border-radius: 4px; }
 
 .slider {
   position: relative;
+  -webkit-box-shadow: #d8d8d8 -5px 5px;
   box-shadow: #d8d8d8 -5px 5px;
   border-radius: 4px;
   z-index: 999; }
 
 .ssk-buttons img {
   margin-top: 15px;
+  -webkit-box-shadow: #d8d8d8 5px 5px;
   box-shadow: #d8d8d8 5px 5px;
   border-radius: 4px; }
 
@@ -3038,6 +2983,7 @@ body.page {
   left: 0;
   margin-top: 28px;
   background: url("../img/_parents-fence.png") 0 0 repeat-x;
+  -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   width: 100%;
   height: 112px; }
@@ -3080,10 +3026,12 @@ body.page {
 
 .flex-direction-nav .flex-next {
   background: url("../img/_parents-arrow-right.png") no-repeat 0 0 !important;
+  -webkit-background-size: 22px 25px !important;
   background-size: 22px 25px !important;
   margin: -3px 5px 0 0px !important; }
 .flex-direction-nav .flex-prev {
   background: url("../img/_parents-arrow-left.png") no-repeat 0 0 !important;
+  -webkit-background-size: 22px 25px !important;
   background-size: 22px 25px !important;
   margin: -3px 0 0 5px !important; }
 .flex-direction-nav a {
