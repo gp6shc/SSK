@@ -1,28 +1,38 @@
 <?php
 /**
- * Spacious functions and definitions
- *
- * This file contains all the functions and it's defination that particularly can't be
- * in other files.
- * 
- * @package ThemeGrill
- * @subpackage Spacious
- * @since Spacious 1.0
+ * theme specific funtions
  */
 
 /****************************************************************************************/
 
+// =========================================================================
+// REMOVE JUNK FROM WP_HEAD
+// =========================================================================
+remove_action('wp_head', 'rsd_link'); // remove really simple discovery link
+remove_action('wp_head', 'wp_generator'); // remove wordpress version
+remove_action('wp_head', 'feed_links', 2); // remove rss feed links (comment to re-enable an rss feed)
+remove_action('wp_head', 'feed_links_extra', 3); // removes all extra rss feed links
+remove_action('wp_head', 'index_rel_link'); // remove link to index page
+remove_action('wp_head', 'wlwmanifest_link'); // remove wlwmanifest.xml (needed to support windows live writer)
+remove_action('wp_head', 'start_post_rel_link', 10, 0); // remove random post link
+remove_action('wp_head', 'parent_post_rel_link', 10, 0); // remove parent post link
+remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0); // remove the next and previous post links
+remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0 );
+
+
+
 add_action( 'wp_enqueue_scripts', 'spacious_scripts_styles_method' );
-/**
- * Register jquery scripts
- */
+//register jquery
+
+// =========================================================================
+// LOAD STYLESHEETS & SCRIPTS
+// =========================================================================
 function spacious_scripts_styles_method() {
-   /**
-	* Loads our main stylesheet.
-	*/
+
 	wp_enqueue_style( 'spacious_style', get_stylesheet_uri() );
 	wp_enqueue_style( 'sass', get_template_directory_uri().'/assets/css/theme.css', '1.0.0', true );
-	//wp_enqueue_style( 'animate', get_template_directory_uri().'/assets/css/animate.min.css', '1.0.0', true );
+	//wp_enqueue_style( 'animate', get_template_directory_uri().'/assets/css/animate.min.css', '1.0.0', true ); //accessible as sass vendor file
 
 	if( of_get_option( 'spacious_color_skin', 'light' ) == 'dark' ) {
 		wp_enqueue_style( 'spacious_dark_style', SPACIOUS_CSS_URL. '/dark.css' );
@@ -52,7 +62,7 @@ function spacious_scripts_styles_method() {
 	//wp_enqueue_script( 'spacious-navigation', SPACIOUS_JS_URL . '/navigation.js', array( 'jquery' ), false, true );
 	//wp_enqueue_script( 'spacious-custom', SPACIOUS_JS_URL. '/spacious-custom.js', array( 'jquery' ) );
 
-	wp_enqueue_style( 'google_fonts' );
+	//wp_enqueue_style( 'google_fonts' );
 
    $spacious_user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
 	if(preg_match('/(?i)msie [1-8]/',$spacious_user_agent)) {

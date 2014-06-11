@@ -17,11 +17,13 @@ define('RS_SLIDER_PLUGIN_URL', WP_PLUGIN_URL.'/'. dirname( plugin_basename(__FIL
  */
 
 function rsSlider_script(){
-	if (!is_admin()){
+	if( is_page('26')) { //load scripts only when needed
 		
 		wp_enqueue_script( "flexslider", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.flexslider.js", array('jquery'), '1.0', true );
 		wp_enqueue_script( "easing", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.easing.js", array('jquery'), '1.0', true );
 		wp_enqueue_script( "mousewheel", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.mousewheel.js", array('jquery'), '1.0', true );
+		
+		// *** removed to add to main sass (theme.scss) file for easier management ***
 		
 		//wp_enqueue_style('flexslider', RS_SLIDER_PLUGIN_URL . '/flex/css/flexslider.css');
 						
