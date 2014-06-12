@@ -3,9 +3,6 @@
 Template Name: Teachers Landing pg
 */
 ?>
-<style>
-html{overflow:hidden;} /* for clouds animations */
-</style>
 <?php get_header('teachers'); ?>
 
 	<?php do_action( 'spacious_before_body_content' ); ?>
@@ -20,15 +17,15 @@ html{overflow:hidden;} /* for clouds animations */
 
 			<article class="ssk-buttons">
 				<div class="btn-learn col4 push0">
-					<a href="<?php echo home_url(); ?>/teachers/learn"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-learn-button.jpg" /></a>
+					<a href="<?php echo home_url(); ?>/teachers/learn"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-learn-button.jpg" /></a>
 				</div>
 						
 				<div class="btn-teach col4 push4">
-					<a href="<?php echo home_url(); ?>/teachers/teach"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-teach-button.jpg" /></a>
+					<a href="<?php echo home_url(); ?>/teachers/teach"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-teach-button.jpg" /></a>
 				</div>
 							
 				<div class="btn-order col4 push8">
-						<a href="<?php echo home_url(); ?>/teachers/order"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-order-button.jpg" /></a>
+						<a href="<?php echo home_url(); ?>/teachers/order"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-order-button.jpg" /></a>
 				</div>
 			</article><!--/.ssk-buttons-->
 
@@ -47,23 +44,23 @@ html{overflow:hidden;} /* for clouds animations */
 		
 		<article class="parents-footer">
 			<div class="col2 push2">
-				<img class="buddy-thoughts" id="thought1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought1.png" />
-				<img class="buddy-thoughts" id="thought2" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought2.png" />
-				<img class="buddy-thoughts" id="thought3" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-thought3.png" />
+				<img class="buddy-thoughts" id="thought1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-thought1.png" />
+				<img class="buddy-thoughts" id="thought2" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-thought2.png" />
+				<img class="buddy-thoughts" id="thought3" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-thought3.png" />
 			</div>
 		
 			<div class="col3 push0 dog">
-				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy.png" />
+				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy.png" />
 			</div>
 			<div class="col1 push3 ball">
-				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-ball.png" />
+				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-ball.png" />
 			</div>
 		
 			<div class="col2 push4 bowl">
-				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-bowl.png" />
+				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-bowl.png" />
 			</div>
 			<div class="col4 push8 house">
-				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-buddy-house.png" />
+				<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-buddy-house.png" />
 			</div>
 			
 		</article>

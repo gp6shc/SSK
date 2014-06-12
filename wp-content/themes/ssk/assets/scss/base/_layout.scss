@@ -56,8 +56,7 @@ pre {
 	border: 1px solid #EAEAEA;
 }
 pre, code, kbd, var, samp, tt {
-	font-family:"Courier 10 Pitch",Courier,monospace;
-	font-size: 14px;
+	font: $code;
 	line-height: 19px;
 	white-space: pre-wrap;
 }
@@ -1476,15 +1475,7 @@ a#scroll-up:hover {
 /* =RESPONSIVE STRUCTURE
 ----------------------------------------------- */
 @media screen and (max-width: 1308px) {
-	#page {
-		width: 97%;
-	}
-	.wide-1218 #page, .wide-978 #page {
-		width: 100%;
-	}
-	.inner-wrap {
-		width: 94%;
-	}
+
 }
 @media screen and (max-width: 1078px) {
 	body {
@@ -1558,18 +1549,7 @@ a#scroll-up:hover {
 		clear: none;
 	}
 }
-@media only screen and (min-width: 768px) and (max-width: 900px) {
-	#featured-slider .slider-title-head {
-		margin-bottom: 0;
-	}
-	#featured-slider .entry-content {
-		display: none;
-	}
-	#featured-slider .entry-container {
-		top: auto;
-		bottom: 15%;
-	}
-}
+
 @media screen and (max-width: 768px) {
 	#primary, #secondary {
 		float: none;

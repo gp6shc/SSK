@@ -81,6 +81,9 @@ body.home{
 
 /* Teachers Landing pg 
 -------------------------------------------------------------- */
+html.clouds{
+	overflow-x: hidden; /* for clouds animations */
+}
 body.page{
 	@extend body;
 	background: $ssk-brand;
@@ -134,7 +137,7 @@ body.page{
 	position: absolute;
 	left: 0;
 	margin-top: 28px;
-	background: url('../img/_parents-fence.png') 0 0 repeat-x;
+	background: url('../img/_teachers-fence.png') 0 0 repeat-x;
 	background-size: 100% 100%;
 	width: 100%;
 	height: 112px;
@@ -160,5 +163,3 @@ body.page{
 	height: 260px;
 	background: $grass;
 }
-
-

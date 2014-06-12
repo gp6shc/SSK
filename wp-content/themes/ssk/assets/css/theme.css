@@ -87,6 +87,7 @@ a img:hover {
   opacity: 0.8;
   filter: alpha(opacity=80);
   /* For IE8 and earlier */
+  -webkit-box-shadow: #000 0 0 0;
   box-shadow: #000 0 0 0; }
 
 embed, iframe, object {
@@ -116,8 +117,6 @@ textarea {
   width: 98%;
   margin: 0 0 30px;
   background-color: #F8F8F8;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px; }
 
 input[type="text"]:focus,
@@ -157,8 +156,6 @@ button {
   cursor: pointer;
   background-color: #0FBE7C;
   border: 0px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 16px; }
 
@@ -168,7 +165,6 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 button:hover {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); }
 
 .previous a,
@@ -187,7 +183,6 @@ input[type="reset"]:active,
 input[type="button"]:active,
 input[type="submit"]:active {
   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); }
 
 /* =GLOBAL
@@ -264,8 +259,7 @@ pre {
   border: 1px solid #EAEAEA; }
 
 pre, code, kbd, var, samp, tt {
-  font-family: "Courier 10 Pitch",Courier,monospace;
-  font-size: 14px;
+  font: 14px "Courier 10 Pitch", Courier, monospace;
   line-height: 19px;
   white-space: pre-wrap; }
 
@@ -435,6 +429,7 @@ body, body.home, body.page {
   max-width: 1268px;
   margin: 0 auto;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
   box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3); }
 
 .wide-978, .wide-1218 {
@@ -743,6 +738,7 @@ li.default-menu {
 .header-post-title-container {
   border-bottom: 1px solid #EAEAEA;
   padding: 20px 0;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset; }
 
 .header-post-title-container .post-title-wrapper {
@@ -1048,6 +1044,7 @@ li.default-menu {
   float: right;
   background-color: #0FBE7C;
   border-radius: 3px 3px 3px 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: #FFFFFF;
   font-size: 23px;
@@ -1059,7 +1056,6 @@ li.default-menu {
 
 .call-to-action-button:hover {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); }
 
 /* =MEDIA
@@ -1311,6 +1307,7 @@ li.default-menu {
 #respond form input[type="text"],
 #respond form textarea {
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 16px;
   line-height: 1.5;
@@ -1606,7 +1603,6 @@ a#scroll-up:hover {
 
 .post .entry-meta .read-more-link:hover {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); }
 
 .post .entry-meta a, .type-page .entry-meta a {
@@ -1668,15 +1664,6 @@ a#scroll-up:hover {
 
 /* =RESPONSIVE STRUCTURE
 ----------------------------------------------- */
-@media screen and (max-width: 1308px) {
-  #page {
-    width: 97%; }
-
-  .wide-1218 #page, .wide-978 #page {
-    width: 100%; }
-
-  .inner-wrap {
-    width: 94%; } }
 @media screen and (max-width: 1078px) {
   body, body.home, body.page {
     padding: 15px 0; }
@@ -1753,16 +1740,6 @@ a#scroll-up:hover {
 
   .tg-after-three-blocks-clearfix {
     clear: none; } }
-@media only screen and (min-width: 768px) and (max-width: 900px) {
-  #featured-slider .slider-title-head {
-    margin-bottom: 0; }
-
-  #featured-slider .entry-content {
-    display: none; }
-
-  #featured-slider .entry-container {
-    top: auto;
-    bottom: 15%; } }
 @media screen and (max-width: 768px) {
   #primary, #secondary {
     float: none;
@@ -2041,6 +2018,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
   -moz-transform: rotate(30deg); }
 
@@ -2068,7 +2046,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: 200px;
   top: 90px;
   -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.8;
   /*opacity proportional to the size*/
@@ -2085,7 +2063,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -450px;
   top: -120px;
   -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.9;
   /*opacity proportional to the size*/
@@ -2104,7 +2082,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -170px;
   top: -20px;
   -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
   transform: scale(0.75);
   opacity: 0.75;
   /*opacity proportional to the size*/
@@ -2116,7 +2094,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -940px;
   top: -150px;
   -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
   transform: scale(0.75);
   -webkit-animation: moveclouds 450s linear infinite;
   -moz-animation: moveclouds 450s linear infinite;
@@ -2126,7 +2104,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -800px;
   top: -300px;
   -webkit-transform: scale(0.65);
-  -moz-transform: scale(0.65);
+  -ms-transform: scale(0.65);
   transform: scale(0.65);
   -webkit-animation: moveclouds 250s linear infinite;
   -moz-animation: moveclouds 250s linear infinite;
@@ -2137,7 +2115,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -350px;
   top: -190px;
   -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
   transform: scale(0.8);
   -webkit-animation: moveclouds 200s linear infinite;
   -moz-animation: moveclouds 200s linear infinite;
@@ -2147,7 +2125,7 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   left: -950px;
   top: -500px;
   -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
   transform: scale(0.9);
   -webkit-animation: moveclouds 150s linear infinite;
   -moz-animation: moveclouds 150s linear infinite;
@@ -2155,18 +2133,6 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   opacity: 0.9; }
 
 @-webkit-keyframes moveclouds {
-  0% {
-    margin-left: 1000px; }
-
-  100% {
-    margin-left: -1000px; } }
-@-moz-keyframes moveclouds {
-  0% {
-    margin-left: 1000px; }
-
-  100% {
-    margin-left: -1000px; } }
-@-o-keyframes moveclouds {
   0% {
     margin-left: 1000px; }
 
@@ -2185,12 +2151,12 @@ Animation-Cloud.scss - animation styles for moving clouds in background
   -webkit-animation-delay: 3s; }
 
 #thought2 {
-  margin-right: 20px;
+  margin: -70px 10px 0 -138px;
   -webkit-animation-delay: 10s;
   animation-delay: 4s; }
 
 #thought3 {
-  margin-right: 20px;
+  margin: -70px 10px 0 -138px;
   -webkit-animation-delay: 17s;
   animation-delay: 8s; }
 
@@ -4858,16 +4824,14 @@ aside h3 {
   border-bottom: 1px solid #577794;
   background: #e2e8ef;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #e2e8ef 0%, #d2dbe4 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2e8ef), color-stop(100%, #d2dbe4));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #e2e8ef 0%, #d2dbe4 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #e2e8ef 0%, #d2dbe4 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #e2e8ef 0%, #d2dbe4 100%);
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2e8ef), to(#d2dbe4));
   background: linear-gradient(top, #e2e8ef 0%, #d2dbe4 100%);
   /* W3C */ }
 
@@ -4986,7 +4950,6 @@ html[xmlns] .slides {
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
   transition: all 1s ease; }
 
 .loading .flex-viewport {
@@ -5018,10 +4981,12 @@ html[xmlns] .slides {
 
 .flex-direction-nav .flex-next {
   background: url("../img/_parents-arrow-right.png") no-repeat 0 0;
+  -webkit-background-size: 22px 25px;
   background-size: 22px 25px;
   margin: -3px 5px 0 0px; }
 .flex-direction-nav .flex-prev {
   background: url("../img/_parents-arrow-left.png") no-repeat 0 0;
+  -webkit-background-size: 22px 25px;
   background-size: 22px 25px;
   margin: -3px 0 0 5px; }
 .flex-direction-nav a {
@@ -5069,10 +5034,9 @@ html[xmlns] .slides {
   background: #154259;
   cursor: pointer;
   text-indent: -9999px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
   -o-border-radius: 20px;
   border-radius: 20px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
 .flex-control-paging li a:hover {
@@ -5136,6 +5100,7 @@ img {
 /* Main Landing pg (buddy with 3 clouds)
 -------------------------------------------------------------- */
 body, body.home, body.page {
+  -webkit-background-size: cover;
   background-size: cover; }
 
 body.home {
@@ -5163,11 +5128,16 @@ body.home {
 
 /* Teachers Landing pg 
 -------------------------------------------------------------- */
+html.clouds {
+  overflow-x: hidden;
+  /* for clouds animations */ }
+
 body.page {
   background: #90d9eb; }
 
 #page {
   background: transparent;
+  -webkit-box-shadow: none;
   box-shadow: none; }
 
 #main {
@@ -5180,17 +5150,20 @@ body.page {
   border-bottom: none; }
 
 #header-right-section {
+  -webkit-box-shadow: #d8d8d8 -3px 3px;
   box-shadow: #d8d8d8 -3px 3px;
   border-radius: 4px; }
 
 .slider {
   position: relative;
+  -webkit-box-shadow: #d8d8d8 -5px 5px;
   box-shadow: #d8d8d8 -5px 5px;
   border-radius: 4px;
   z-index: 999; }
 
 .ssk-buttons img {
   margin-top: 15px;
+  -webkit-box-shadow: #d8d8d8 5px 5px;
   box-shadow: #d8d8d8 5px 5px;
   border-radius: 4px; }
 
@@ -5214,7 +5187,8 @@ body.page {
   position: absolute;
   left: 0;
   margin-top: 28px;
-  background: url("../img/_parents-fence.png") 0 0 repeat-x;
+  background: url("../img/_teachers-fence.png") 0 0 repeat-x;
+  -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   width: 100%;
   height: 112px; }

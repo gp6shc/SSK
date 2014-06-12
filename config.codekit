@@ -4084,15 +4084,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/ssk\/_style.before.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/_style.before.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/ssk\/archive.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4143,15 +4134,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/ssk\/assets\/css\/theme.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/css\/theme.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4275,167 +4257,167 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-left.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1164,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-left.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-left.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-right.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1146,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-right.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-arrow-right.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-ball.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-ball.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4613,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-ball.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-ball.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-ball.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-ball.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-bowl.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-bowl.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4771,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-bowl.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-bowl.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-bowl.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-bowl.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-house.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-house.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 19975,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-house.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-house.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-house.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-house.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6123,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought1.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought1.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6123,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought1.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought1.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought1.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought2.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought2.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10121,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought2.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought2.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought3.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought3.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8325,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought3.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy-thought3.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy-thought3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 18007,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-buddy.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-buddy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-fence.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-fence.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17180,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-fence.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-fence.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-fence.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-fence.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-learn-button.jpg": {
 		"fileType": 16384,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6582,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-learn-button.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-learn-button.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-order-button.jpg": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-order-button.jpg": {
 		"fileType": 16384,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7400,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-order-button.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-order-button.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-order-button.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-order-button.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-sun.png": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-sun.png": {
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7108,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-sun.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-sun.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-sun.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-sun.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-teach-button.jpg": {
+	"\/wp-content\/themes\/ssk\/assets\/img\/_teachers-teach-button.jpg": {
 		"fileType": 16384,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7375,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-teach-button.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-teach-button.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-teach-button.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_teachers-teach-button.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4709,22 +4691,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/scss\/partials\/_media.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/scss\/css\/_media.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/wp-content\/themes\/ssk\/assets\/scss\/theme.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/scss\/theme.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/css\/theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5246,6 +5212,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ssk\/style.before-sass.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/style.before-sass.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

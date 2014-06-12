@@ -5,7 +5,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="clouds">
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,7 +34,7 @@
 <?php	do_action( 'before' ); ?>
 <div id="page" class="hfeed site">
 	<div id="sun" class="col2 push0">
-		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-sun.png" />
+		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
 	<?php do_action( 'spacious_before_header' ); ?>
 	<header id="masthead" class="site-header clearfix">
@@ -109,21 +109,7 @@
 
 		if( ( '' != spacious_header_title() )  && !( is_home() || is_front_page() ) ) {
 		?>
-		<!--<div class="header-post-title-container clearfix">
-			<div class="inner-wrap">
-				<div class="post-title-wrapper">
-					<?php 
-					if( '' != spacious_header_title() ) {
-					?>
-				   	<h1 class="header-post-title-class"><?php echo spacious_header_title(); ?></h1>
-				   <?php
-					}
-					?>
-				</div>
-				<?php if( function_exists( 'spacious_breadcrumb' ) ) { spacious_breadcrumb(); } ?>
-			</div>
-		</div>-->
-		<?php
+	    <?php
 	   }
 	   ?>
 	</header>
