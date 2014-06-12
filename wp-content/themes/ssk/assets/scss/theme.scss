@@ -1,12 +1,14 @@
-/*
-Description: theme.scss - Sass main file, using CodeKit to compile into: "../assets/css/theme.scss"
-*/
+/* =Theme.scss - main Sass file compiling into "../css/theme.css"
+-------------------------------------------------------------- */
 
 
 /* @import
 -------------------------------------------------------------- */
-// Variables
-@import "partials/base";
+// Base
+@import "base/global"; //global variables & mixins
+@import "base/reset";
+@import "base/forms";
+@import "base/layout";
 
 // Partials 
 @import "partials/grids";
