@@ -2,9 +2,6 @@
 /**
  * The left sidebar widget area.
  *
- * @package ThemeGrill
- * @subpackage Spacious
- * @since Spacious 1.0
  */
 ?>
 

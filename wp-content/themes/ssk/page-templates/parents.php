@@ -3,7 +3,7 @@
 Template Name: Parents Landing pg
 */
 ?>
-<?php get_header('parents'); ?>
+<?php get_header(); ?>
 
 	<?php do_action( 'spacious_before_body_content' ); ?>
 

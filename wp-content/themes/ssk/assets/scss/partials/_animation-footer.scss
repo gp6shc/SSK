@@ -1,32 +1,24 @@
 /* =Thought Bubble Animations on footer
 -------------------------------------------------------------- */
 .buddy-thoughts {
-	margin-top: -70px;
+	margin-top: -60px;
 	opacity: 0;
-	-webkit-animation: bubble-fade 21s ease infinite;
+	position: absolute;
+	height: auto;
+	width: 130px;
 	animation: bubble-fade 21s ease infinite;
 }
 
 #thought1 {
-	margin-right: 20px;
-	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
 }
 
 #thought2 {
-	margin: -70px 10px 0 -138px;
-	-webkit-animation-delay: 10s;
-	animation-delay: 4s;
+	animation-delay: 10s;
 }
 
 #thought3 {
-	margin: -70px 10px 0 -138px;
-	-webkit-animation-delay: 17s;
-	animation-delay: 8s;
-}
-
-@-webkit-keyframes bubble-fade {
-	0%, 31%, 100% { opacity: 0; }
-	6%, 28% { opacity: 1; }
+	animation-delay: 17s;
 }
 
 @keyframes bubble-fade {

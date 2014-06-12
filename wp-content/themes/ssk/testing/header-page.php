@@ -1,13 +1,13 @@
 <?php 
 /**
- * Theme Header for SSK teachers landing page
+ * Theme Header for all other pages
  *
  */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="clouds">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="True" />
@@ -16,26 +16,30 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="clouds">
-	<div class="cloud x1"></div>
-	<div class="cloud x1 second"></div>
-	<div class="cloud x2"></div>
-	<div class="cloud x2 second"></div>
-	<div class="cloud x3"></div>
-	<div class="cloud x3 second"></div>
-	<div class="cloud x4"></div>
-	<div class="cloud x5"></div>
-	<div class="cloud x6"></div>
-	<div class="cloud x7"></div>
-	<div class="cloud x8"></div>
-</div>
 
-<?php	do_action( 'before' ); ?>
+<!-- conditional background on body element -->
+<?php if ( $post->post_parent == '26' ) { // if is child of teachers page ?>
+<body <?php body_class('child-teachers'); ?> >
+
+
+<?php } elseif ( $post->post_parent == '49' ) { // if is child of parents page ?>
+<body <?php body_class('child-parents'); ?> >
+
+
+<?php } elseif ( $post->post_parent == '74' ) { // if is child of kids page ?>
+<body <?php body_class('child-kids'); ?> >
+
+
+<?php } else { // if none of above conditions are met ?>
+<body <?php body_class(); ?> >
+<?php } ?>
+<!-- conditional background on body element -->
+
+<?php do_action( 'before' ); ?>
 <div id="page" class="hfeed site">
-	<div id="sun" class="col2 push0">
-		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
-	</div>
+
+
+
 	<?php do_action( 'spacious_before_header' ); ?>
 	<header id="masthead" class="site-header clearfix">
 		
@@ -84,8 +88,8 @@
 						<nav id="site-navigation" class="main-navigation" role="navigation">
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
 							<?php
-								if ( has_nav_menu( 'primary' ) ) {									
-									wp_nav_menu( array( 'theme_location' => 'teachers' ) ); //get teachers menu
+								if ( has_nav_menu( 'parents' ) ) {									
+									wp_nav_menu( array( 'theme_location' => 'parents' ) ); //get parents menu
 								}
 								else {
 									wp_page_menu();

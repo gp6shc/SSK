@@ -1,13 +1,13 @@
 <?php 
 /**
- * Theme Header for SSK parents landing page
+ * Theme Header - conditionals set up to display different animations, backgrounds, and menus
  *
  */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="clouds">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="True" />
@@ -16,7 +16,39 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<!-- conditional backgrounds -->
+<?php if ( is_page( '26' ) ){  // if is teachers landing page ?>
+<body <?php body_class('landing-teachers'); ?> >
+
+
+<?php } elseif ( is_page( '49' ) ){  // if is parents landing page ?>
+<body <?php body_class('landing-parents'); ?> >
+
+
+<?php } elseif ( is_page( '74' ) ){  // if is kids landing page ?>
+<body <?php body_class('landing-parents'); ?> >
+
+
+<?php } elseif ( $post->post_parent == '26' ) { // if is child of teachers page ?>
+<body <?php body_class('child-teachers'); ?> >
+
+
+<?php } elseif ( $post->post_parent == '49' ) { // if is child of parents page ?>
+<body <?php body_class('child-parents'); ?> >
+
+
+<?php } elseif ( $post->post_parent == '74' ) { // if is child of kids page ?>
+<body <?php body_class('child-kids'); ?> >
+
+
+<?php } else { // if none are met, load default ?>
+<body <?php body_class(); ?> >
+<?php } ?>
+<!--// end conditional -->
+
+
+<!-- conditional to display animated clouds in bg or not -->
+<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing --> show clouds ?>
 <div id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -30,12 +62,25 @@
 	<div class="cloud x7"></div>
 	<div class="cloud x8"></div>
 </div>
+<?php } else { // all other pages do not show clouds ?>
+<?php } ?>
+<!-- //end conditional -->
 
-<?php	do_action( 'before' ); ?>
+
+
+<?php do_action( 'before' ); ?>
 <div id="page" class="hfeed site">
+
+	<!-- conditional to display animated sun in bg or not -->
+	<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing --> show sun ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
+	<?php } else { // all other pages do not show clouds ?>
+	<?php } ?>
+	<!-- //end conditional -->
+	
+	
 	<?php do_action( 'spacious_before_header' ); ?>
 	<header id="masthead" class="site-header clearfix">
 		
@@ -49,7 +94,7 @@
 						<?php 
 						if( ( of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'both' || of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'logo_only' ) && of_get_option( 'spacious_header_logo_image', '' ) != '' ) {
 						?>
-							<div id="header-logo-image" class="wow pulse">
+							<div id="header-logo-image" class="wow pulse"><!-- #header-logo-image with animation-->
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo of_get_option( 'spacious_header_logo_image', '' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
 							</div><!-- #header-logo-image -->
 						<?php
@@ -83,14 +128,25 @@
 						?>
 						<nav id="site-navigation" class="main-navigation" role="navigation">
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
-							<?php
-								if ( has_nav_menu( 'primary' ) ) {									
-									wp_nav_menu( array( 'theme_location' => 'parents' ) ); //get parents menu
-								}
-								else {
-									wp_page_menu();
-								}
-							?>
+							
+								<!-- conditional to display menus on certain pages -->
+								<?php if (is_tree(26)) { // if is teachers page & children of this page?>
+								<?php wp_nav_menu( array( 'theme_location' => 'teachers') ); //get teachers menu ?>
+								
+								
+								<?php } elseif (is_tree(49)) { // if is parents page & children of this page ?>
+								<?php wp_nav_menu( array( 'theme_location' => 'parents') ); //get parents menu ?>
+								
+								
+								<?php } elseif (is_tree(74)) { // if is kids page & children of this page ?>
+								<?php wp_nav_menu( array( 'theme_location' => 'kids') ); //get kids menu ?>
+								
+								
+								<?php } else { // if none are met, load default ?>
+								<?php wp_nav_menu( array( 'theme_location' => 'primary') ); //get primary menu ?>
+								<?php } ?>
+								<!-- //end conditional -->
+							
 						</nav>					
 			    	</div><!-- #header-right-section --> 
 			    	
@@ -100,18 +156,6 @@
 
 		<?php if( of_get_option( 'spacious_header_image_position', 'above' ) == 'below' ) { spacious_render_header_image(); } ?>
 
-		<?php
-   	if( of_get_option( 'spacious_activate_slider', '0' ) == '1' ) {
-			if ( is_home() || is_front_page() ) {
-   			spacious_featured_image_slider();
-			}
-   	}
-
-		if( ( '' != spacious_header_title() )  && !( is_home() || is_front_page() ) ) {
-		?>
-	    <?php
-	   }
-	   ?>
 	</header>
 	<?php do_action( 'spacious_after_header' ); ?>
 	<?php do_action( 'spacious_before_main' ); ?>

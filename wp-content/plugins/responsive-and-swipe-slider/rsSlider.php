@@ -18,6 +18,7 @@ define('RS_SLIDER_PLUGIN_URL', WP_PLUGIN_URL.'/'. dirname( plugin_basename(__FIL
 
 function rsSlider_script(){
 	if ( is_page(26) || is_page(49) ) { //load scripts only when needed
+	//if (is_page(26) || is_page(49) || is_page(88)) //when more pages need slider get
 		
 		wp_enqueue_script( "flexslider", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.flexslider.js", array('jquery'), '1.0', true );
 		wp_enqueue_script( "easing", RS_SLIDER_PLUGIN_URL ."/flex/js/jquery.easing.js", array('jquery'), '1.0', true );

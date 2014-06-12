@@ -4156,17 +4156,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/ssk\/assets\/img\/__landing-buddy.png": {
-		"fileType": 32768,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43269,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/__landing-buddy.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/__landing-buddy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-content\/themes\/ssk\/assets\/img\/_landing-bg-2.png": {
 		"fileType": 32768,
 		"ignore": 1,
@@ -4193,7 +4182,7 @@
 		"fileType": 32768,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 47318,
+		"initialSize": 43269,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_landing-buddy.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_landing-buddy.png",
 		"outputPathIsOutsideProject": 0,
@@ -4262,6 +4251,39 @@
 		"initialSize": 12827,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_landing-thought-teachers.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_landing-thought-teachers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1170,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1164,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8045,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/_parents-learn-button.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4498,6 +4520,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/header-teachers.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ssk\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11929,7 +11960,7 @@
 	"iconImageName": "compass_brown"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",

@@ -3,7 +3,7 @@
 Template Name: Teachers Landing pg
 */
 ?>
-<?php get_header('teachers'); ?>
+<?php get_header(); ?>
 
 	<?php do_action( 'spacious_before_body_content' ); ?>
 

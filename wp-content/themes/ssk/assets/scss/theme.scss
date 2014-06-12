@@ -21,41 +21,45 @@
 @import "vendor/flexslider";
 
 
-
-/* Overrides
--------------------------------------------------------------- */
-#primary{
-	width: 100%;
-}
-img{
-	margin-bottom: 0;
-}
-.site-header .menu-toggle, .main-small-navigation{
-	position: relative;
-	z-index: 99999;
-	border-radius: $rounded;
-	&:hover{
-		background: $dark;
-	}
-}
-.main-small-navigation a{
-	&:hover{
-		background: $dark;
-	}
-}
-
-
-
-
-/* Main Landing pg (buddy with 3 clouds)
--------------------------------------------------------------- */
+/* Background Conditionals */
 body{
 	background-size: cover;
 }
-body.home{ 
+.landing-main{ //main SSK landing bg
 	@extend body;
 	background: url('../img/_landing-bg.jpg')  no-repeat center center fixed!important;
 }
+.landing-teachers{ //teachers landing page bg
+	@extend body;
+	background: $ssk-brand;
+}
+.landing-parents{ //parents landing page bg
+	@extend body;
+	background: $ssk-brand;
+}
+.landing-kids{ //kids landing page bg
+	@extend body;
+	background: $ssk-brand;
+}
+.child-teachers{ //child of teachers pages bg
+	@extend body;
+	background: url('../img/_landing-bg.jpg')  no-repeat center center fixed!important;
+}
+.child-parents{ //child of parents pages bg
+	@extend body;
+	background: $parents-brand url('../img/bg-child-parents.png')  no-repeat center center fixed!important;
+}
+.child-kids{//child of kids pages bg
+	@extend body;
+	background: url('../img/_landing-bg.jpg')  no-repeat center center fixed!important;
+}
+
+
+
+
+
+/* Main SSK Landing pg (buddy with 3 clouds)
+-------------------------------------------------------------- */
 .center{
 	text-align: center;
 }
@@ -83,10 +87,6 @@ body.home{
 -------------------------------------------------------------- */
 html.clouds{
 	overflow-x: hidden; /* for clouds animations */
-}
-body.page{
-	@extend body;
-	background: $ssk-brand;
 }
 #page{
 	background: transparent;
