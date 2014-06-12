@@ -22,11 +22,11 @@ get_header('landing'); ?>
 	</div>
 	
 	<div class="col4 push4">
-		<a href="<?php echo home_url(); ?>/teachers"><img class="wow fadeInDown" data-wow-duration="4s" data-wow-delay="3s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-parents.png" /></a>
+		<a href="<?php echo home_url(); ?>/parents"><img class="wow fadeInDown" data-wow-duration="4s" data-wow-delay="3s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-parents.png" /></a>
 	</div>
 	
 	<div class="col4 push8">
-		<a href="<?php echo home_url(); ?>/teachers"><img class="wow fadeInRight" data-wow-duration="4s"  data-wow-delay="5s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
+		<a href="<?php echo home_url(); ?>/kids"><img class="wow fadeInRight" data-wow-duration="4s"  data-wow-delay="5s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
 	</div>
 	
 </article>

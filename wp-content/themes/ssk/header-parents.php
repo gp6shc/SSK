@@ -1,6 +1,6 @@
 <?php 
 /**
- * Theme Header for SSK teachers landing page
+ * Theme Header for SSK parents landing page
  *
  */
 ?>
@@ -85,7 +85,7 @@
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
 							<?php
 								if ( has_nav_menu( 'primary' ) ) {									
-									wp_nav_menu( array( 'theme_location' => 'teachers' ) ); //get teachers menu
+									wp_nav_menu( array( 'theme_location' => 'parents' ) ); //get parents menu
 								}
 								else {
 									wp_page_menu();

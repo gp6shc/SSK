@@ -4979,19 +4979,27 @@ html[xmlns] .slides {
   opacity: 0;
   -webkit-transition: all .3s ease; }
 
-.flex-direction-nav .flex-next {
-  background: url("../img/_parents-arrow-right.png") no-repeat 0 0;
-  -webkit-background-size: 22px 25px;
-  background-size: 22px 25px;
+.flex-next, .teachers .flex-direction-nav .flex-next, .parents .flex-direction-nav .flex-next {
+  -webkit-background-size: 22px 25px !important;
+  background-size: 22px 25px !important;
   margin: -3px 5px 0 0px; }
-.flex-direction-nav .flex-prev {
-  background: url("../img/_parents-arrow-left.png") no-repeat 0 0;
-  -webkit-background-size: 22px 25px;
-  background-size: 22px 25px;
+
+.flex-prev, .teachers .flex-direction-nav .flex-prev, .parents .flex-direction-nav .flex-prev {
+  -webkit-background-size: 22px 25px !important;
+  background-size: 22px 25px !important;
   margin: -3px 0 0 5px; }
-.flex-direction-nav a {
-  width: 27px;
-  height: 36px; }
+
+/* Teachers custom img */
+.teachers .flex-direction-nav .flex-next {
+  background: url("../img/_teachers-arrow-right.png") no-repeat 0 0; }
+.teachers .flex-direction-nav .flex-prev {
+  background: url("../img/_teachers-arrow-left.png") no-repeat 0 0; }
+
+/* Parents custom img */
+.parents .flex-direction-nav .flex-next {
+  background: url("../img/_parents-arrow-right.png") no-repeat 0 0; }
+.parents .flex-direction-nav .flex-prev {
+  background: url("../img/_parents-arrow-left.png") no-repeat 0 0; }
 
 .rsSliderContent a {
   color: white;
@@ -5072,11 +5080,11 @@ html[xmlns] .slides {
   cursor: default; }
 
 @media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev {
+  .flex-direction-nav .flex-prev, .teachers .flex-direction-nav .flex-prev, .parents .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 0; }
 
-  .flex-direction-nav .flex-next {
+  .flex-direction-nav .flex-next, .teachers .flex-direction-nav .flex-next, .parents .flex-direction-nav .flex-next {
     opacity: 1;
     right: 0; } }
 /* Overrides
@@ -5213,3 +5221,6 @@ body.page {
   width: 100%;
   height: 260px;
   background: #8ec256; }
+
+/* Parents Landing pg 
+-------------------------------------------------------------- */

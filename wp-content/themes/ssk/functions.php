@@ -42,7 +42,10 @@ function spacious_setup() {
 	// Registering navigation menus.
 	register_nav_menus( array(	
 		'primary' 	=> 'Primary Menu',
-		'footer' 	=> 'Footer Menu'
+		'footer' 	=> 'Footer Menu',
+		'teachers' 	=> 'Teachers Menu',
+		'parents' 	=> 'Parents Menu',
+		'kids' 	=> 'Kids Menu'
 	) );
 
 	// Cropping the images to different sizes to be used in the theme
