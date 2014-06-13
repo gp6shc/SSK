@@ -17,7 +17,7 @@ Template Name: Teachers Landing pg
 
 			<article class="ssk-buttons">
 				<div class="btn-learn col4 push0">
-					<a href="<?php echo home_url(); ?>/teachers/learn"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-learn-button.jpg" /></a>
+					<a href="<?php echo home_url(); ?>/teachers/curriculum"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-learn-button.jpg" /></a>
 				</div>
 						
 				<div class="btn-teach col4 push4">

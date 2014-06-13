@@ -7,18 +7,23 @@ $lk-accent: #00959b; //lauren's kids teal
 $ssk-brand: #90D9EB; //ssk light blue (logo color)
 $ssk-accent: #154259; //ssk dark blue
 $grass: #8ec256;
-$shadow: #d8d8d8;
 
 $parents-brand: #F4EEE3; //ligher brownish
 $parents-accent: #E2D3B2; //darker brown
+
+$g1: #44321C;
 
 // typical colors
 $white: #fff;
 $dark: #222;
 
-
 // sizes
 $rounded: 4px;
+$top-nav: 10px;
+
+// shadows
+$shadow-five: -5px 5px rgba(0, 0, 0, 0.1);
+$shadow-three: -3px 3px rgba(0, 0, 0, 0.1);
 
 // fonts
 @import url("http://fonts.googleapis.com/css?family=Lato");

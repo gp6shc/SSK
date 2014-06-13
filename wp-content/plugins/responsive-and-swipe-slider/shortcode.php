@@ -96,14 +96,14 @@ function rsSlider_shortcode($atts) {
 							#echo nl2br($exp_data[1]);
 
 							$out .= '<li>';
-								$out .= '<div class="rsSliderWrap">';
+								$out .= '<a href="'.$href.'" ><div class="rsSliderWrap">';
 									$out .= '<img src='.$imgSrc.' alt="'.$title.'" />';
 									
 									if($hide == false):
 										$out .= '<div class="rsSliderContent">';
-											$out .= '<div><a href="'.$href.'" >'.$title.'</a></div>';
+											//$out .= '<div><a href="'.$href.'" >'.$title.'</a></div>';
 											$out .= '<div>'.$description.'</div>';
-										$out .= '</div>';
+										$out .= '</div></a>';
 									endif;
 									
 									

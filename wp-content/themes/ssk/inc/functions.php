@@ -418,14 +418,25 @@ function spacious_footer_copyright() {
 endif;
 
 
+// ================================================================================
+// Add "is_tree" support for all page children and it's ancestors a few levels deep
+// ================================================================================
+function is_tree($pid)
+{
+  global $post;
 
-// add is_tree support
-function is_tree($pid) {      // $pid = The ID of the page we're looking for pages underneath
-	global $post;         // load details about this page
-	if(is_page()&&($post->post_parent==$pid||is_page($pid))) 
-               return true;   // we're at the page or at a sub page
-	else 
-               return false;  // we're elsewhere
+  $ancestors = get_post_ancestors($post->$pid);
+  $root = count($ancestors) - 1;
+  $parent = $ancestors[$root];
+
+  if(is_page() && (is_page($pid) || $post->post_parent == $pid || in_array($pid, $ancestors)))
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
 };
 
 /**************************************************************************************/

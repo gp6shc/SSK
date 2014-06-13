@@ -7,10 +7,18 @@
  * @since Spacious 1.0
  */
 ?>
-
+		<?php
+			if ( has_post_thumbnail() ) {
+				// the current post has a thumbnail
+				the_post_thumbnail();
+			} else {
+				//echo default thumb
+			}
+		?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php do_action( 'spacious_before_post_content' ); ?>
+
 	<div class="entry-content clearfix">
+
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array( 
@@ -26,8 +34,6 @@
        	<?php edit_post_link( __( 'Edit', 'spacious' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
 	</footer>
-	<?php
-	do_action( 'spacious_after_post_content' );
-   ?>
+
 </article>
 

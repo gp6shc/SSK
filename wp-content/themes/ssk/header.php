@@ -17,28 +17,41 @@
 </head>
 
 <!-- conditional backgrounds -->
+
+<!-- landing pages -->
 <?php if ( is_page( '26' ) ){  // if is teachers landing page ?>
 <body <?php body_class('landing-teachers'); ?> >
 
-
 <?php } elseif ( is_page( '49' ) ){  // if is parents landing page ?>
 <body <?php body_class('landing-parents'); ?> >
-
 
 <?php } elseif ( is_page( '74' ) ){  // if is kids landing page ?>
 <body <?php body_class('landing-parents'); ?> >
 
 
+<!-- child & ancestor pages of landing pg -->
 <?php } elseif ( $post->post_parent == '26' ) { // if is child of teachers page ?>
 <body <?php body_class('child-teachers'); ?> >
-
 
 <?php } elseif ( $post->post_parent == '49' ) { // if is child of parents page ?>
 <body <?php body_class('child-parents'); ?> >
 
-
-<?php } elseif ( $post->post_parent == '74' ) { // if is child of kids page ?>
+<?php } elseif ( $post->post_kids == '74' ) { // if is child of kids page ?>
 <body <?php body_class('child-kids'); ?> >
+
+
+<!-- curriculum pages -->
+<?php } elseif (is_page(76) || in_array(76, $post->ancestors)) { // if is this page or it's children & all ancestors ?>
+<body <?php body_class('kindergarden'); ?> >
+
+<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { ?>
+<body <?php body_class('first-grade'); ?> >
+
+<?php } elseif (is_page(80) || in_array(80, $post->ancestors)) {  ?>
+<body <?php body_class('second-grade'); ?> >
+
+<?php } elseif (is_page(82) || in_array(82, $post->ancestors)) {  ?>
+<body <?php body_class('third-grade'); ?> >
 
 
 <?php } else { // if none are met, load default ?>
@@ -48,8 +61,8 @@
 
 
 <!-- conditional to display animated clouds in bg or not -->
-<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing --> show clouds ?>
-<div id="clouds">
+<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show clouds ?>
+<article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
 	<div class="cloud x2"></div>
@@ -61,7 +74,7 @@
 	<div class="cloud x6"></div>
 	<div class="cloud x7"></div>
 	<div class="cloud x8"></div>
-</div>
+</article>
 <?php } else { // all other pages do not show clouds ?>
 <?php } ?>
 <!-- //end conditional -->
@@ -72,7 +85,7 @@
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing --> show sun ?>
+	<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show sun ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
@@ -113,6 +126,9 @@
 						?>
 					</div><!-- #header-left-section -->
 					<div id="header-right-section">
+					
+						<!-- TO DO: top level nav -->
+					
 						<?php
 						if( is_active_sidebar( 'spacious_header_sidebar' ) ) {
 						?>								
@@ -130,15 +146,15 @@
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
 							
 								<!-- conditional to display menus on certain pages -->
-								<?php if (is_tree(26)) { // if is teachers page & children of this page?>
+								<?php if (is_page(26) || in_array(26, $post->ancestors)) { // if is teachers page & children of this page?>
 								<?php wp_nav_menu( array( 'theme_location' => 'teachers') ); //get teachers menu ?>
 								
 								
-								<?php } elseif (is_tree(49)) { // if is parents page & children of this page ?>
+								<?php } elseif (is_page(49) || in_array(49, $post->ancestors)) { // if is parents page & children of this page ?>
 								<?php wp_nav_menu( array( 'theme_location' => 'parents') ); //get parents menu ?>
 								
 								
-								<?php } elseif (is_tree(74)) { // if is kids page & children of this page ?>
+								<?php } elseif (is_page(74) || in_array(74, $post->ancestors)) { // if is kids page & children of this page ?>
 								<?php wp_nav_menu( array( 'theme_location' => 'kids') ); //get kids menu ?>
 								
 								
@@ -159,5 +175,12 @@
 	</header>
 	<?php do_action( 'spacious_after_header' ); ?>
 	<?php do_action( 'spacious_before_main' ); ?>
+	
+	<!-- conditional for push down -->
+	<?php if (is_page(26) || is_page(49) || is_page(74)) {  // if is any of the landing pages ?>
 	<div id="main" class="clearfix">
+	<?php } else { // if none are met, load default ?>
+	<div id="main" class="clearfix pushdown">
+	<?php } ?>
+	<!--//end conditional -->
 		<div class="inner-wrap">

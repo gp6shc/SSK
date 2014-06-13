@@ -1,10 +1,7 @@
 <?php
 /**
- * Contains all the functions related to sidebar and widget.
+ * Contains all the functions related to sidebars (in widgets)
  *
- * @package ThemeGrill
- * @subpackage Spacious
- * @since Spacious 1.0
  */
 
 add_action( 'widgets_init', 'spacious_widgets_init');
@@ -13,15 +10,15 @@ add_action( 'widgets_init', 'spacious_widgets_init');
  */
 function spacious_widgets_init() {
 
-	// Registering main right sidebar
+	// Registering Top Navigation Menu (sidebar)
 	register_sidebar( array(
-		'name' 				=> __( 'Right Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_right_sidebar',
-		'description'   	=> __( 'Shows widgets at Right side.', 'spacious' ),
+		'name' 				=> __( 'Top Navigation', 'spacious' ),
+		'id' 					=> 'spacious_header_sidebar',
+		'description'   	=> __( 'Shows widgets in header section just above the main navigation menu.', 'spacious' ),
 		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
+		'before_title'  	=> '<h3 class="widget-title">',
+		'after_title'   	=> '</h3>'
 	) );	
 
 	// Registering main left sidebar
@@ -35,76 +32,31 @@ function spacious_widgets_init() {
 		'after_title'   	=> '</span></h3>'
 	) );
 
-	// Registering Header sidebar
+	// Registering main right sidebar
 	register_sidebar( array(
-		'name' 				=> __( 'Header Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_header_sidebar',
-		'description'   	=> __( 'Shows widgets in header section just above the main navigation menu.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title">',
-		'after_title'   	=> '</h3>'
-	) );	
-
-	// Registering Business Page template top section sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Business Top Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_business_page_top_section_sidebar',
-		'description'   	=> __( 'Shows widgets on Business Page Template Top Section. Sutiable widget: ', 'spacious' ),
-		'before_widget' 	=> '<section id="%1$s" class="widget %2$s clearfix">',
-		'after_widget'  	=> '</section>',
-		'before_title'  	=> '<h1 class="widget-title">',
-		'after_title'   	=> '</h1>'
-	) );
-
-	// Registering Business Page template middle section left half sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Business Middle Left Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_business_page_middle_section_left_half_sidebar',
-		'description'   	=> __( 'Shows widgets on Business Page Template Middle Section Left Half. Sutiable widget: ', 'spacious' ),
-		'before_widget' 	=> '<section id="%1$s" class="widget %2$s clearfix">',
-		'after_widget'  	=> '</section>',
-		'before_title'  	=> '<h1 class="widget-title">',
-		'after_title'   	=> '</h1>'
-	) );
-
-	// Registering Business Page template middle section right half sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Business Middle Right Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_business_page_middle_section_right_half_sidebar',
-		'description'   	=> __( 'Shows widgets on Business Page Template Middle Section Right Half. Sutiable widget: ', 'spacious' ),
-		'before_widget' 	=> '<section id="%1$s" class="widget %2$s clearfix">',
-		'after_widget'  	=> '</section>',
-		'before_title'  	=> '<h1 class="widget-title">',
-		'after_title'   	=> '</h1>'
-	) );
-
-
-	// Registering Business Page template bottom section sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Business Bottom Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_business_page_bottom_section_sidebar',
-		'description'   	=> __( 'Shows widgets on Business Page Template Bottom Section. Sutiable widget: ', 'spacious' ),
-		'before_widget' 	=> '<section id="%1$s" class="widget %2$s clearfix">',
-		'after_widget'  	=> '</section>',
-		'before_title'  	=> '<h1 class="widget-title">',
-		'after_title'   	=> '</h1>'
-	) );
-
-	// Registering contact Page sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Contact Page Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_contact_page_sidebar',
-		'description'   	=> __( 'Shows widgets on Contact Page Template.', 'spacious' ),
+		'name' 				=> __( 'Right Sidebar', 'spacious' ),
+		'id' 					=> 'spacious_right_sidebar',
+		'description'   	=> __( 'Shows widgets at Right side.', 'spacious' ),
 		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  	=> '</aside>',
 		'before_title'  	=> '<h3 class="widget-title"><span>',
 		'after_title'   	=> '</span></h3>'
-	) );
+	) );	
+
+	// Registering contact Page sidebar
+	//register_sidebar( array(
+	//	'name' 				=> __( 'Contact Page Sidebar', 'spacious' ),
+	//	'id' 					=> 'spacious_contact_page_sidebar',
+	//	'description'   	=> __( 'Shows widgets on Contact Page Template.', 'spacious' ),
+	//	'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
+	//	'after_widget'  	=> '</aside>',
+	//	'before_title'  	=> '<h3 class="widget-title"><span>',
+	//	'after_title'   	=> '</span></h3>'
+	//) );
 
 	// Registering Error 404 Page sidebar
 	register_sidebar( array(
-		'name' 				=> __( 'Error 404 Page Sidebar', 'spacious' ),
+		'name' 				=> __( '404 Page Sidebar', 'spacious' ),
 		'id' 					=> 'spacious_error_404_page_sidebar',
 		'description'   	=> __( 'Shows widgets on Error 404 page.', 'spacious' ),
 		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
@@ -114,48 +66,48 @@ function spacious_widgets_init() {
 	) );
 
 	// Registering footer sidebar one
-	register_sidebar( array(
-		'name' 				=> __( 'Footer Sidebar One', 'spacious' ),
-		'id' 					=> 'spacious_footer_sidebar_one',
-		'description'   	=> __( 'Shows widgets at footer sidebar one.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
+	//register_sidebar( array(
+	//	'name' 				=> __( 'Footer Area One', 'spacious' ),
+	//	'id' 					=> 'spacious_footer_sidebar_one',
+	//	'description'   	=> __( 'Shows widgets at footer sidebar one.', 'spacious' ),
+	//	'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
+	//	'after_widget'  	=> '</aside>',
+	//	'before_title'  	=> '<h3 class="widget-title"><span>',
+	//	'after_title'   	=> '</span></h3>'
+	//) );
 
 	// Registering footer sidebar two
-	register_sidebar( array(
-		'name' 				=> __( 'Footer Sidebar Two', 'spacious' ),
-		'id' 					=> 'spacious_footer_sidebar_two',
-		'description'   	=> __( 'Shows widgets at footer sidebar two.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
+	//register_sidebar( array(
+	//	'name' 				=> __( 'Footer Area Two', 'spacious' ),
+	//	'id' 					=> 'spacious_footer_sidebar_two',
+	//	'description'   	=> __( 'Shows widgets at footer sidebar two.', 'spacious' ),
+	//	'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
+	//	'after_widget'  	=> '</aside>',
+	//	'before_title'  	=> '<h3 class="widget-title"><span>',
+	//	'after_title'   	=> '</span></h3>'
+	//) );
 
 	// Registering footer sidebar three
-	register_sidebar( array(
-		'name' 				=> __( 'Footer Sidebar Three', 'spacious' ),
-		'id' 					=> 'spacious_footer_sidebar_three',
-		'description'   	=> __( 'Shows widgets at footer sidebar three.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
+	//register_sidebar( array(
+	//	'name' 				=> __( 'Footer Area Three', 'spacious' ),
+	//	'id' 					=> 'spacious_footer_sidebar_three',
+	//	'description'   	=> __( 'Shows widgets at footer sidebar three.', 'spacious' ),
+	//	'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
+	//	'after_widget'  	=> '</aside>',
+	//	'before_title'  	=> '<h3 class="widget-title"><span>',
+	//	'after_title'   	=> '</span></h3>'
+	//) );
 
 	// Registering footer sidebar four
-	register_sidebar( array(
-		'name' 				=> __( 'Footer Sidebar Four', 'spacious' ),
-		'id' 					=> 'spacious_footer_sidebar_four',
-		'description'   	=> __( 'Shows widgets at footer sidebar four.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
+	//register_sidebar( array(
+	//	'name' 				=> __( 'Footer Area Four', 'spacious' ),
+	//	'id' 					=> 'spacious_footer_sidebar_four',
+	//	'description'   	=> __( 'Shows widgets at footer sidebar four.', 'spacious' ),
+	//	'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
+	//	'after_widget'  	=> '</aside>',
+	//	'before_title'  	=> '<h3 class="widget-title"><span>',
+	//	'after_title'   	=> '</span></h3>'
+	//) );
 
 	// Registering widgets
 	register_widget( "spacious_featured_single_page_widget" );

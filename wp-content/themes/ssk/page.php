@@ -6,13 +6,33 @@
 
 <?php get_header(); ?>
 
-	<?php do_action( 'spacious_before_body_content' ); ?>
-
-	<div id="primary">
+	<div id="primary-page">
 		<div id="content" class="clearfix">
-			<?php while ( have_posts() ) : the_post(); ?>
+		<div class="page-thumb">
+		<?php
+			if ( has_post_thumbnail() ) {
+				// the current post has a thumbnail
+				echo the_post_thumbnail();
 
-				<?php get_template_part( 'content', 'page' ); ?>
+			} else {
+				//echo default thumb
+			}
+		?>
+		</div>
+			<?php while ( have_posts() ) : the_post(); ?>
+			
+			<div class="entry-content clearfix">
+
+				<?php the_content(); ?>
+				<?php
+					wp_link_pages( array( 
+					'before'            => '<div style="clear: both;"></div><div class="pagination clearfix">'.__( 'Pages:', 'spacious' ),
+					'after'             => '</div>',
+					'link_before'       => '<span>',
+					'link_after'        => '</span>'
+		      ) );
+				?>
+			</div>
 
 			<?php endwhile; ?>
 
@@ -20,7 +40,5 @@
 	</div><!-- #primary -->
 	
 	<?php spacious_sidebar_select(); ?>
-
-	<?php do_action( 'spacious_after_body_content' ); ?>
 
 <?php get_footer(); ?>
