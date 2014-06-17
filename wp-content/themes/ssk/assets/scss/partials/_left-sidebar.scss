@@ -1,0 +1,137 @@
+/* Left Sidebar styles for interior pages
+-------------------------------------------------------------- */
+/* Curriculum Menu Default */
+.sidebar-menu{
+	background-color: $ssk-accent;
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+	a li{
+		color: $white;
+		padding: 15px;
+		&:hover{ //default menu, if ID is not set
+			background: $g1;
+			text-decoration: none;
+		}
+		&:after{
+			content: 'O';
+			position: absolute;
+			right: 20px;
+			opacity: 0.5;
+			color: darken($ssk-accent, 10%);
+		}
+	}
+}
+/* Curriculum Menu by Grade */
+#gradek{
+	&:before{
+		display: block;
+		position: absolute;
+		content: '';
+		background: url('../img/sidebar-buddy-k.png') no-repeat bottom center;
+		width: 100%;
+		height: 101px;
+		top: -84px;
+	}
+	a li{
+		&:hover{
+			background: $gk;
+		}
+		&:after{
+			color: darken($gk, 10%);
+		}
+	}	
+}
+ul#grade1{
+	&:before{
+		display: block;
+		position: absolute;
+		content: '';
+		background: url('../img/sidebar-buddy-g1.png') no-repeat bottom center;
+		width: 100%;
+		height: 101px;
+		top: -84px;
+	}
+	a li{
+		&:hover{
+			background: $g1;
+		}
+		&:after{
+			color: darken($g1, 10%);
+		}
+	}	
+}
+ul#grade2{
+	&:before{
+		display: block;
+		position: absolute;
+		content: '';
+		background: url('../img/sidebar-buddy-g2.png') no-repeat bottom center;
+		width: 100%;
+		height: 101px;
+		top: -84px;
+	}
+	a li{
+		&:hover{
+			background: $g2-menu;
+		}
+		&:after{
+			color: darken($g2-menu, 10%);
+		}
+	}	
+}
+ul#grade3{
+	&:before{
+		display: block;
+		position: absolute;
+		content: '';
+		background: url('../img/sidebar-buddy-g3.png') no-repeat bottom center;
+		width: 100%;
+		height: 101px;
+		top: -84px;
+	}
+	a li{
+		&:hover{
+			background: $g3;
+		}
+		&:after{
+			color: darken($g3, 10%);
+		}
+	}	
+}
+
+/* Order button */
+.order-btn{
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+	width: 100%;
+	height: 122px;
+	background: url('../img/button-order.jpg') center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&:hover{
+		opacity: 0.8;
+	}
+}
+/* Did you Know Facts widget */
+#enhancedtextwidget-9{
+	background: $white;
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+}
+.textwidget.widget-text{
+	h2{
+		color: $ssk-accent;
+		text-transform: uppercase;
+		font-size: 21px;
+		font-weight: 700;
+		text-align: center;
+		margin-top: 10px;
+	}
+	p{
+		text-align: left;
+		padding: 0px 15px;
+	}
+	p:last-child{
+		padding-bottom: 40px;
+	}
+}

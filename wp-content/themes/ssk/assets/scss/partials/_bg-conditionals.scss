@@ -1,0 +1,49 @@
+/* =Background Conditionals
+-------------------------------------------------------------- */
+body{
+	background-size: cover;
+}
+
+body.default{ //DEFAULT BG FOR PAGES
+	background: $ssk-brand;
+}
+
+/* Landing Page Conditional bg */
+.landing-main{ //main SSK landing bg
+	background: url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
+}
+.landing-teachers{ //teachers landing page bg
+	background: $ssk-brand;
+}
+.landing-parents{ //parents landing page bg
+	background: $ssk-brand;
+}
+/*.landing-kids{ //kids landing page bg
+	background: $ssk-brand;
+}*/
+
+/* Child & Ancestor pages of Landing pgs */
+.child-teachers{ //child of teachers pages bg
+	background: $ssk-brand;
+}
+.child-parents{ //child of parents pages bg
+	background: $ssk-brand;
+}
+.child-kids{ //child of kids pages bg
+	background: $ssk-brand;
+}
+
+/* Curriculum pages */
+.kindergarden{ //page id=76
+	background: $ssk-brand;
+	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
+}
+.first-grade, .page-id-28{ //page id=78
+	background: $parents-brand url('../img/bg-first-grade.png') no-repeat left top!important;
+}
+.second-grade{ //page id=80
+	background: transparent url('../img/bg-second-grade.jpg') no-repeat no-repeat left top!important;
+}
+.third-grade{ //page id=82
+	background: transparent url('../img/bg-third-grade.jpg') no-repeat no-repeat left top!important;
+}

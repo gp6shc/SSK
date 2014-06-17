@@ -13,7 +13,9 @@
 // Partials 
 @import "partials/grids";
 @import "partials/animation-cloud"; 
-@import "partials/animation-footer"; //thought bubbles appearing after x amt opacity
+@import "partials/animation-footer"; 
+@import "partials/bg-conditionals"; //displays diff body classes for interior pg backgrounds
+@import "partials/left-sidebar";
 @import "partials/media"; 
 
 // Third-party
@@ -21,57 +23,10 @@
 @import "vendor/flexslider";
 
 
-/* Background Conditionals */
-body{
-	background-size: cover;
-}
-
-body.default{ //DEFAULT BG FOR PAGES
-	background: $ssk-brand;
-}
-
-/* Landing Page Conditional bg */
-.landing-main{ //main SSK landing bg
-	background: url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
-}
-.landing-teachers{ //teachers landing page bg
-	background: $ssk-brand;
-}
-.landing-parents{ //parents landing page bg
-	background: $ssk-brand;
-}
-/*.landing-kids{ //kids landing page bg
-	background: $ssk-brand;
-}*/
-
-/* Child & Ancestor pages of Landing pgs */
-.child-teachers{ //child of teachers pages bg
-	background: $ssk-brand;
-}
-.child-parents{ //child of parents pages bg
-	background: $ssk-brand;
-}
-.child-kids{ //child of kids pages bg
-	background: $ssk-brand;
-}
-
-/* Curriculum pages */
-.kindergarden{ //page id=76
-	background: $ssk-brand;
-	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
-}
-.first-grade, .page-id-28{ //page id=78
-	background: $parents-brand url('../img/bg-first-grade.png') no-repeat left top!important;
-}
-.second-grade{ //page id=80
-	background: transparent url('../img/bg-second-grade.jpg') no-repeat no-repeat left top!important;
-}
-.third-grade{ //page id=82
-	background: transparent url('../img/bg-third-grade.jpg') no-repeat no-repeat left top!important;
-}
 
 
-/* Top-Level nav
+
+/* Top-Level nav (teachers, parents, kids, lk nav links)
 -------------------------------------------------------------- */
 #menu-top.menu li a{
 	float: right;
@@ -95,7 +50,7 @@ body.default{ //DEFAULT BG FOR PAGES
 }
 li #menu-item-89 a{
 	&:after{
-		content: 'fdsf';
+		content: ''; //TO DO fix this to remove the last-child's " | "
 	}
 }
 
@@ -222,9 +177,15 @@ html.clouds{
 /* Page Specific styles */
 #primary-page{
 }
-#secondary{
+#secondary .widget{
+	position: relative;
+	z-index: 99999;
 }
-.page-thumb, #secondary{
+#secondary{
+	margin-bottom: 35px;
+}
+.page-thumb{
+	position: relative;
 	margin-bottom: 35px;
 }
 .entry-content{
@@ -237,110 +198,6 @@ html.clouds{
 }
 .pushdown{
 	margin: 40px 0;
-}
-
-/* Left Sidebar on interior pages */
-
-/* Curriculum Menus */
-.sidebar-menu{
-	background-color: $ssk-accent;
-	border-radius: $rounded;
-	box-shadow: $shadow-three;
-	a li{
-		color: $white;
-		padding: 15px;
-		&:hover{ //default menu, if ID is not set
-			background: $g1;
-			text-decoration: none;
-		}
-		&:after{
-			content: 'O';
-			position: absolute;
-			right: 20px;
-			opacity: 0.5;
-			color: darken($ssk-accent, 10%);
-		}
-	}
-}
-
-ul#gradek{
-	a li{
-		&:hover{
-			background: $gk;
-		}
-		&:after{
-			color: darken($gk, 10%);
-		}
-	}	
-}
-ul#grade1{
-	a li{
-		&:hover{
-			background: $g1;
-		}
-		&:after{
-			color: darken($g1, 10%);
-		}
-	}	
-}
-ul#grade2{
-	a li{
-		&:hover{
-			background: $g2-menu;
-		}
-		&:after{
-			color: darken($g2-menu, 10%);
-		}
-	}	
-}
-ul#grade3{
-	a li{
-		&:hover{
-			background: $g3;
-		}
-		&:after{
-			color: darken($g3, 10%);
-		}
-	}	
-}
-
-
-
-
-
-
-
-.order-btn{
-	border-radius: $rounded;
-	box-shadow: $shadow-three;
-	width: 100%;
-	height: 122px;
-	background: url('../img/button-order.jpg') center center;
-	&:hover{
-		opacity: 0.8;
-	}
-}
-#enhancedtextwidget-9{
-	background: $white;
-	border-radius: $rounded;
-	box-shadow: $shadow-three;
-}
-.textwidget.widget-text{
-	h2{
-		color: $ssk-accent;
-		text-transform: uppercase;
-		font-size: 21px;
-		font-weight: 700;
-		text-align: center;
-		margin-top: 10px;
-	}
-	p{
-		text-align: left;
-		padding: 0px 15px;
-	}
-	p:last-child{
-		padding-bottom: 40px;
-	}
 }
 
 

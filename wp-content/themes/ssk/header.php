@@ -61,7 +61,7 @@
 
 
 <!-- conditional to display animated clouds in bg or not -->
-<?php if (is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74)) { // about, faq, order, order, contact, landing pgs (t,p,k) ?>
+<?php if (is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -98,11 +98,15 @@
 	<header id="masthead" class="site-header clearfix">
 		
 		<?php if( of_get_option( 'spacious_header_image_position', 'above' ) == 'above' ) { spacious_render_header_image(); } ?>
-
+		
+	
 		<div id="header-text-nav-container">
 			<div class="inner-wrap">
-				
+				<?php if (is_page(28) || in_array(28, $post->ancestors)) { // if is this page or it's children & all ancestors ?>
+				<div id="header-text-nav-wrap" class="clearfix page">
+				<?php } else { // ?>
 				<div id="header-text-nav-wrap" class="clearfix">
+				<?php } ?>
 					<div id="header-left-section">
 						<?php 
 						if( ( of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'both' || of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'logo_only' ) && of_get_option( 'spacious_header_logo_image', '' ) != '' ) {
