@@ -8,6 +8,8 @@
 <html <?php language_attributes(); ?> class="clouds">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="True" />
@@ -60,8 +62,8 @@
 <!--// end conditional -->
 
 
-<!-- conditional to display animated clouds in bg or not -->
-<?php if (is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
+<!-- conditional to display animated clouds -->
+<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>

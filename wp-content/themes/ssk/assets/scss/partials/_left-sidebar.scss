@@ -2,7 +2,7 @@
 -------------------------------------------------------------- */
 /* Curriculum Menu Default */
 .sidebar-menu{
-	background-color: $ssk-accent;
+	background-color: lighten($ssk-accent, 2%);
 	border-radius: $rounded;
 	box-shadow: $shadow-three;
 	a li{
