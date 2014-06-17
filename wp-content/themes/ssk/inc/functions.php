@@ -21,6 +21,19 @@ remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0 );
 
 
+// =========================================================================
+// REMOVE jQuery.migrate.js from header (no need, already loaded)
+// =========================================================================
+add_filter( 'wp_default_scripts', 'dequeue_jquery_migrate' );
+
+function dequeue_jquery_migrate( &$scripts){
+	if(!is_admin()){
+		$scripts->remove( 'jquery');
+		$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
+	}
+}
+
+
 
 add_action( 'wp_enqueue_scripts', 'spacious_scripts_styles_method' );
 //register jquery

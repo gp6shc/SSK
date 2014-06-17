@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contact
+Template Name: No Sidebar
 */
 ?>
 <?php get_header(); ?>

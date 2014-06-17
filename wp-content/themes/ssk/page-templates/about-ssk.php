@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contact
+Template Name: About SSK
 */
 ?>
 <?php get_header(); ?>

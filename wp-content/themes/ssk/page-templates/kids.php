@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contact
+Template Name: Kids Landing pg
 */
 ?>
 <?php get_header(); ?>

@@ -9,12 +9,12 @@ $phone-landscape: 480px;
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
 	#page{
-		max-width: 64%;
+		max-width: 70%;
 		width: auto;
 	}
 	#primary-page{
 		float: right;
-		width: 73%;
+		width: 70%;
 	}
 	#secondary{
 		position: absolute;
@@ -75,9 +75,15 @@ $phone-landscape: 480px;
 	}
 	#secondary{
 		margin-top: 25px;
+		.widget{
+			text-align: center;
+		}
 	}
 	.pushdown{
 		margin-top: 0px!important;
+	}
+	.order-btn{
+		background: url('../img/button-order-mobile.jpg') center center!important;
 	}
 }
 
@@ -91,6 +97,9 @@ $phone-landscape: 480px;
 	}
 	#push-down{
 		margin-top: 40px;
+	}
+	.pushdown{
+		margin: -5px 0!important;
 	}
 	.buddy-thoughts{
 		margin-top: -15px;

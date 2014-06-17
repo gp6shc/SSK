@@ -55,13 +55,13 @@
 
 
 <?php } else { // if none are met, load default ?>
-<body <?php body_class(); ?> >
+<body <?php body_class('default'); ?> >
 <?php } ?>
 <!--// end conditional -->
 
 
 <!-- conditional to display animated clouds in bg or not -->
-<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show clouds ?>
+<?php if (is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74)) { // about, faq, order, order, contact, landing pgs (t,p,k) ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -85,7 +85,7 @@
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if (is_page(26) || is_page(49) || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show sun ?>
+	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show sun ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
@@ -177,7 +177,7 @@
 	<?php do_action( 'spacious_before_main' ); ?>
 	
 	<!-- conditional for push down -->
-	<?php if (is_page(26) || is_page(49) || is_page(74)) {  // if is any of the landing pages ?>
+	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the landing pages ?>
 	<div id="main" class="clearfix">
 	<?php } else { // if none are met, load default ?>
 	<div id="main" class="clearfix pushdown">

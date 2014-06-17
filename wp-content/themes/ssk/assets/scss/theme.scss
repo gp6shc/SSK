@@ -26,53 +26,47 @@ body{
 	background-size: cover;
 }
 
-/* Landing Page Conditional bg */
-.landing-main{ //main SSK landing bg
-	@extend body;
-	background: url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
-}
-.landing-teachers{ //teachers landing page bg
-	@extend body;
-	background: $ssk-brand;
-}
-.landing-parents{ //parents landing page bg
-	@extend body;
-	background: $ssk-brand;
-}
-.landing-kids{ //kids landing page bg
-	@extend body;
+body.default{ //DEFAULT BG FOR PAGES
 	background: $ssk-brand;
 }
 
+/* Landing Page Conditional bg */
+.landing-main{ //main SSK landing bg
+	background: url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
+}
+.landing-teachers{ //teachers landing page bg
+	background: $ssk-brand;
+}
+.landing-parents{ //parents landing page bg
+	background: $ssk-brand;
+}
+/*.landing-kids{ //kids landing page bg
+	background: $ssk-brand;
+}*/
+
 /* Child & Ancestor pages of Landing pgs */
 .child-teachers{ //child of teachers pages bg
-	@extend body;
-	background: transparent url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
+	background: $ssk-brand;
 }
 .child-parents{ //child of parents pages bg
-	@extend body;
-	background: $parents-brand url('../img/bg-first-grade.png') no-repeat center center fixed!important;
+	background: $ssk-brand;
 }
 .child-kids{ //child of kids pages bg
-	@extend body;
-	background: $parents-brand url('../img/bg-first-grade.png') no-repeat center center fixed!important;
+	background: $ssk-brand;
 }
 
 /* Curriculum pages */
 .kindergarden{ //page id=76
-	@extend body;
-	background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;
+	background: $ssk-brand;
+	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
 }
-.first-grade{ //page id=78
-	@extend body;
+.first-grade, .page-id-28{ //page id=78
 	background: $parents-brand url('../img/bg-first-grade.png') no-repeat left top!important;
 }
 .second-grade{ //page id=80
-	@extend body;
 	background: transparent url('../img/bg-second-grade.jpg') no-repeat no-repeat left top!important;
 }
 .third-grade{ //page id=82
-	@extend body;
 	background: transparent url('../img/bg-third-grade.jpg') no-repeat no-repeat left top!important;
 }
 
@@ -86,17 +80,24 @@ body{
 	font-size: $top-nav;
 	text-transform: uppercase;
 	text-align: center;
-	color: $dark;
+	color: $white;
+	&:hover{
+		color: $ssk-accent;
+	}
 	&:after{
 		content: ' | ';
-		color: $dark;
+		color: $white;
 		padding-left: 10px;
 		:last-child {
 			content: ' ';
 		}
 	}
 }
-
+li #menu-item-89 a{
+	&:after{
+		content: 'fdsf';
+	}
+}
 
 /* Main SSK Landing pg (buddy with 3 clouds)
 -------------------------------------------------------------- */
@@ -144,12 +145,26 @@ html.clouds{
 .main-navigation {
 	box-shadow: $shadow-three;
 	border-radius: $rounded;
+	ul li a{
+		&:hover{
+		background: $white;
+		color: $ssk-accent;
+		border-radius: 0px;
+		}
+	}
+	ul li.current_page_item a{
+		background: $lk-brand;
+		color: $white;
+		&:hover{
+			color: $ssk-accent;
+		}
+	}
 }
 .slider{
 	position: relative;
 	box-shadow: $shadow-five;
 	border-radius: $rounded;
-	z-index: 999;	
+	z-index: 999;
 } 
 .ssk-buttons img{
 	margin-top: 15px;
@@ -200,7 +215,7 @@ html.clouds{
 	left: 0;
 	margin-top: 0px;
 	width: 100%;
-	height: 260px;
+	height: 270px;
 	background: $grass;
 }
 
@@ -210,20 +225,131 @@ html.clouds{
 #secondary{
 }
 .page-thumb, #secondary{
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 .entry-content{
 	padding: 25px;
 	background: $white;
 	border-radius: $rounded;
 	box-shadow: $shadow-five;
+	position: relative;
+	z-index: 999;
 }
 .pushdown{
-	margin-top: 40px;
+	margin: 40px 0;
 }
+
+/* Left Sidebar on interior pages */
+
+/* Curriculum Menus */
+.sidebar-menu{
+	background-color: $ssk-accent;
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+	a li{
+		color: $white;
+		padding: 15px;
+		&:hover{ //default menu, if ID is not set
+			background: $g1;
+			text-decoration: none;
+		}
+		&:after{
+			content: 'O';
+			position: absolute;
+			right: 20px;
+			opacity: 0.5;
+			color: darken($ssk-accent, 10%);
+		}
+	}
+}
+
+ul#gradek{
+	a li{
+		&:hover{
+			background: $gk;
+		}
+		&:after{
+			color: darken($gk, 10%);
+		}
+	}	
+}
+ul#grade1{
+	a li{
+		&:hover{
+			background: $g1;
+		}
+		&:after{
+			color: darken($g1, 10%);
+		}
+	}	
+}
+ul#grade2{
+	a li{
+		&:hover{
+			background: $g2-menu;
+		}
+		&:after{
+			color: darken($g2-menu, 10%);
+		}
+	}	
+}
+ul#grade3{
+	a li{
+		&:hover{
+			background: $g3;
+		}
+		&:after{
+			color: darken($g3, 10%);
+		}
+	}	
+}
+
+
+
+
+
+
+
+.order-btn{
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+	width: 100%;
+	height: 122px;
+	background: url('../img/button-order.jpg') center center;
+	&:hover{
+		opacity: 0.8;
+	}
+}
+#enhancedtextwidget-9{
+	background: $white;
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+}
+.textwidget.widget-text{
+	h2{
+		color: $ssk-accent;
+		text-transform: uppercase;
+		font-size: 21px;
+		font-weight: 700;
+		text-align: center;
+		margin-top: 10px;
+	}
+	p{
+		text-align: left;
+		padding: 0px 15px;
+	}
+	p:last-child{
+		padding-bottom: 40px;
+	}
+}
+
 
 /* Footer Specific styles */
 .footer{
+	img{
+		position: relative;
+		margin-bottom: 30px;
+	}
 	.kindergarden{
 		
 	}
@@ -238,19 +364,25 @@ html.clouds{
 	}
 }
 
-.bottom-footer{
+.end{
 	margin: -30px 0px;
+	padding: 20px 0px;
+	text-align: center;
+}
+.brown{
 	background: $g1;
-	.copy{
-		padding: 40px 0;
+	.copy p, .copy p a{
+		color: $white;
+		padding: 15px 0 0 0;
 		text-align: center;
-		p, p a{
-			@extend .copy;
-			padding: 15px 0 0 0;
-			color: $white;
-		}
 	}
 }
-
-
+.white{
+	background: $white;
+	.copy p, .copy p a{
+		color: $g2;
+		padding: 15px 0 0 0;
+		text-align: center;
+	}
+}
 
