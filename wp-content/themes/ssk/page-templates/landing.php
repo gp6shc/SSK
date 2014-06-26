@@ -18,15 +18,15 @@ get_header('landing'); ?>
 <article class="thoughts">
 
 	<div class="col4 push0">
-		<a href="<?php echo home_url(); ?>/teachers"><img class="wow fadeInLeft" data-wow-duration="3s" data-wow-delay="0s" data-wow-iteration="1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-teachers.png" /></a>
+		<a href="<?php echo home_url(); ?>/teachers"><img class="wow bounceIn" data-wow-duration="2s" data-wow-delay="0s" data-wow-iteration="1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-teachers.png" /></a>
 	</div>
 	
 	<div class="col4 push4">
-		<a href="<?php echo home_url(); ?>/parents"><img class="wow fadeInDown" data-wow-duration="3s" data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-parents.png" /></a>
+		<a href="<?php echo home_url(); ?>/parents"><img class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-parents.png" /></a>
 	</div>
 	
 	<div class="col4 push8">
-		<a href="<?php echo home_url(); ?>/kids"><img class="wow fadeInRight" data-wow-duration="3s"  data-wow-delay="4s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
+		<a href="<?php echo home_url(); ?>/kids"><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
 	</div>
 	
 </article>
@@ -43,14 +43,11 @@ get_header('landing'); ?>
 
 <article class="footer">
 	<div class="col12 push0">
-		<img class="wow fadeInUp buddy" data-wow-duration="2s" data-wow-delay="0s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-buddy.png" />
+		<img class="wow fadeInUp buddy" data-wow-duration="1s" data-wow-delay="0s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-buddy.gif" />
 	</div>
 </article>
 
-
 <?php endwhile; // end of the loop. ?>
-
-
 
 <script>
 jQuery(document).ready(function() {

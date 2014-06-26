@@ -228,6 +228,14 @@ html.clouds{
 		text-align: center;
 	}
 }
+.green{
+	background: $grass;
+	.copy p, .copy p a{
+		color: $white;
+		padding: 15px 0 0 0;
+		text-align: center;
+	}
+}
 .white{
 	background: $white;
 	.copy p, .copy p a{

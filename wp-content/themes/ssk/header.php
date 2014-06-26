@@ -19,7 +19,6 @@
 </head>
 
 <!-- conditional backgrounds -->
-
 <!-- landing pages -->
 <?php if ( is_page( '26' ) ){  // if is teachers landing page ?>
 <body <?php body_class('landing-teachers'); ?> >
@@ -63,7 +62,7 @@
 
 
 <!-- conditional to display animated clouds -->
-<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
+<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(28) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -104,10 +103,10 @@
 	
 		<div id="header-text-nav-container">
 			<div class="inner-wrap">
-				<?php if (is_page(28) || in_array(28, $post->ancestors)) { // if is this page or it's children & all ancestors ?>
-				<div id="header-text-nav-wrap" class="clearfix page">
-				<?php } else { // ?>
+				<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the main landing pages ?>
 				<div id="header-text-nav-wrap" class="clearfix">
+				<?php } else { // ?>
+				<div id="header-text-nav-wrap" class="clearfix page">
 				<?php } ?>
 					<div id="header-left-section">
 						<?php 
@@ -183,7 +182,7 @@
 	<?php do_action( 'spacious_before_main' ); ?>
 	
 	<!-- conditional for push down -->
-	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the landing pages ?>
+	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the main landing pages ?>
 	<div id="main" class="clearfix">
 	<?php } else { // if none are met, load default ?>
 	<div id="main" class="clearfix pushdown">

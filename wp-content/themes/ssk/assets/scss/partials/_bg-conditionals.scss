@@ -34,16 +34,19 @@ body.default{ //DEFAULT BG FOR PAGES
 }
 
 /* Curriculum pages */
+.page-id-28{ //curriculum main pg
+	background: $ssk-brand;
+}
 .kindergarden{ //page id=76
 	background: $ssk-brand;
 	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
 }
-.first-grade, .page-id-28{ //page id=78
-	background: $parents-brand url('../img/bg-first-grade.png') no-repeat left top!important;
+.first-grade{
+	background: $parents-brand url('../img/bg-first-grade.png') repeat-y left top!important;
 }
 .second-grade{ //page id=80
-	background: transparent url('../img/bg-second-grade.jpg') no-repeat no-repeat left top!important;
+	background: transparent url('../img/bg-second-grade.jpg') repeat-y left top!important;
 }
 .third-grade{ //page id=82
-	background: transparent url('../img/bg-third-grade.jpg') no-repeat no-repeat left top!important;
+	background: transparent url('../img/bg-third-grade.jpg') repeat-y left top!important;
 }
