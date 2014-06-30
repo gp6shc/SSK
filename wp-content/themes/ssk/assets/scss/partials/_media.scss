@@ -98,11 +98,17 @@ $phone-landscape: 480px;
 			text-align: center;
 		}
 	}
+	.buddy-thoughts{
+		width: 90px;
+	}
 	.pushdown{
 		margin-top: 0px!important;
 	}
 	.order-btn{
 		background: url('../img/button-order-mobile.jpg') center center!important;
+	}
+	.letters-btn{
+		background: url('../img/button-letters-mobile.jpg') center center!important;
 	}
 	#diduknow, #gradek, #grade1, #grade2, #grade3, #special{
 		&:before{

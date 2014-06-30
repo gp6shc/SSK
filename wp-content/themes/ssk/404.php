@@ -22,6 +22,7 @@
 							<h3 style="text-align:left;"><?php _e( 'Whoops. That page can&rsquo;t be found.', 'spacious' ); ?></h3>
 						</header>
 						<p><?php _e( 'It looks like this page does not exist or has been deleted.', 'spacious' ); ?></p>
+						<p>Click <a href="<?php echo home_url(); ?>">here to return home</a>.</p>
 					<?php endif; ?>
 
 				</div><!-- .page-content -->

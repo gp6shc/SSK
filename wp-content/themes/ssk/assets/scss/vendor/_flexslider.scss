@@ -124,6 +124,7 @@ aside h3 {
 
 .rsSliderWrap {
     position: relative;
+    z-index: -1;
 }
 
 .rsSliderContent, .rsSliderContent a {

@@ -66,7 +66,8 @@
 				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">Lauren's Kids.org</a></p>
 			</div>
 		</div>
-		<?php } elseif (is_page(78)) {  // 1st grade only ?>
+		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade & ancestors ?>
+		<style>#menu-top.menu a, #menu-top.menu li:after{color:#444;}</style>
 		<div class="end brown">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
