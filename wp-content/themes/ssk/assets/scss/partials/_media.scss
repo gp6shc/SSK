@@ -138,6 +138,9 @@ $phone-landscape: 480px;
 	.dog{
 		margin-top: 35px;
 	}
+	.mejs-button.mejs-volume-button.mejs-mute button, .mejs-horizontal-volume-total, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, span.mejs-time-total, span.mejs-time-handle{
+		display: none;
+	}
 	
 }
 
