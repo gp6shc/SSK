@@ -5,7 +5,13 @@ Template Name: Landing Page (main)
 
 get_header('landing'); ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php while ( have_posts() ) : the_post(); //loop statement ?>
+
+
+<div class="audio-player">
+ <h2></h2>
+ <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
 
 
 <article class="logo">
@@ -47,12 +53,28 @@ get_header('landing'); ?>
 	</div>
 </article>
 
-<?php endwhile; // end of the loop. ?>
+
+<?php endwhile; // end of the loop ?>
 
 <script>
+//wowjs
 jQuery(document).ready(function() {
 	new WOW().init();
   });
 
+// audio player
+jQuery(document).ready(function() {
+  jQuery('#audio-player').mediaelementplayer({
+    alwaysShowControls: true,
+    features: ['playpause','progress','volume'],
+    audioVolume: 'horizontal',
+    audioWidth: 450,
+    audioHeight: 70,
+    iPadUseNativeControls: false,
+    iPhoneUseNativeControls: false,
+    AndroidUseNativeControls: false
+  });
+});
 </script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory') ?>/assets/js/mediaelement-and-player.min.js"></script>
 <?php wp_footer(); ?>

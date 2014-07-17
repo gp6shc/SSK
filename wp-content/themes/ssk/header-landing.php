@@ -15,6 +15,7 @@
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
+
 <?php wp_head(); ?>
 </head>
 
