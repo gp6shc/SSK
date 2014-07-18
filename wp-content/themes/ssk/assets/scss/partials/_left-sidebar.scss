@@ -157,8 +157,21 @@ ul#grade3{
 	p:last-child{
 		padding-bottom: 40px;
 	}
+	/* source list for "Did you Know?" text box */
+	.source{
+		color: $ssk-accent;
+		font-size: 12px;
+		a{
+			color: $ssk-accent;
+			text-decoration: underline;
+		}
+	}
 }
 
 .textwidget.widget-text p:last-child {
 	padding-bottom: 18px;
 }
+
+
+
+

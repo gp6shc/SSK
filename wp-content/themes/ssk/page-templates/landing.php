@@ -8,12 +8,6 @@ get_header('landing'); ?>
 <?php while ( have_posts() ) : the_post(); //loop statement ?>
 
 
-<div class="audio-player">
- <h2></h2>
- <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
-</div>
-
-
 <article class="logo">
 	<div class="col4 push4">
 		<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-ssk-logo.png" />
@@ -50,6 +44,13 @@ get_header('landing'); ?>
 <article class="footer">
 	<div class="col12 push0">
 		<img class="wow fadeInUp buddy" data-wow-duration="1s" data-wow-delay="0s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-buddy.gif" />
+	</div>
+</article>
+
+<article class="music">
+	<div class="col12 push0 audio-player">
+	 <h2></h2>
+	 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
 	</div>
 </article>
 

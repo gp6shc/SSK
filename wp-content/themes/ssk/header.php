@@ -15,6 +15,7 @@
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory') ?>/assets/favicon.png" />
 <?php wp_head(); ?>
 </head>
 
