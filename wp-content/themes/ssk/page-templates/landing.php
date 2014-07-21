@@ -8,13 +8,6 @@ get_header('landing'); ?>
 <?php while ( have_posts() ) : the_post(); //loop statement ?>
 
 
-<article class="logo">
-	<div class="col4 push4">
-		<a href="<?php echo home_url(); ?>"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-ssk-logo.png" /></a>
-	</div>
-</article>
-
-
 <article class="thoughts">
 
 	<div class="z col4 push0">
@@ -43,7 +36,7 @@ get_header('landing'); ?>
 
 <article class="footer">
 	<div class="col12 push0">
-		<img id="ssk" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/bg-landingv2.jpg" />
+		<img id="ssk" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/bg-landing-static.jpg" />
 		<div class="col12 push0 audio-player">
 		 <h2></h2>
 		 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
