@@ -10,7 +10,7 @@ body.default{ //DEFAULT BG FOR PAGES
 
 /* Landing Page Conditional bg */
 .landing-main{ //main SSK landing bg
-	background: url('../img/bg-landing.jpg')  no-repeat center center fixed!important;
+	background: $sky;
 }
 .landing-teachers{ //teachers landing page bg
 	background: $ssk-brand;
@@ -21,6 +21,7 @@ body.default{ //DEFAULT BG FOR PAGES
 /*.landing-kids{ //kids landing page bg
 	background: $ssk-brand;
 }*/
+
 
 /* Child & Ancestor pages of Landing pgs */
 .child-teachers{ //child of teachers pages bg
