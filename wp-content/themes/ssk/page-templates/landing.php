@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
     features: ['playpause','progress','volume'],
     audioVolume: 'horizontal',
     audioWidth: 450,
-    audioHeight: 70,
+    audioHeight: 75,
     iPadUseNativeControls: false,
     iPhoneUseNativeControls: false,
     AndroidUseNativeControls: false
