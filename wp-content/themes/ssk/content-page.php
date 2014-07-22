@@ -7,6 +7,8 @@
  * @since Spacious 1.0
  */
 ?>
+
+
 		<?php
 			if ( has_post_thumbnail() ) {
 				// the current post has a thumbnail
@@ -15,6 +17,8 @@
 				//echo default thumb
 			}
 		?>
+		
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="entry-content clearfix">
