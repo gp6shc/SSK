@@ -39,6 +39,14 @@ $phone-landscape: 480px;
 	.page-thumb{
 		margin-top: -80px;
 	}
+	.grass{
+		p{
+			max-width: 60%;
+		}
+	}
+	div.audio-player{
+		margin: -34px auto;
+	}
 	#header-right-sidebar {
 		text-align: left;
 	}
@@ -126,20 +134,26 @@ $phone-landscape: 480px;
 	#clouds, #sun{
 		display: none;
 	}
-	img#ssk{
-		position: relative!important;
-	}
 	#push-down{
 		margin-top: 40px;
 	}
 	.pushdown{
 		margin: -5px 0!important;
 	}
-	.buddy-thoughts{
-		margin-top: -15px;
+	.thoughts{
+		max-width: 100%!important;
 	}
 	.dog{
 		margin-top: 35px;
+	}
+	.grass p.copy{
+		text-align: center;
+		&:after{
+			display: block;
+			position: relative!important;
+			margin: 10px auto!important;
+			background-size: 100% 100%!important;
+		}
 	}
 	.mejs-button.mejs-volume-button.mejs-mute button, .mejs-horizontal-volume-total, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, span.mejs-time-total, span.mejs-time-handle{
 		display: none;

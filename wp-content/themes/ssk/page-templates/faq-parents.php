@@ -87,7 +87,7 @@ jQuery(document).ready(function() {
 			    <h3>Q: If I suspect abuse, where can I go for help?</h3>
 			    <div>
 			        <p>A: If you, your child or someone you know has been sexually assaulted, remember to tell them that it’s ok to tell. Sexual abuse is a crime and it’s important to seek professional help. Reporting and getting help from trained service providers is critical to healing.</p>
-			        <p>Call your local law enforcement authorities immediately and your local Child Protective Service Provider. View our important links.</p>
+			        <p>Call your local law enforcement authorities immediately and your local Child Protective Service Provider.</p>
 			    </div>
 			    
 			 

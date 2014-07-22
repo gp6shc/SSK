@@ -63,7 +63,7 @@
 		<div class="end white">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk-dark.png" />
-				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">Lauren's Kids.org</a></p>
+				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade & ancestors ?>
@@ -71,7 +71,7 @@
 		<div class="end brown">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">Lauren's Kids.org</a></p>
+				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } else { // all pages, the default is green ($grass) to blend in ?>

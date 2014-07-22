@@ -8,14 +8,14 @@
 <html <?php language_attributes(); ?> class="clouds">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="" />
-<meta name="keywords" content="" />
+<meta name="description" content="Safer, Smarter Kids is an abuse prevention education curriculum designed for PreK and elementary-aged children. The education program uses developmentally appropriate information to arm children with the tools and language they need to better protect themselves from abuse." />
+<meta name="keywords" content="safer smarter kids, abuse prevention education, abuse prevention curriculum, lauren's kids curriculum, laurens kids education, laurens kids curriculum, safer smarter kids toolkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory') ?>/assets/favicon.png" />
+<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory') ?>/assets/img/favicon.png" />
 <?php wp_head(); ?>
 </head>
 
@@ -87,11 +87,11 @@
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) { // if is teachers landing, parents landing, or kids landing: show sun ?>
+	<?php if (is_page(5) || is_page(28) || is_page(78) || is_page(80) || is_page(82) || is_page(267)) { // show sun on all pages except for main landing & curriculum pages ?>
+	<?php } else { // ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
-	<?php } else { // all other pages do not show clouds ?>
 	<?php } ?>
 	<!-- //end conditional -->
 	
