@@ -63,7 +63,7 @@
 
 
 <!-- conditional to display animated clouds -->
-<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(28) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
+<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(28) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(84) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -87,7 +87,7 @@
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if (is_page(5) || is_page(28) || is_page(78) || is_page(80) || is_page(82) || is_page(267)) { // show sun on all pages except for main landing & curriculum pages ?>
+	<?php if (is_page(5) || is_page(28) || is_page(78) || is_page(80) || is_page(82) || is_page(217) || is_page(267)) { // show sun on all pages except for main landing & curriculum pages ?>
 	<?php } else { // ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />

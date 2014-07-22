@@ -17,11 +17,11 @@ Template Name: Parents Landing pg
 
 			<article class="ssk-buttons">
 				<div class="btn-learn col4 push0">
-					<a href="<?php echo home_url(); ?>/parents/toolkit"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-learn-button.jpg" /></a>
+					<a href="<?php echo home_url(); ?>/parents/about"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-learn-button.jpg" /></a>
 				</div>
 						
 				<div class="btn-teach col4 push4">
-					<a href="<?php echo home_url(); ?>/parents/about"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-talk-button.jpg" /></a>
+					<a href="<?php echo home_url(); ?>/parents/toolkit"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_parents-talk-button.jpg" /></a>
 				</div>
 							
 				<div class="btn-order col4 push8">
