@@ -84,9 +84,14 @@
 		<?php } ?>
 		<!--//end conditional -->
 		
-	
 		
 		
+		<?php if (is_page(82)) {  //conditional to remove box-shadow on 3rd grade curriculum pg ?>
+		<style>.page-thumb {box-shadow:none;-webkit-box-shadow:none;}</style>
+		<?php } else { // ?>
+		<?php } ?>
+		
+
 		
 	<?php wp_footer(); ?>
 </body>
