@@ -45,31 +45,26 @@ jQuery(document).ready(function() {
 				
 				<!-- Teachers FAQS -->
 				<div class="faqs" id="accordion">
-			    <h3>Q: Does this curriculum cost the District/school anything?</h3>
-			    <div>
-			        <p>A: Yes, the curriculum costs $150.</p>
-			        <p>However, in the State of Florida any public school can request these materials for free.</p>
-			    </div>
-			    
-			    
-			
-			    <h3>Q: When will I receive a kit for my school?</h3>
+				
+				<h3>Q: When will I receive a kit for my school?</h3>
 			    <div>
 			        <p>A: You can request a kit by visiting <a href="http://shop.laurenskids.org" target="_blank">http://shop.laurenskids.org</a></p>
 			    </div>
-			    
-			    
-			
-			    <h3>Q: Why can't I view the Lauren's Kids main website?</h3>
+				
+				
+				
+				
+			    <h3>Q: Does this curriculum cost the District/school anything?</h3>
 			    <div>
-			        <p>A: Each school district has its own firewalls to protect faculty or students from visiting inappropriate websites. Because the Lauren's Kids website and videos contain the word "sex" many districts may have blocked the resources on the site. If you have experienced this, please contact your school district and request that they "whitelist the Lauren's Kids website, www.laurenskids.org" so that you can utilize the training videos and login system.</p>
+			        <p>A: Yes, the curriculum costs $150.</p>
+			        <p>Yes, the curriculum costs $150. However, in the State of Florida any public or charter school, or VPK program can request these materials for free.</p>
 			    </div>
 			    
 			    
 			    
-			    <h3>Q: Is this curriculum approved?</h3>
+			    <h3>Q: Can I receive more kits for my school if we need more in the future?</h3>
 			    <div>
-			        <p>A: In Florida, Safer, Smarter Kids was legislatively directed. DOE has assisted and supported the Lauren’s Kids foundation to distribute curriculum kits across the state.</p>
+			        <p>A: If you believe you need to order an additional kit due to loss, damage or would like to reorder "consumables," visit <a href="http://shop.laurenskids.org" target="_blank">www.shop.laurenskids.org</a> to purchase your Replenishment Package. The kits are designed so that the materials and files can be used year after year. The kit includes a USB drive with files for each item printed in your kit for reproduction.</p>
 			    </div>
 			    
 			    
@@ -80,12 +75,22 @@ jQuery(document).ready(function() {
 			    </div>
 			    
 			    
-			    <h3>Q: Can I receive more kits for my school if we need more in the future?</h3>
+			    
+			    <h3>Q: Is this curriculum approved?</h3>
 			    <div>
-			        <p>A: If you believe you need to order an additional kit due to loss, damage or would like to reorder “consumables,” please submit your request via the order button. The kits are designed so that the materials and files can be used year after year. The kit includes a USB drive with files for each item printed in your kit for reproduction.</p>
+			        <p>A: In Florida, <i>Safer, Smarter Kids</i> was legislatively directed. DOE has assisted and supported the Lauren's Kids foundation to distribute curriculum kits across the state.</p>
+			        <p>If you would like your district to support the approval and implementation of <i>Safer, Smarter Kids</i> encourage your school board to implement and contact Lauren’s Kids with any questions at <a href="mailto:team@laurenskids.org">team@LaurensKids.org</a>.</p>
 			    </div>
 			    
 			    
+			
+			    <h3>Q: Why can't I view the Lauren's Kids main website?</h3>
+			    <div>
+			        <p>A: Each school district has its own firewalls to protect faculty or students from visiting inappropriate websites. Because the Lauren's Kids website and videos contain the word "sex" many districts may have blocked the resources on the site. If you have experienced this, please contact your school district and request that they "whitelist the Lauren's Kids website, www.laurenskids.org" so that you can utilize the training videos and login system.</p>
+			    </div>
+			    
+			    
+
 			    </div><!--//#accordion -->
 				<!--//Teachers FAQS -->	
 				

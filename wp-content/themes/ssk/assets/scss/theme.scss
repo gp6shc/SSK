@@ -74,13 +74,65 @@
 	background: transparent;
 }
 .thoughts{
-	margin-top: 100px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	max-width: 70%;
+	z-index: 999999999;
+	.push2{
+		margin-left: 8%;
+	}
+	.push6{
+		margin-left: 60%;
+	}
+}
+img#buddy{
+	margin-top: 48%;
+	margin-left: 12%;
 }
 img#ssk{
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	margin-bottom: 0px;
+}
+.grass{
+	position: relative;
+	height: 300px;
+	min-height: 300px;
+	margin-top: -10px;
+	background: $grass;
+	overflow: hidden;
+	p{
+		position: relative;
+		margin: 0 auto;
+		padding: 0px 10px;
+		text-align: left;
+		color: $white;
+		z-index: 9999999999999;
+	}
+	p.copy{
+		margin-top: 15px;
+		a{
+			color: $white;
+		}
+		&:after{
+				position: absolute;
+				content: '';
+				background: url('../img/logo-landing.png') 0 0 no-repeat;
+				background-size: 70% 70%;
+				width: 167px;
+				height: 32px;
+				margin-top: -5px;
+				margin-left: 10px;
+			}
+	}
+	img{
+		margin-bottom: 0px!important;
+		&hover{
+			cursor: pointer;
+		}
+	}
 }
 
 
@@ -194,6 +246,11 @@ html.clouds{
 .page-thumb{
 	position: relative;
 	margin-bottom: 35px;
+	border-radius: $rounded;
+	box-shadow: $shadow-five;
+	img{
+		border-radius: $rounded;
+	}
 }
 .entry-content{
 	padding: 25px;

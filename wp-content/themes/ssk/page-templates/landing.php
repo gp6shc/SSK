@@ -8,41 +8,41 @@ get_header('landing'); ?>
 <?php while ( have_posts() ) : the_post(); //loop statement ?>
 
 
-<article class="thoughts">
+<article>
+   <div class="col12 push0"></div>
+</article>
 
-	<div class="z col4 push0">
+<!-- Thought Bubbles -->
+<article class="thoughts">
+	<div class="col3 push2">
 		<a href="<?php echo home_url(); ?>/teachers"><img class="wow bounceIn" data-wow-duration="2s" data-wow-delay="0s" data-wow-iteration="1" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-teachers.png" /></a>
 	</div>
 	
-	<div class="z col4 push4">
+	<div class="col3 push4">
 		<a href="<?php echo home_url(); ?>/parents"><img class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-parents.png" /></a>
 	</div>
 	
-	<div class="z col4 push8">
+	<div class="col3 push6">
 		<a href="<?php echo home_url(); ?>/kids"><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
 	</div>
-	
-</article>
+</article><!--//.thoughts-->
 
-<article>
-   <div class="col6 push0"></div>
-   <div class="col6 push6"></div>
-</article>
-
-<article>
-   <div class="col6 push0"></div>
-   <div class="col6 push6"></div>
-</article>
-
-<article class="footer">
+<div class="footer">
 	<div class="col12 push0">
-		<img id="ssk" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/bg-landing-static.jpg" />
-		<div class="col12 push0 audio-player">
-		 <h2></h2>
-		 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
-		</div>
-	</div>
-</article>
+	
+		<img id="ssk" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/bg-landing-an.gif" />
+		
+		<div class="grass">
+			<p><i>Safer, Smarter Kids</i> is an abuse prevention education curriculum designed for PreK and elementary-aged children. The education program uses developmentally appropriate information to arm children with the tools and language they need to better protect themselves from abuse.</p>
+			<p class="copy">All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> LaurensKids.org</a></p>
+			
+			<div class="audio-player">
+				 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
+			</div><!--//.audio-player-->
+			
+		</div><!--//.grass-->
+	</div><!--//.col12-->
+</div><!--//.footer-->
 
 
 <?php endwhile; // end of the loop ?>
