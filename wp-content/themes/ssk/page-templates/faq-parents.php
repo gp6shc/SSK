@@ -61,7 +61,7 @@ jQuery(document).ready(function() {
 			    
 			
 			
-			    <h3>Q: Is the Safer, Smarter Kids a required course for my child?</h3>
+			    <h3>Q: Is Safer, Smarter Kids a required course for my child?</h3>
 			    <div>
 			        <p>A: No, but we encourage all school districts to implement the health-based curriculum, created by career educators, vital to protect our children. The age-appropriate curriculum is designed with a Social Studies framework and allows teachers to meet existing education requirements.</p>
 			    </div>
