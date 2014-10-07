@@ -36,9 +36,11 @@ get_header('landing'); ?>
 			<p><i>Safer, Smarter Kids</i> is an abuse prevention education curriculum designed for PreK and elementary-aged children. The education program uses developmentally appropriate information to arm children with the tools and language they need to better protect themselves from abuse.</p>
 			<p class="copy">All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> LaurensKids.org</a></p>
 			
-			<div class="audio-player">
+			<!-- for sanity's sake... remove when going live
+<div class="audio-player">
 				 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
-			</div><!--//.audio-player-->
+			</div>
+--><!--//.audio-player-->
 			
 		</div><!--//.grass-->
 	</div><!--//.col12-->
