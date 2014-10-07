@@ -173,5 +173,40 @@ ul#grade3{
 }
 
 
+/* Teachers' Intitute */
 
+#ti{
+	&:before{
+		display: block;
+		position: absolute;
+		content: '';
+		background: url('../img/sidebar-buddy-dyk.png') no-repeat bottom center; // "did you know" buddy
+		width: 100%;
+		height: 101px;
+		top: -84px;
+	}
+	
+	a li{
+		&:hover{
+			background: white;
+			color: lighten($ssk-accent, 2%);
+		}
+		&:after{
+			color: darken($gk, 10%);
+		}
+	}	
+}
+
+.apply-btn{
+	border-radius: $rounded;
+	box-shadow: $shadow-three;
+	width: 100%;
+	height: 122px;
+	background: url('../img/button-apply.jpg') center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&:hover{
+		opacity: 0.8;
+	}
+}
 

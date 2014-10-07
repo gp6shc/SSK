@@ -315,6 +315,11 @@ html.clouds{
 	}
 }
 
+::selection {
+	background-color: $ssk-accent;
+	color: white;
+}
+
 
 
 /* wp editor columns shortcode embed
