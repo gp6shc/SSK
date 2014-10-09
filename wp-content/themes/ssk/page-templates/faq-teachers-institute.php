@@ -56,7 +56,6 @@ jQuery(document).ready(function() {
 				
 			    <h3>Q: Does this curriculum cost the District/school anything?</h3>
 			    <div>
-			        <p>A: Yes, the curriculum costs $150.</p>
 			        <p>Yes, the curriculum costs $150. However, in the State of Florida any public or charter school, or VPK program can request these materials for free.</p>
 			    </div>
 			    
