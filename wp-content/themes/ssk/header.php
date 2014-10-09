@@ -63,7 +63,8 @@
 
 
 <!-- conditional to display animated clouds -->
-<?php if (is_404() || is_page(8) || is_page(10) || is_page(12) || is_page(30) || is_page(26) || is_page(28) || is_page(49) || is_page(74) || is_page(76) || is_page(136) || is_page(59) || is_page(84) || is_page(141) || is_page(146)) { // about, faq, order, order, contact, landing pgs (t,p,k), all parents pages, both kids pages ?>
+<?php // exclude clouds from 1st, 2nd, 3rd, and special needs curriculum pages
+if ( !is_page( array(78, 80, 82, 267) ) ): ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -77,8 +78,7 @@
 	<div class="cloud x7"></div>
 	<div class="cloud x8"></div>
 </article>
-<?php } else { // all other pages do not show clouds ?>
-<?php } ?>
+<?php endif; ?>
 <!-- //end conditional -->
 
 
@@ -87,12 +87,11 @@
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if (is_page(5) || is_page(28) || is_page(78) || is_page(80) || is_page(82) || is_page(217) || is_page(267)) { // show sun on all pages except for main landing & curriculum pages ?>
-	<?php } else { // ?>
+	<?php if( !is_page( array(5, 28, 78, 80, 82, 217, 267) ) ): // show sun on all pages except for main landing & curriculum pages ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
-	<?php } ?>
+	<?php endif; ?>
 	<!-- //end conditional -->
 	
 	
@@ -104,11 +103,11 @@
 	
 		<div id="header-text-nav-container">
 			<div class="inner-wrap">
-				<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the main landing pages ?>
+				<?php if( is_page( array(26, 49) ) ): // || is_page(74)) {  // if is any of the main landing pages ?>
 				<div id="header-text-nav-wrap" class="clearfix">
-				<?php } else { // ?>
+				<?php else: ?>
 				<div id="header-text-nav-wrap" class="clearfix page">
-				<?php } ?>
+				<?php endif; ?>
 					<div id="header-left-section">
 						<?php 
 						if( ( of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'both' || of_get_option( 'spacious_show_header_logo_text', 'text_only' ) == 'logo_only' ) && of_get_option( 'spacious_header_logo_image', '' ) != '' ) {
@@ -148,11 +147,11 @@
 						<?php
 						}
 						?>
-						<nav id="site-navigation" class="main-navigation" role="navigation">
+						<nav id="site-navigation" class="main-navigation transition" role="navigation">
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
 							
 								<!-- conditional to display menus on certain pages -->
-								<?php if (is_page(26) || in_array(26, $post->ancestors)) { // if is teachers page & children of this page?>
+								<?php if( is_page( array(26, 360) ) || in_array(26, $post->ancestors) || in_array(360, $post->ancestors) ) { // if is teachers page & children of this page?>
 								<?php wp_nav_menu( array( 'theme_location' => 'teachers') ); //get teachers menu ?>
 								
 								
@@ -183,7 +182,7 @@
 	<?php do_action( 'spacious_before_main' ); ?>
 	
 	<!-- conditional for push down -->
-	<?php if (is_page(26) || is_page(49)){ // || is_page(74)) {  // if is any of the main landing pages ?>
+	<?php if (is_page( array(26, 49) ) ){ // || is_page(74)) {  // if is any of the main landing pages ?>
 	<div id="main" class="clearfix">
 	<?php } else { // if none are met, load default ?>
 	<div id="main" class="clearfix pushdown">
