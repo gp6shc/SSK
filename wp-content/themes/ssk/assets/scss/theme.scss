@@ -158,19 +158,30 @@ html.clouds{
 .main-navigation {
 	position: relative;
 	box-shadow: $shadow-three;
+	background: white;
 	border-radius: $rounded;
-	ul li a{
-		&:hover{
-		background: $white;
-		color: $ssk-accent;
-		border-radius: 0px;
-		}
-	}
-	ul li.current_page_item a{
-		background: $lk-brand;
-		color: $white;
+	
+	ul li:first-child a {
+		border-top-left-radius: $rounded;
+		border-bottom-left-radius: $rounded;
+	}	
+	
+	ul li:last-child a {
+		border-top-right-radius: $rounded;
+		border-bottom-right-radius: $rounded;
+	}	
+	
+	a {
 		&:hover{
 			color: $ssk-accent;
+		}
+	}
+	ul li.current_page_item a, ul li.current-page-ancestor a {
+		background: $lk-brand;
+		color: white;
+		
+		&:hover {
+			background-color: lighten( $lk-brand, 10%);	
 		}
 	}
 }
