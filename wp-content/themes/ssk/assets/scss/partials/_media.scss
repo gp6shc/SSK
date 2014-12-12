@@ -131,6 +131,15 @@
 	#masthead input.s {
 	    margin-left: -30px;
 	}
+	.field {
+		width: 100%;
+		float: none;
+		height: 75px;
+		
+		&:nth-child(2n + 1) {
+			margin-left: 0;
+		}
+	}
 }
 @media screen and (max-width: 767px) {
 	body {
@@ -336,6 +345,10 @@ $phone-landscape: 480px;
 	.letters-btn{
 		background: url('../img/button-letters-mobile.jpg') center center!important;
 	}
+	.apply-btn {
+		background: url('../img/button-apply-mobile.jpg') center center;
+	}
+	
 	#diduknow, #ti, #gradek, #grade1, #grade2, #grade3, #special{
 		&:before{
 			background: none!important;
@@ -399,6 +412,11 @@ $phone-landscape: 480px;
 	}
 	#push-down{
 		margin-top: 10px;
+	}
+	
+	.apply-btn {
+		height: 110px;
+		background: url('../img/button-apply.jpg') center center;
 	}
 	
 }

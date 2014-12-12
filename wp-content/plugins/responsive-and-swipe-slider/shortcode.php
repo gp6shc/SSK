@@ -22,6 +22,7 @@ function rsSlider_shortcode($atts) {
 
 			  $('.flexslider').flexslider({
 				animation: 'slide',
+				slideshowSpeed: 3000,
 				start: function(slider){
 				  $('#containerFlexDiv').height('auto');
 				  $('.loading_rsSlider').hide();
