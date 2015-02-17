@@ -270,10 +270,6 @@ html.clouds{
 	box-shadow: $shadow-five;
 	position: relative;
 	z-index: 999;
-	
-	li {
-		color: #444444;
-	}
 }
 .pushdown{
 	margin: 40px 0;
@@ -328,10 +324,6 @@ html.clouds{
 		padding: 15px 0 0 0;
 		text-align: center;
 	}
-}
-#containerFlexDiv {
-	width: 100% !important;
-	max-width: none !important;
 }
 
 ::selection {

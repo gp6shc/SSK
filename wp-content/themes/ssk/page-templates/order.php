@@ -3,6 +3,8 @@
 Template Name: Order
 */
 ?>
+<?php wp_redirect( 'http://shop.laurenskids.org', 301 ); exit; ?>
+<!--
 <?php get_header(); ?>
 
 	<?php do_action( 'spacious_before_body_content' ); ?>
@@ -26,11 +28,12 @@ Template Name: Order
 
 			<?php endwhile; ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		</div>
+	</div>
 	
 	
 	<div class="clearfix"></div>
 
 		
 <?php get_footer(); ?>
+-->

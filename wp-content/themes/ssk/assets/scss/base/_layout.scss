@@ -1155,13 +1155,9 @@ li.default-menu {
 #secondary .widget ul li, #colophon .widget ul li {
 	line-height: 1.5;
 }
-#secondary .widget ul a {
-	display: block;
+#secondary .widget ul li + li {
+	border-bottom: 1px solid #EAEAEA;	
 }
-#secondary .widget ul a + a {
-	border-top: 1px solid #EAEAEA;
-}
-
 #colophon .widget ul li {
 	border-bottom: 1px solid #444444;
 }
@@ -1492,12 +1488,3 @@ a#scroll-up:hover {
 	text-decoration: none;
 }
 
-.first-grade {
-	.page-thumb {
-		box-shadow: none;
-	}
-}
-
-.page-thumb img {
-	width: 100%;
-}

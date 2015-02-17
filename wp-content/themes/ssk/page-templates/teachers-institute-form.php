@@ -124,7 +124,7 @@ Template Name: Teachers Institute Application Form
 					<div class="field clearfix">
 						<label for="country">School Country:</label>
 						<select id="country" name="country" required="required">
-							<option value="">Select a Counrty</option>
+							<option value="">Select a Country</option>
 							<option value="US">United States</option>
 							<option value="AF">Afghanistan</option>
 							<option value="AX">Åland Islands</option>
@@ -411,7 +411,7 @@ Template Name: Teachers Institute Application Form
 					<div class="field clearfix tall">
 						<label for="attend_dates">Please choose which Institute you would like to attend:</label>
 						<select id="attend_dates" name="attend_dates">
-							<option value="Tallahassee | January 27th - 28th">Tallahassee | January 27th - 28th</option>
+							<option value="Orlando | February 17-18">Orlando | February 17th – 18th</option>
 						</select>
 					</div>
 					<div class="field clearfix tall">

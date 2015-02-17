@@ -151,7 +151,7 @@ if ( !is_page( array(78, 80, 82, 267) ) ): ?>
 							<h1 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h1>
 							
 								<!-- conditional to display menus on certain pages -->
-								<?php if( is_page( array(26, 360) ) || in_array(26, $post->ancestors) || in_array(360, $post->ancestors) ) { // if is teachers page & children of this page?>
+								<?php if( is_page( array(26, 384) ) || in_array(26, $post->ancestors) || in_array(384, $post->ancestors) ) { // if is teachers page & children of this page?>
 								<?php wp_nav_menu( array( 'theme_location' => 'teachers') ); //get teachers menu ?>
 								
 								
