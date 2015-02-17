@@ -23,7 +23,7 @@ get_header('landing'); ?>
 	</div>
 	
 	<div class="col3 push6">
-		<a href="<?php echo home_url(); ?>/kids"><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
+		<!-- <a href="<?php echo home_url(); ?>/kids"> --><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /><!-- </a> -->
 	</div>
 </article><!--//.thoughts-->
 
@@ -36,11 +36,9 @@ get_header('landing'); ?>
 			<p><i>Safer, Smarter Kids</i> is an abuse prevention education curriculum designed for PreK and elementary-aged children. The education program uses developmentally appropriate information to arm children with the tools and language they need to better protect themselves from abuse.</p>
 			<p class="copy">All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> LaurensKids.org</a></p>
 			
-			<!-- for sanity's sake... remove when going live
-<div class="audio-player">
+			<div class="audio-player">
 				 <audio id="audio-player"autoplay="autoplay" loop="loop" src="<?php bloginfo('stylesheet_directory') ?>/assets/music/ssk-theme.mp3" type="audio/mp3" controls="controls"></audio>
-			</div>
---><!--//.audio-player-->
+			</div><!--//.audio-player-->
 			
 		</div><!--//.grass-->
 	</div><!--//.col12-->

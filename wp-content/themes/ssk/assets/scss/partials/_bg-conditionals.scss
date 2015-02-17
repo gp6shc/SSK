@@ -1,11 +1,12 @@
 /* =Background Conditionals
 -------------------------------------------------------------- */
 body{
-	background-size: cover;
+	background-size: cover !important;
 }
 
 body.default{ //DEFAULT BG FOR PAGES
 	background: $ssk-brand;
+	background-size: cover;
 }
 
 /* Landing Page Conditional bg */
@@ -42,15 +43,15 @@ body.default{ //DEFAULT BG FOR PAGES
 	background: $ssk-brand;
 	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
 }
-.first-grade{
-	background: $parents-brand url('../img/bg-first-grade.png') repeat-y left top!important;
+body.first-grade{
+	background: $parents-brand url('../img/bg-first-grade.png');
 }
-.second-grade{ //page id=80
-	background: transparent url('../img/bg-second-grade.jpg') repeat-y left top!important;
+body.second-grade{ //page id=80
+	background: transparent url('../img/bg-second-grade.jpg');
 }
-.third-grade{ //page id=82
-	background: transparent url('../img/bg-third-grade.jpg') repeat-y left top!important;
+body.third-grade{ //page id=82
+	background: transparent url('../img/bg-third-grade.jpg');
 }
-.page-id-267{ //special needs pg
-	background: transparent url('../img/bg-special-needs.jpg') repeat-y center center!important;
+body.page-id-267{ //special needs pg
+	background: transparent url('../img/bg-special-needs.jpg');
 }

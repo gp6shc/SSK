@@ -25,7 +25,7 @@ Template Name: Teachers Landing pg
 				</div>
 							
 				<div class="btn-order col4 push8">
-						<a href="http://shop.laurenskids.org" target="_blank"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-order-button.jpg" /></a>
+					<a href="http://shop.laurenskids.org" target="_blank"><img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-order-button.jpg" /></a>
 				</div>
 			</article><!--/.ssk-buttons-->
 

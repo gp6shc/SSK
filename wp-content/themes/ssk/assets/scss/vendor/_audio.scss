@@ -13,12 +13,11 @@ body{
 
 div.audio-player {
   position: relative;
-  width: 100%;
+  width: 205px;
   height: 40px;
   margin: 0 auto;
-  background: #444;
-  background: #222;
-  border-bottom: 1px solid #A2A2A2;
+  background: transparent;
+  float: right;
   overflow: hidden;
 }
 .audio-player h2 {
@@ -162,4 +161,8 @@ div.audio-player {
   color: #222;
   text-align: center;
   z-index: 9999;
+}
+
+div.mejs-controls > div.mejs-time-rail {
+	display: none;
 }

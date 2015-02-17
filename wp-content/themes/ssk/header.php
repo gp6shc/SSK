@@ -87,7 +87,7 @@ if ( !is_page( array(78, 80, 82, 267) ) ): ?>
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if( !is_page( array(5, 28, 78, 80, 82, 217, 267) ) ): // show sun on all pages except for main landing & curriculum pages ?>
+	<?php if( !is_page( array(5, 78, 80, 82, 217, 267) ) ): // show sun on all pages except for main landing & curriculum pages ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>
