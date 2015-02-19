@@ -1,7 +1,9 @@
 /* =Background Conditionals
 -------------------------------------------------------------- */
 body{
-	background-size: cover;
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: repeat-y;
 }
 
 body.default{ //DEFAULT BG FOR PAGES
@@ -40,17 +42,24 @@ body.default{ //DEFAULT BG FOR PAGES
 }
 .kindergarden{ //page id=76
 	background: $ssk-brand;
-	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top!important;*/
+	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top;*/
 }
 .first-grade{
-	background: $parents-brand url('../img/bg-first-grade.png') repeat-y left top!important;
+	background-color: $parents-brand;
+	background-image: url('../img/bg-first-grade.png');
 }
 .second-grade{ //page id=80
-	background: transparent url('../img/bg-second-grade.jpg') repeat-y left top!important;
+	background-image: url('../img/bg-second-grade.jpg');
 }
 .third-grade{ //page id=82
-	background: transparent url('../img/bg-third-grade.jpg') repeat-y left top!important;
+	background-image: url('../img/bg-third-grade.jpg');
+}
+.fourth-grade{ //page id=408
+	background-image: url('../img/bg-fourth-grade.jpg');
+}
+.fifth-grade{ //page id=410
+	background-image: url('../img/bg-fifth-grade.jpg');
 }
 .page-id-267{ //special needs pg
-	background: transparent url('../img/bg-special-needs.jpg') repeat-y center center!important;
+	background: transparent url('../img/bg-special-needs.jpg') repeat-y center top;
 }

@@ -2,5 +2,4 @@
 wp-config.php
 .htaccess
 .DS_Store
-.sass-cache
-.sass-cache/*
+/wp-content/themes/ssk/assets/.sass-cache

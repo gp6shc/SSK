@@ -5,22 +5,40 @@
 	background-color: lighten($ssk-accent, 2%);
 	border-radius: $rounded;
 	box-shadow: $shadow-three;
-	a li{
+	
+	a {
+		display: block;
+		position: relative;
+		z-index: 0;
+		
+		+ a {
+			border-top: 1px solid white;
+		}
+	}
+	
+	li {
 		color: $white;
 		padding: 15px;
+		
 		&:hover{ //default menu, if ID is not set
 			background: $g1;
 			text-decoration: none;
 		}
+		
 		&:after{
-			content: 'O';
+			content: '';
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background-color: rgba(black, 0.15);
 			position: absolute;
+			top: 21px;
 			right: 20px;
-			opacity: 0.5;
-			color: darken($ssk-accent, 10%);
 		}
 	}
 }
+
 /* Curriculum Menu by Grade */
 #diduknow{
 	&:before{
@@ -35,9 +53,6 @@
 	a li{
 		&:hover{
 			background: $gk;
-		}
-		&:after{
-			color: darken($gk, 10%);
 		}
 	}	
 }
@@ -55,9 +70,6 @@
 		&:hover{
 			background: $gk;
 		}
-		&:after{
-			color: darken($gk, 10%);
-		}
 	}	
 }
 ul#grade1{
@@ -73,9 +85,6 @@ ul#grade1{
 	a li{
 		&:hover{
 			background: $g1;
-		}
-		&:after{
-			color: darken($g1, 10%);
 		}
 	}	
 }
@@ -93,9 +102,6 @@ ul#grade2{
 		&:hover{
 			background: $g2-menu;
 		}
-		&:after{
-			color: darken($g2-menu, 10%);
-		}
 	}	
 }
 ul#grade3{
@@ -112,8 +118,19 @@ ul#grade3{
 		&:hover{
 			background: $g3;
 		}
-		&:after{
-			color: darken($g3, 10%);
+	}	
+}
+ul#grade4 {
+	a li{
+		&:hover{
+			background: $g4;
+		}
+	}	
+}
+ul#grade5 {
+	a li{
+		&:hover{
+			background: $g5;
 		}
 	}	
 }

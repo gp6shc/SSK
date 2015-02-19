@@ -15,23 +15,33 @@
 	
 		<!-- conditional footer bg image -->
 		<?php if (is_page(76) || in_array(76, $post->ancestors)) { // if is kindergarden & its children ?>
-		<div class="footer kindergarden">
+		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-kindergarden.png" />
 		</div>
 
 		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade ?>
-		<div class="footer first-grade">
+		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-first-grade.png" />
 		</div>
 		
 		<?php } elseif (is_page(80) || in_array(80, $post->ancestors)) { //2nd ?>
-		<div class="footer second-grade">
+		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-second-grade.png" />
 		</div>
 		
 		<?php } elseif (is_page(82) || in_array(82, $post->ancestors)) { //3rd ?>
-		<div class="footer third-grade">
+		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-third-grade.png" />
+		</div>
+		
+		<?php } elseif (is_page(408) || in_array(408, $post->ancestors)) { //3rd ?>
+		<div class="footer">
+			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fourth-grade.png" />
+		</div>
+		
+		<?php } elseif (is_page(410) || in_array(410, $post->ancestors)) { //3rd ?>
+		<div class="footer">
+			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fifth-grade.png" />
 		</div>
 		
 		<?php } else { // if none, show default ?>
@@ -59,11 +69,11 @@
 		
 
 		<!-- conditonal footer color -->
-		<?php if (is_page(76) || is_page(80) || is_page(82)) { // if grade K, 2, 3, show white footer bg (all except 1st) ?>
+		<?php if (is_page( array(76, 80, 82, 408) ) ) { // if grade K, 2, 3, show white footer bg (all except 1st) ?>
 		<div class="end white">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk-dark.png" />
-				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade & ancestors ?>
@@ -71,20 +81,26 @@
 		<div class="end brown">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+			</div>
+		</div>
+		<?php } elseif (is_page(410) || in_array(410, $post->ancestors)) { //5th grade & ancestors ?>
+		<style>#menu-top.menu a, #menu-top.menu li:after{color:white;}</style>
+		<div class="end grey">
+			<div class="copy">
+				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } else { // all pages, the default is green ($grass) to blend in ?>
 		<div class="end green">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p>All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
+				<p><a style="color: #EB068B" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
 			</div>
 		</div>
 		<?php } ?>
 		<!--//end conditional -->
-		
-		
 		
 		<?php if (is_page(82)) {  //conditional to remove box-shadow on 3rd grade curriculum pg ?>
 		<style>.page-thumb {box-shadow:none;-webkit-box-shadow:none;}</style>

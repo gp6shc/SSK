@@ -254,13 +254,20 @@ html.clouds{
 #secondary{
 	margin-bottom: 35px;
 }
+.fourth-grade, .fifth-grade {
+	#secondary {
+		margin-top: -80px;
+	}
+}
 .page-thumb{
 	position: relative;
 	margin-bottom: 35px;
 	border-radius: $rounded;
 	box-shadow: $shadow-five;
+	
 	img{
 		border-radius: $rounded;
+		width: 100%;
 	}
 }
 .entry-content{
@@ -300,6 +307,14 @@ html.clouds{
 	margin: -30px 0px;
 	padding: 20px 0px;
 	text-align: center;
+}
+.grey{
+	background: #58595B;
+	.copy p, .copy p a{
+		color: $white;
+		padding: 15px 0 0 0;
+		text-align: center;
+	}
 }
 .brown{
 	background: $g1;
