@@ -94,8 +94,11 @@ aside h3 {
 
 #containerFlexDiv {
     position: relative;
+    margin-right: -1px;
 }
-
+.flex-viewport {
+	margin-right: 1px;
+} 
 .loading_rsSlider {
     background: url('../img/loading.gif');
     width: 15px;

@@ -8,17 +8,14 @@
 	
 	a {
 		display: block;
-		position: relative;
 		z-index: 0;
+		padding: 15px;
+		color: $white;
 		
-		+ a {
-			border-top: 1px solid white;
-		}
 	}
 	
 	li {
-		color: $white;
-		padding: 15px;
+		position: relative;
 		
 		&:hover{ //default menu, if ID is not set
 			background: $g1;
@@ -36,6 +33,18 @@
 			top: 21px;
 			right: 20px;
 		}
+		&:first-child {
+			border-top-left-radius: $rounded;
+			border-top-right-radius: $rounded;
+		}
+		&:last-child {
+			border-bottom-left-radius: $rounded;
+			border-bottom-right-radius: $rounded;
+		}
+	}
+	
+	.current-menu-item {
+		background: $g1;
 	}
 }
 
@@ -48,7 +57,8 @@
 		background: url('../img/sidebar-buddy-dyk.png') no-repeat bottom center; // "did you know" buddy
 		width: 100%;
 		height: 101px;
-		top: -84px;
+		top: -90px;
+		z-index: 1;
 	}
 	a li{
 		&:hover{
@@ -56,7 +66,7 @@
 		}
 	}	
 }
-#gradek{
+.kindergarden .sidebar-menu {
 	&:before{
 		display: block;
 		position: absolute;
@@ -64,15 +74,19 @@
 		background: url('../img/sidebar-buddy-k.png') no-repeat bottom center;
 		width: 100%;
 		height: 101px;
-		top: -84px;
+		top: -90px;
+		z-index: 1;
 	}
-	a li{
+	li {
 		&:hover{
 			background: $gk;
 		}
-	}	
+	}
+	.current-menu-item {
+		background: $gk;
+	}
 }
-ul#grade1{
+.first-grade .sidebar-menu {
 	&:before{
 		display: block;
 		position: absolute;
@@ -80,15 +94,16 @@ ul#grade1{
 		background: url('../img/sidebar-buddy-g1.png') no-repeat bottom center;
 		width: 100%;
 		height: 101px;
-		top: -84px;
+		top: -90px;
+		z-index: 1;
 	}
-	a li{
+	li {
 		&:hover{
 			background: $g1;
 		}
 	}	
 }
-ul#grade2{
+.second-grade .sidebar-menu {
 	&:before{
 		display: block;
 		position: absolute;
@@ -96,15 +111,20 @@ ul#grade2{
 		background: url('../img/sidebar-buddy-g2.png') no-repeat bottom center;
 		width: 100%;
 		height: 101px;
-		top: -84px;
+		top: -90px;
+		z-index: 1;
 	}
-	a li{
+	li {
 		&:hover{
 			background: $g2-menu;
 		}
-	}	
+	
+	}
+	.current-menu-item {
+		background: $g2-menu;
+	}
 }
-ul#grade3{
+.third-grade .sidebar-menu, .page-id-267 .sidebar-menu, .page-id-28 .sidebar-menu {
 	&:before{
 		display: block;
 		position: absolute;
@@ -112,26 +132,36 @@ ul#grade3{
 		background: url('../img/sidebar-buddy-g3.png') no-repeat bottom center;
 		width: 100%;
 		height: 101px;
-		top: -84px;
+		top: -90px;
+		z-index: 1;
 	}
-	a li{
+	li {
 		&:hover{
 			background: $g3;
 		}
 	}	
+	.current-menu-item {
+		background: $g3;
+	}
 }
-ul#grade4 {
-	a li{
+.fourth-grade .sidebar-menu {
+	li {
 		&:hover{
 			background: $g4;
 		}
 	}	
+	.current-menu-item {
+		background: $g4;
+	}
 }
-ul#grade5 {
-	a li{
+.fifth-grade .sidebar-menu {
+	li {
 		&:hover{
 			background: $g5;
 		}
+	}
+	.current-menu-item {
+		background: $g5;
 	}	
 }
 
@@ -192,7 +222,7 @@ ul#grade5 {
 
 /* Teachers' Intitute */
 
-#ti{
+#ti {
 	&:before{
 		display: block;
 		position: absolute;
@@ -200,13 +230,16 @@ ul#grade5 {
 		background: url('../img/sidebar-buddy-dyk.png') no-repeat bottom center; // "did you know" buddy
 		width: 100%;
 		height: 101px;
-		top: -94px;
+		top: -90px;
+		z-index: 1;
 	}
 	
-	a li{
+	li {
 		&:hover{
 			background: white;
-			color: lighten($ssk-accent, 2%);
+			a {
+				color: lighten($ssk-accent, 2%);
+			}
 		}
 		&:after{
 			color: darken($gk, 10%);

@@ -55,10 +55,10 @@
 <?php } elseif (is_page(82) || in_array(82, $post->ancestors)) {  ?>
 <body <?php body_class('third-grade'); ?> >
 
-<?php } elseif (is_page(408) || in_array(82, $post->ancestors)) {  ?>
+<?php } elseif (is_page(420) || in_array(420, $post->ancestors)) {  ?>
 <body <?php body_class('fourth-grade'); ?> >
 
-<?php } elseif (is_page(410) || in_array(82, $post->ancestors)) {  ?>
+<?php } elseif (is_page(424) || in_array(424, $post->ancestors)) {  ?>
 <body <?php body_class('fifth-grade'); ?> >
 
 
@@ -70,7 +70,7 @@
 
 <!-- conditional to display animated clouds -->
 <?php // exclude clouds from 1st, 2nd, 3rd, and special needs curriculum pages
-if ( !is_page( array(78, 80, 82, 267, 408, 410) ) ): ?>
+if ( !is_page( array(78, 80, 82, 267, 420, 424) ) ): ?>
 <article id="clouds">
 	<div class="cloud x1"></div>
 	<div class="cloud x1 second"></div>
@@ -93,7 +93,7 @@ if ( !is_page( array(78, 80, 82, 267, 408, 410) ) ): ?>
 <div id="page" class="hfeed site">
 
 	<!-- conditional to display animated sun in bg or not -->
-	<?php if( !is_page( array(5, 78, 80, 82, 217, 267, 408, 410) ) ): // show sun on all pages except for main landing & curriculum pages ?>
+	<?php if( !is_page( array(5, 78, 80, 82, 217, 267, 420, 424) ) ): // show sun on all pages except for main landing & curriculum pages ?>
 	<div id="sun" class="col2 push0">
 		<img class="wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_teachers-sun.png" />
 	</div>

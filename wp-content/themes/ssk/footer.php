@@ -34,12 +34,12 @@
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-third-grade.png" />
 		</div>
 		
-		<?php } elseif (is_page(408) || in_array(408, $post->ancestors)) { //3rd ?>
+		<?php } elseif (is_page(420) || in_array(420, $post->ancestors)) { //3rd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fourth-grade.png" />
 		</div>
 		
-		<?php } elseif (is_page(410) || in_array(410, $post->ancestors)) { //3rd ?>
+		<?php } elseif (is_page(424) || in_array(424, $post->ancestors)) { //3rd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fifth-grade.png" />
 		</div>
@@ -69,11 +69,11 @@
 		
 
 		<!-- conditonal footer color -->
-		<?php if (is_page( array(76, 80, 82, 408) ) ) { // if grade K, 2, 3, show white footer bg (all except 1st) ?>
+		<?php if (is_page( array(76, 80, 82, 420) ) ) { // if grade K, 2, 3, show white footer bg (all except 1st) ?>
 		<div class="end white">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk-dark.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersinstitute" >Teachers' Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade & ancestors ?>
@@ -81,28 +81,28 @@
 		<div class="end brown">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersinstitute" >Teachers' Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
-		<?php } elseif (is_page(410) || in_array(410, $post->ancestors)) { //5th grade & ancestors ?>
-		<style>#menu-top.menu a, #menu-top.menu li:after{color:white;}</style>
+		<?php } elseif (is_page(424) || in_array(424, $post->ancestors)) { //5th grade & ancestors ?>
+		<style>#menu-top.menu a, #menu-top.menu li:after{color:#00ABD3;}</style>
 		<div class="end grey">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersinstitute" >Teachers' Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } else { // all pages, the default is green ($grass) to blend in ?>
 		<div class="end green">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p><a style="color: #EB068B" href="http://safersmarterkids.org/teachers/" >Teachers Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
+				<p><a style="color: #EB068B" href="http://safersmarterkids.org/teachersinstitute" >Teachers' Institute</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
 			</div>
 		</div>
 		<?php } ?>
 		<!--//end conditional -->
 		
-		<?php if (is_page(82)) {  //conditional to remove box-shadow on 3rd grade curriculum pg ?>
+		<?php if (is_page( array(82, 78))) {  //conditional to remove box-shadow on 3rd/1st grade curriculum pg ?>
 		<style>.page-thumb {box-shadow:none;-webkit-box-shadow:none;}</style>
 		<?php } else { // ?>
 		<?php } ?>
