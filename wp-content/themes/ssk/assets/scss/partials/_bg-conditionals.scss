@@ -59,6 +59,31 @@ body{
 }
 .fifth-grade{ //page id=410
 	background-image: url('../img/bg-fifth-grade.jpg');
+	
+	#nav_menu-2 {
+		margin-top: 6px;
+		
+		#menu-top.menu li {
+			padding-bottom: 34px;
+		}
+	}
+	
+	.page-thumb {
+		
+		&:before {
+			content: url('../img/tape.png');
+			position: absolute;
+			top: -24px;
+			left: -7px;
+			transform: rotate(-40deg);
+		}
+		&:after {
+			content: url('../img/tape.png');
+			position: absolute;
+			right: -16px;
+			bottom: -22px;
+		}
+	}
 }
 .page-id-267{ //special needs pg
 	background: transparent url('../img/bg-special-needs.jpg') repeat-y center top;
