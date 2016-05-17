@@ -30,8 +30,4 @@
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-	<?php spacious_sidebar_select(); ?>
-
-	<?php do_action( 'spacious_after_body_content' ); ?>
-
 <?php get_footer(); ?>

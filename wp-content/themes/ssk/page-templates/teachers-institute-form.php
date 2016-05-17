@@ -32,7 +32,7 @@ Template Name: Teachers Institute Application Form
 					) );
 				?>
 				
-				<form class="clearfix" action="http://laurenskids.force.com/safersmarterkids/new_application" method="post" data-webforms2-force-js-validation="true">
+				<form class="clearfix" action="https://laurenskids.force.com/safersmarterkids/new_application" method="post" data-webforms2-force-js-validation="true">
 					<!-- To display errors
 					<input type="hidden" name="thankYouURL" value="http://laurenskids.force.com/safersmarterkids/thank_you"/>
 					-->
@@ -411,7 +411,7 @@ Template Name: Teachers Institute Application Form
 					<div class="field clearfix tall">
 						<label for="attend_dates">Please choose which Institute you would like to attend:</label>
 						<select id="attend_dates" name="attend_dates">
-							<option value="Orlando | February 17-18">Orlando | February 17th – 18th</option>
+							<option value="Ft. Lauderdale | May 7th and 8th">Ft. Lauderdale | May 7th and 8th</option>
 						</select>
 					</div>
 					<div class="field clearfix tall">

@@ -349,10 +349,14 @@ $phone-landscape: 480px;
 		background: url('../img/button-apply-mobile.jpg') center center;
 	}
 	
-	#diduknow, #ti, #gradek, #grade1, #grade2, #grade3, #special{
+	#diduknow, #ti, #menu-curriculum {
 		&:before{
-			background: none!important;
+			background: none !important;
+			display: none;
 		}
+	}
+	.fourth-grade #secondary, .fifth-grade #secondary {
+		margin-top: 25px;
 	}
 	
 }

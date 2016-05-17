@@ -1,0 +1,1240 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Easy Forms for MailChimp"
+msgstr ""
+
+#. Short description.
+msgid "The ultimate MailChimp WordPress plugin. Easily build unlimited forms for your MailChimp lists, add them to your site and track subscriber activity."
+msgstr ""
+
+#. Screenshot description.
+msgid "General Form Settings - Enter your MailChimp API key to connect your site to your MailChimp account"
+msgstr ""
+
+#. Screenshot description.
+msgid "Manage Forms Page - See all the forms you have created for your MailChimp lists and create new forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Editor Page - Build, edit and adjust the settings for your forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Field Options - Set a variety of options for each form field"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Opt-In and Submission Settings - Set the options for each form"
+msgstr ""
+
+#. Screenshot description.
+msgid "Account Overview Page - View your MailChimp account activity"
+msgstr ""
+
+#. Screenshot description.
+msgid "Integration Settings - Integrate MailChimp opt-in checkboxes with other forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "reCAPTCHA Settings - Add a Google reCAPTCHA key"
+msgstr ""
+
+#. Screenshot description.
+msgid "Account Activity Dashboard Widget - View your MailChimp account activity"
+msgstr ""
+
+#. Screenshot description.
+msgid "MailChimp List Stats Dashboard Widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "MailChimp List Information Screen"
+msgstr ""
+
+#. Screenshot description.
+msgid "Subscriber Details Screen"
+msgstr ""
+
+#. Screenshot description.
+msgid "MailChimp Form Widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "MailChimp Form Widget in the Sidebar on Live Website"
+msgstr ""
+
+#. Screenshot description.
+msgid "Editor Button to easily add Forms to Page and Posts"
+msgstr ""
+
+#. Screenshot description.
+msgid "MailChimp Form on a Page on Live Website"
+msgstr ""
+
+#. Found in description list item.
+msgid "Build <strong>unlimited</strong> forms for any of your MailChimp lists with an easy-to-use admin, including multiple forms for the same list."
+msgstr ""
+
+#. Found in description list item.
+msgid "Connect your website to your MailChimp account with a MailChimp API key and a click."
+msgstr ""
+
+#. Found in description list item.
+msgid "Duplicate forms with a click."
+msgstr ""
+
+#. Found in description list item.
+msgid "Easily add MailChimp forms to any post or page with our custom editor button or with a shortcode."
+msgstr ""
+
+#. Found in description list item.
+msgid "Toggle on/off AJAX functionality on a per form basis."
+msgstr ""
+
+#. Found in description list item.
+msgid "Add MailChimp forms to widgetized areas with our custom widget."
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow users to sign up for MailChimp interest groups, or pre-check groups in a hidden field."
+msgstr ""
+
+#. Found in description list item.
+msgid "Use our built-in CSS classes or add your own additional classes to form fields to easily style and customize forms."
+msgstr ""
+
+#. Found in description list item.
+msgid "Customize the MailChimp submission button text."
+msgstr ""
+
+#. Found in description list item.
+msgid "Shortcode available to display the number of subscribers on a given MailChimp list."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully customize the success and error messages displayed back to the user."
+msgstr ""
+
+#. Found in description list item.
+msgid "Quickly toggle between single or double opt-in."
+msgstr ""
+
+#. Found in description list item.
+msgid "Disable or Enable the default MailChimp welcome email."
+msgstr ""
+
+#. Found in description list item.
+msgid "Remove bogus subscribers from your MailChimp list through the admin interface."
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow existing subscribers to update their account info."
+msgstr ""
+
+#. Found in description list item.
+msgid "Redirect users to another post or page after form submission."
+msgstr ""
+
+#. Found in description list item.
+msgid "Enable Google reCAPTCHA protection on your forms."
+msgstr ""
+
+#. Found in description list item.
+msgid "Import/Export all MailChimp forms and associated settings for use on other sites with Easy Forms for MailChimp installed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Seamless integration with core WordPress forms: comments and registration. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Seamless integration with many popular third party plugins: WooCommerce, Easy Digital Downloads, BuddyPress, BbPress, Contact Form 7."
+msgstr ""
+
+#. Found in description list item.
+msgid "View your MailChimp account activity like subscribes and unsubscribes."
+msgstr ""
+
+#. Found in description list item.
+msgid "View your MailChimp list statistics and manage users and list settings."
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced debugging to log MailChimp errors as they occur, for easy troubleshooting."
+msgstr ""
+
+#. Found in description list item.
+msgid "Developer friendly! We've provided hooks and filters to allow developers to extend the plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Add-ons available to extend the core functionality of the plugin. <a href=\"https://yikesplugins.com/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">Check them out</a>!"
+msgstr ""
+
+#. Found in description list item.
+msgid "WooCommerce"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "BuddyPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "BbPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "Contact Form 7"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Easy Forms for MailChimp allows you to add unlimited MailChimp sign up forms to your WordPress site. You can add forms to posts, pages, sidebars and other widgetized areas. Your MailChimp API Key connects your site to your MailChimp account and pulls in all of your MailChimp list information."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MailChimp List statistics and user activity can be viewed right from your dashboard. From there, you can manage users and list settings."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also extend the plugin's functionality with our <a href=\"https://yikesplugins.com/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">free and paid add-ons</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Add a MailChimp form to a site in a minute and a half</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=NRZbW-Da1XA"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Integrations</strong>\n"
+"Add MailChimp opt-in checkboxes to the forms generated by these popular plugins."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Instructions on how to use the plugin can be <a href=\"https://yikesplugins.com/support/knowledge-base/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">found in our Knowledge Base</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you experience any problems, please submit a New Issue on our <a href=\"https://github.com/yikesinc/yikes-inc-easy-mailchimp-extender/issues\">Github Issue Tracker</a>. We respond to issues regarding the free plugin within a week. For expedited help, <a href=\"https://yikesplugins.com/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">purchase one of our paid add-ons</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<br />"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Check out some of our <a href=\"https://yikesplugins.com/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">other plugins</a>.</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin .zip file and make note of where on your computer you downloaded it to."
+msgstr ""
+
+#. Found in installation list item.
+msgid "In the WordPress admin (yourdomain.com/wp-admin) go to Plugins &gt; Add New or click the \"Add New\" button on the main plugins screen."
+msgstr ""
+
+#. Found in installation list item.
+msgid "On the following screen, click the \"Upload Plugin\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Browse your computer to where you downloaded the plugin .zip file, select it and click the \"Install Now\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "After the plugin has successfully installed, click \"Activate Plugin\" and enjoy!"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Visit <a href=\"https://yikesplugins.com/support/knowledge-base/how-to-install-the-plugin-2/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">our Knowledge Base</a> for more detailed installation instructions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched a minor security issue where post passwords were accessible prior to entering the password - (props @ldwd)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "International characters in custom messages causing some escaping issues for AJAX forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Google ReCaptcha override to the shortcode recaptcha=\"1\"/recpatcha=\"0\" to manually set it on a per form basis (still needs to be globally enabled on the settings page)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional reCaptcha parameters to the shortcode. (see <a href=\"https://yikesplugins.com/support/knowledge-base/how-do-i-customize-the-recaptcha-field/\">https://yikesplugins.com/support/knowledge-base/how-do-i-customize-the-recaptcha-field/</a>)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-coded the redirect function for non-ajax forms, so that it properly utilizes <code>wp_redirect()</code> instead of a .js injection after submission."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new constant <code>YIKES_MAILCHIMP_NULL_DEBUG</code> to debug 'null' API response from MailChimp API (see <a href=\"https://yikesplugins.com/support/knowledge-base/i-received-the-following-error-we-received-an-unexpected-error-null/\">https://yikesplugins.com/support/knowledge-base/i-received-the-following-error-we-received-an-unexpected-error-null/</a>)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Repair issue where multiple MailChimp AJAX forms on same page was only submitting last displayed form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Parsed <code>[yikes-mailchimp-subscriber-count]</code>, to display the number of subscribers in the associated MailChimp list on the manage forms page for form descriptions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When 'Hide Label' and 'Hide Field' are both checked, ensure that the associated MailChimp form field is hidden."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed error messages via the MailChimp API are working as intended for both AJAX/standard opt-in forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue/spacing of the secondary 'Update Form' button on the edit forms page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter to allow altering field descriptions. <code>yikes_mailchimp_frontend_content</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolve error thrown when no default is set for checkbox inerest groups."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Alter old knowledge base URLs to new KB URL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirm each MailChimp form field type 'Hide Field' works as expected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a bit of spacing between checkbox/radio button default options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new class <code>yikes-mailchimp-form-class</code> to allow for additional classes to be added to the <code>&lt;form&gt;</code> element."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implemented a fix for required MailChimp interest group checkbox type. (ajax = js validation/non-ajax = php)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Appended form IDs to input field ID parameter. The new form IDs now prepended with yikes-mc-form-#- -- eg: Old: id=\"EMAIL\", New: id=\"yikes-mc-form-1-EMAIL\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a \"Save Form\" button to the left of the new \"Clear Form Fields\" on the Form builder. (better UX)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrate with Visual Composer plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ability to add a class to the form tag. Appropriate filter is <code>yikes-mailchimp-form-class</code> for <code>&lt;form&gt;</code> element, and <code>yikes-mailchimp-form-container-class</code> for parent <code>&lt;section&gt;</code> container."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Site Origin Page builder issues saving the widget form IDs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined variable warning for interest group labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new filter to allow alterations of each form field description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error thrown for some users on edit forms page 'save'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new shortcode: <code>[yikes-mailchimp-subscriber-count list=\"#\"]</code> to display the number of subscribers to a specified list (use: <code>[yikes-mailchimp-subscriber-count form=\"form_id\"]</code> (preferred) or <code>[yikes-mailchimp-subscriber-count list=\"mc_list_id\"]</code>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new filter to filter the submit button text (yikes-mailchimp-form-submit-button-text)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked international phone number validation - now regex checks [0-9]{1,}"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added two new classes to field labels - <code>.merge_tag-label</code> (eg: EMAIL-label) on all fields &amp; <code>.yikes-mailchimp-field-required</code> on fields set to required."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added capability check to TinyMCE button in wp editor (defaults to manage_options)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked 'show some love' container on the edit forms page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensured 'Clear Form Fields' button was hidden after all form fields were removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Passed form descriptions through <code>the_content()</code> to allow for shortcodes to be processed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect optin time being sent to MailChimp for new subscribers (fixed for checkbox integrations, ajax and non-ajax forms)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed 'Hide Label' displaying twice under interest groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error thrown for custom_fields for some users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed dropdown interest group data not being sent to MailChimp properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to bulk remove form fields from the form builder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed hidden interest groups from not displaying the default value properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added hidden interest groups to the field type switch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed interest group errors thrown for some users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new option to replace/update interest groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to pre-select interest groups for each third party integration (bbpress, contact form 7, buddypress, edd, woocommerce, comment form, registration form)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed \"Check your email for the confirmation message.\" from the default success message if single opt-in is checked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Address field, zip not hiding properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked class names, labels."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed clickable pre-defined tags to something more user friendly instead of tags (eg: 'Page Title' instead of {page_title})."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed the <code>field-third-left/right</code> class to <code>field-third</code> as it made more sense. Now elements floated left."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked pre-defined class styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Altered pre-defined class names for the address fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Built in check for MailChimp class to prevent conflict with other plugins integrating MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Built in responsive styles for pre-defined form class styles (field-half-left/right &amp; field-third)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak responsive styles on calendar date picker on mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirm each integration is working as intended."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This release is a <strong>complete</strong> rewrite of the previous version. Before upgrading to the latest release, it is <em>highly recommended</em> that you take a backup of your database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed plugin name to Easy Forms for MailChimp to comply with new guidelines for <a href=\"https://make.wordpress.org/plugins/2015/10/05/guidelines-for-plugins-that-include-company-andor-product-names-in-the-plugin-name/\">Plugins that Include Company and/or Product Names in the Plugin Name</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancements:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All forms have moved to their own table in the database, yikes_easy_mc_forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin interface has been re-designed for a seamless integration into the WordPress dashboard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now create an unlimited number of forms, and assign them to any of your MailChimp lists (even multiple forms to the same list)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can easily duplicate forms at the click of a button."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We have built out an advanced debugging feature that will log MailChimp errors as they occur, for easy debugging."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now toggle on/off AJAX form submissions on a per form basis."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Toggle on or off the MailChimp welcome email being sent."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now quickly switch which MailChimp list your forms assign subscribers to."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We now support every type of MailChimp field you can assign to a form, including interest groups."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now set custom success and error messages, to set messages in your native language."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easily browse your MailChimp lists and view individual subscribers. Manage your subscriptions directly within the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We've completely re-designed the settings pages to allow for easier navigation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A whole number of additional settings have been enabled for different form input fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Español translated started by @hiwhatsup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Française translated by @mialevesque"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Português do Brasil translated by @enxaqueca"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "reCaptcha now loads in the language of the site it's being displayed on."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All translations functions have been implemented for worldwide i18n."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We have built out an API and implemented a number of hooks and filters to enable developers to easily extend the plugin<a href=\"https://yikesplugins.com/support/knowledge-base/product/developer-documentation/\">see knowledge base</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We have started building out a number of add ons to extend the base functionality of the plugin. <a href=\"https://yikesplugins.com/plugins/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">check them out</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Re-import form fields function not properly refreshing the page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Updating a MailChimp list field no longer throws an empty error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: custom class names on input fields merged together with other class names making them un-usable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: tinyMCE error thrown when saving settings page, ultimately preventing the ability to store the MailChimp API key."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Re-bundled unaltered MailChimp API wrapper class file, and added appropriate class check to prevent conflicts with other MailChimp plugins (Gravity Forms etc.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Removed the WYSIWYG editor from the options page. This caused issues for some users who were unable to validate the MailChimp API key."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added a new setting to toggle the sending of the MailChimp welcome email. Users can now disable the email all together, on a list by list basis. (checked = disabled)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Prevented users from being able to update the 'EMAIL' merge variable. Added a notification with instruction on what filter to use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Replaced all instances of the old class name (wpyksMCMailChimp API) with the appropriate MailChimp class (Mailchimp)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Stripped slashes and properly escaped interest group labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added a new filter to alter field labels. Very helpful when you want to alter the default MailChimp 'Email Address' field label to something else. (<code>yikes_mc_field_label</code>) (see 'filters' section in 'Other Notes')"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Patched the error displayed below the opt-in forms when <code>display_yikes_mc_form_messages</code> is not defined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added new filter to allow users to change which role has access to the MailChimp administration pages ( <code>yks-mailchimp-user-role</code> ) ( check readme for example )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added ability to move the success + error messages above or below the form based on a defined constant ( <code>display_yikes_mc_form_messages</code> [options: before/after] )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added new settings and the ability to show/hide * = required field , from the top of the forms, via the settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Fixed incorrect error 'click here to update your profile' shown on front end on all errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added ability to add, edit or delete form fields directly from the WordPress dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added ability to add, edit or delete interest groups directly from the WordPress dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Add \"Update\" link to forms when a user has previously subscribed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added 'default' option to text fields ( with custom pre-defined tags : {post_id} , {post_title} , {page_url} , {blog_name} , {user_logged_in} with the ability to define your own! )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added the ability to adjust required state, visibility state, merge tag and more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added the ability to toggle between ssl_verifypeer true/false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added an error log to help users diagnose errors happening within the plugin (and updated advanced debugging) - found on the debug options of the settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Remove JavaScript dependency to populate place holder values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Replaced Captcha with the all new No-Captcha reCaptcha API from Google"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Introduced all new filters ( check documentation for examples )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Un-checking 'visibility' now hides the input field (instead of not generating it at all)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Re-defined YKSEME_PATH for users who have the plugins folder outside of wp-content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added new classes to labels and input fields on the front end forms ( new classes yks-mc-label-field-label , yks-mc-form-row-field-label , yks-mc-input-field-row-field-label , yks-mc-input-field-label )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Re-sorting fields that had a stored custom class name didn't store properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Wrapped bundled template text in filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Repaired some broken filters (get_form_data_before_send)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Fixed labels on 'Manage List Forms' page and added field names to titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Fixed path to check box images on 'Clean Blue' bundled templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Fixed empty MailChimp API key from outputting any string (confused some users)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other: Split main class file into multiple included files (help organize the main class file (sub-files located in /lib/inc/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other: Began to build up a <a href=\"https://github.com/yikesinc/yikes-inc-easy-mailchimp-extender/wiki\">Wiki</a> on Github , for plug in installation/usage instructions "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other: Altered single/double opt-in strings inside shortcode_form.php (<a href=\"https://wordpress.org/support/topic/code-mangling-on-script-use-in-messageserror-handling\">reference thread</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other: Removed 'Interest Group Label' option, as users can now update the name from within the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added autocomplete=\"false\" to MailChimp API input field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added event listener to form submission (forms can now be placed in modals/slideout menus)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Band-aid fix for the -1 response returned from ajax.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security Vulnerability patched - props @g0blinResearch for privately disclosing the issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix bug with nonce security check when using table 'Preferred Form Layout' setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Single Opt-in Confirmation Message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Double Opt-in Confirmation Message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interest Group Label"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Opt-in Checkbox Text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated readme FAQ section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update SSL conditional in main plugin file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added mcrypt module check, for MailChimp API encryption"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Conditionally loaded scripts and styles in admin ( prevent conflicts )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Included NONCE security checks on form submissions ( helps prevent CSRF and other attacks )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper update task function to add missing settings to the options page ( prevents undefined variables for new settings )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing styles to post page ( added missing icon to tinyMCE button )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing styles to widget page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted Chimp Chatter activity time formatting to return correct time based on user time zone"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Real time updates to MailChimp Account Activity ( utilizing the heartbeat MailChimp API )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Added MailChimp account activity widget to dashboard ( with live updates using heartbeat MailChimp API )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added screenshot of admin dashboard account activity widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added reCAPTCHA support to prevent bots and spammers from submitting forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Split settings page into three separate sections"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Jetpack sharing icons from appearing in the success messages (removed sharedaddy filter)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translation files with new strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update existing screen shots and add new screen shot"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update FAQ"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"loaded server modules\" to the debug page, to better aid in support requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update MailChimp API to v2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added MailChimp API Key Validation Check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for multiples of the same MailChimp list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed name of plugin to Easy MailChimp Forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Supports custom merge vars now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allows import from MailChimp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allows Table or Div output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed form not submitting to MailChimp for anonymous users bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom merge vars allows more customized field configuration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed required from First Name and Last Name fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added update routines for future versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the list logic and added a notice for the MERGE VAR naming schema"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed CSS paths from Absolute to Relative"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial Release"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Fix: repair 'Opt In' default list drop down on options page\n"
+"Fix: repair errors being thrown when a commenter is added to a list"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Removed the update MailChimp profile info link, some users brought up security concerns.\n"
+"Fixed missing argument when using table display formatting."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "We have added brand new functionality, allowing users to easily customize forms on the fly, through a familiar UI as well as a templating framework to allow users to design and implement their own custom forms. A minor security bug was patched in this release as well. We fixed an issue with the MailChimp API key check running on each page load, and added a few new filters to allow users to alter text."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Updates</strong>"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I need a MailChimp account to use this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does the plugin connect my MailChimp account to my site?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I create a MailChimp API key?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I upgraded the plugin to version 6 and my forms disappeared! What's going on?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm having trouble upgrading to version 6, what do I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I upgraded the plugin to version 6 and now Custom Form Styles and Templates are gone. What's up with that?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is there a way that I can display the number of subscribers for a given list?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I keep getitng the following message when I try to connect to MailChimp: `\"API call to helper/ping failed: SSL certificate problem: unable to get local issuer certificate.\"`"
+msgstr ""
+
+#. Found in faq header.
+msgid "I keep getitng the following message when I try to connect to MailChimp: `\"We received an unexpected error: null\"`"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Click your profile name to expand the Account Panel, and choose Account."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Click the Extras drop-down menu and choose MailChimp API keys."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Copy an existing MailChimp API key or click the Create A Key button."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Name your key descriptively, so you know what application uses that key."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "All documentation can be found in <a href=\"https://yikesplugins.com/support/knowledge-base/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">our Knowledge Base</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you must have a MailChimp account and at least 1 list set up in order to use the plugin. You can register for one for free at <a href=\"https://login.mailchimp.com/signup?\" title=\"MailChimp\">MailChimp</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Our plugin uses a MailChimp API Key to allow your site to communicate with your MailChimp account. After you enter your MailChimp API key into the plugin settings your site is connected to MailChimp and ready to make forms."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to the MailChimp article [About MailChimp API Keys](https://kb.mailchimp.com/accounts/management/about-MailChimp API-keys) for detailed information on creating MailChimp API keys."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Step-by-step instructions from MailChimp:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Copy your MailChimp API key so you can paste it into the plugin General Settings."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Version 6 of the plugin was a complete rewrite of the codebase to make the plugin better than ever. In order to do this we needed to update the shortcode format. Simply replace the old shortcodes with the new one and your forms will be back. For more information on shortcodes visit our <a href=\"https://yikesplugins.com/support/knowledge-base/using-shortcodes/\">Knowledge Base</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We want our current users to have as smooth a transition as possible so we have created <a href=\"https://yikesplugins.com/support/knowledge-base/upgrading-to-version-6-performing-the-upgrade/\">Guides to Updating</a>. Please check them out if you are experiencing problems."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In order to sustain the development of this plugin, and make it the best quality possible, we needed to move form customization to a <a href=\"https://yikesplugins.com/plugin/form-customizer-for-easy-forms-for-mailchimp/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">paid add-on</a>. The Form Customizer add-on is a powerful and easy-to-use tool to customize the look and feel of your forms without needing to know any code. If you want ultimate control of the style of your forms, please <a href=\"https://yikesplugins.com/plugin/form-customizer-for-easy-forms-for-mailchimp/?utm_source=wp_plugin_repo&amp;utm_medium=link&amp;utm_campaign=easy_forms_for_mailchimp\">give this add-on a try</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! In version 6.0.2.4 of Easy Forms for MailChimp by YIKES we added a new shortcode, <code>[yikes-mailchimp-subscriber-count]</code> which allows you to do just that."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can use the shortcode inside of form descriptions by adding <code>[yikes-mailchimp-subscriber-count]</code> anywhere in the description field."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To display the count for a specific mailing list, you can use the <code>form=\"#\"</code> or <code>list=\"#\"</code> parameters. If using <code>form=\"#\"</code> you should pass in a specific form ID, which will display the total number of subscribers associated with that form. If using <code>list=\"#\"</code> you should pass in a MailChimp list ID."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see the following <a href=\"https://yikesplugins.com/support/knowledge-base/i-receive-the-error-ssl-certificate-problem-unable-to-get-local-issuer-certificate-why/\">Knowledge Base Article</a> on how to work around it."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see the following <a href=\"https://yikesplugins.com/support/knowledge-base/i-received-the-following-error-we-received-an-unexpected-error-null/\">Knowledge Base Article</a> on the cause of the error and how to resolve it."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Other Notes"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-title-FORM_ID - alter the output of the form title of the specified form"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-description-FORM_ID - alter the output of the form description of the specified form"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-redirect-timer (ms : 1 second = 1000ms) alter the amount of time the user sees the success message before being redirected (default: 1500ms) (@parameters - $time, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-redirect-url - Alter the URL of the page that the user will be redirected too on a successful submission. (@parameters - $url, $form_id, $page_data)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-before-submission - catch the merge variables of all forms before they get sent over to MailChimp"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-before-submission-FORM_ID - catch the merge variables of the specified form before they get sent over to MailChimp"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-after-submission - catch the merge variables of all forms after they get sent over to MailChimp"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-after-submission-FORM_ID - catch the merge variables of the specified form after they get sent over to MailChimp"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-user-role-access - Alter who can access this plugin page by capability (default 'manage_options' - admins)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-international-phone-pattern - Alter the regex pattern for acceptable international phone number formats. (process form shortcode.php - line 295)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-us-phone-pattern - Alter the regex pattern for acceptable US phone number formats. (process form shortcode.php - line 295)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-process-default-tag - Pass the default tag through a filter to populate with dynamic content from the current site (process_form_shortcode.php - line 256)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-MERGE_TAG-label - Alter the specified field label text (affects standard fields &amp; interest groups) (process_form_shortcode.php) "
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-MERGE_TAG-description - Alter the specified field description text (affects standard fields &amp; interest groups) (process_form_shortcode.php)  (if targeting an interest group, it will be the group_id instead of the merge tag) ($parameter - $description_content, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-address-TYPE-label - Alter the field sub-label text for a specified address field (affects only standard address fields) (process_form_shortcode.php) "
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-submit-button - Alter the submit button to your liking (process_form_shortcode.php line 660) (@parameters - $submit_button, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-submit-button-text - Alter the submit button text value (process_form_shortcode.php line 660) (@parameters - $submit_button_text, $form_id )"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-submit-button-classes - Add additional classes to the submit button for further styling (process_form_shortcode.php line 660) (@parameters - $classes, $form_id )"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-container-class - add additional classes to the parent form container (process_form_shortcode.php line 91) (@parameters - $class_name, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-class - add additional classes to <code>&lt;form&gt;</code> element of your opt-in form (process_form_shortcode.php line 157) (@parameters - $class_name, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-front-end-form-action-links - Add custom front end action links alongside Edit Form, Customize Form etc. (@parameters - $form_action_links, $form_id, $form_name)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-custom-default-value-tags - Define your own custom pre-defined tags to populate the default value fields with - these tags appear in the modal - (@parameters - $pre_defined_tags_array)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-parse-custom-default-value - Process your custom default merge tag into a custom value to populate the form field with - (Goes hand in hand with <code>yikes-mailchimp-custom-default-value-tags</code> filter)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-field-data - Filter form field data such as placeholder, label, etc. (@parameters - $field_array, $field, $form_id) (process_form_shortcode.php - line 258 &amp; process_preview_form_shortcode.php - line 258)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-user-subscribe-api-request - Alter the API request whenever a new user subscribed (@parameters - $api_request data, $form_id, $list_id, $email ) (process_form_shortcode.php/process_form_shortcode_ajax.php)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-subscriber-count-value - Adjust the returned value for the total subscriber count of a given MailChimp mailing list as needed. (@parameters - $subscriber_count) (yikes-mailchimp-subscriber-count.php- line 80)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-interest-group-checkbox-error - Alter the checkbox interest group required error response (displayed when a checkbox interest group is set to required, but is left blank)(@since 6.0.3)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-frontend-content - Custom content filter for this plugin to prevent others from hooking in where not wanted."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-interest-group-required-top-error - Alter the top of form error message. (displays only when interest group checkbox group is set to required and left blank (non-ajax only)) (@parameters - $count (# ofmissing required fields (integer)), $form_id )"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-interest-group-checkbox-error - Alter the error displayed above each required interest group checkbox group only. Effects checkbox groups only. (@ajax forms only) (@parameter - $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-recaptcha-parameters - Alter any of the possible reCaptcha shortcode parameters (process_form_shortcode.php line 68) (parameters: $recaptcha_parameter_array, $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-submission - do something with the user email + form data on form submission"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-form-submission-FORM_ID - do something with the user email + form data on form submission (specific form)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-before-form - output content before all forms (@parameters - $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-after-form - output content after all forms (@parameters - $form_id)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-before-checkbox - output custom content before the opt-in checkbox for all integrations"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-after-checkbox - output custom content after the opt-in checkbox for all integrations"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-support-page - output custom content on the support page (used to add our support form for premium users)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-edit-form-section-links - add additional links to the edit form page next to 'Custom Messages'"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-edit-form-sections - add custom section to the edit form page"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-edit-form-notice - hook to display a custom notice on the edit form page "
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-shortcode-enqueue-scripts-styles - hook to enqueue custom scripts &amp; styles wherever the shortcode is being used (@paremeter $form_id - pass the id of the current form)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-additional-form-fields - define additional fields to add below all forms (@parameter $form_data - all data associated with the given form)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-custom-form-actions - add custom action links on the manage forms page (alongside Edit, Duplicate, Shortcode, Delete ) (@parameter $form_id - the id of the form)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "yikes-mailchimp-api-curl-request - custom action hook to disable curl verification (not recommended - see the following <a href=\"https://yikesplugins.com/support/knowledge-base/i-receive-the-error-ssl-certificate-problem-unable-to-get-local-issuer-certificate-why/\">KB article</a>)"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Alongside the default functionality of Easy Forms for MailChimp by YIKES we've included a number of hooks and filters to allow for a higher level of customization of your MailChimp forms."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "For information and code examples on how to implement the hooks and filters provided by Easy Forms for MailChimp by YIKES, please see our <a href=\"https://yikesplugins.com/support/knowledge-base/product/developer-documentation/\">Developer Documentation in the Knowledge Base</a>."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Below you'll find a complete list of the hooks and filters available in Easy Forms for MailChimp by YIKES."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<strong>Filters</strong>"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<strong>Hooks</strong>"
+msgstr ""

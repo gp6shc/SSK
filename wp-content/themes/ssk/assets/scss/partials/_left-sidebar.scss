@@ -48,6 +48,15 @@
 	}
 }
 
+.green-bg {
+	background-color: $g5 !important;
+	color: white;
+	
+	h2,p,a {
+		color: white !important;
+	}
+}
+
 /* Curriculum Menu by Grade */
 #diduknow{
 	&:before{
@@ -163,6 +172,12 @@
 	.current-menu-item {
 		background: $g5;
 	}	
+}
+
+.fourth-grade, .fifth-grade {
+	#secondary {
+		margin-top: -80px;
+	}
 }
 
 /* Order button */
