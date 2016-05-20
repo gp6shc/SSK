@@ -143,6 +143,11 @@ jQuery('#menu-top li:nth-child(3)').on('click', function(e) {
 	e.preventDefault();
 	jQuery("#temp").modal();
 })	;
+
+jQuery('div.end.green p > a:nth-child(2)').on('click', function(e) {
+	e.preventDefault();
+	jQuery("#temp").modal();
+})	;
 </script>
 	<?php wp_footer(); ?>
 </body>
