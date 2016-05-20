@@ -12914,6 +12914,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/themes\/ssk\/assets\/img\/en_badge_web_generic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13957,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/en_badge_web_generic.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ssk\/assets\/img\/en_badge_web_generic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/ssk\/assets\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
