@@ -23,7 +23,7 @@ get_header('landing'); ?>
 	</div>
 	
 	<div class="col3 push6">
-		<!-- <a href="<?php echo home_url(); ?>/kids"> --><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /><!-- </a> -->
+		<a href="<?php echo home_url(); ?>/kids"><img class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/_landing-thought-kids.png" /></a>
 	</div>
 </article><!--//.thoughts-->
 
