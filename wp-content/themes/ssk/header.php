@@ -176,7 +176,7 @@ if ( !is_page( array(78, 80, 82, 267, 420, 424) ) ): ?>
 								
 								
 								<?php } else { // if none are met, load default ?>
-								<?php wp_nav_menu( array( 'theme_location' => 'primary') ); //get primary menu ?>
+								<?php wp_nav_menu( array( 'theme_location' => 'teachers') ); //get primary menu ?>
 								<?php } ?>
 								<!-- //end conditional -->
 							

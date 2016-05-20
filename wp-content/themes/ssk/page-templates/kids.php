@@ -8,20 +8,25 @@ Template Name: Kids Landing pg
 	<?php do_action( 'spacious_before_body_content' ); ?>
 
 	<div id="primary">
-		<div id="content" class="parents clearfix">
+		<div id="content" class="kids clearfix">
+			<div class="page-thumb">
+			<?php
+				if ( has_post_thumbnail() ) {
+					// the current post has a thumbnail
+					echo the_post_thumbnail();
+	
+				} else {
+					//echo default thumb
+				}
+			?>
+			</div>
 			<?php while ( have_posts() ) : the_post(); ?>
 			
 			<div class="entry-content clearfix">
-
 				<?php the_content(); ?>
-				<?php
-					wp_link_pages( array( 
-					'before'            => '<div style="clear: both;"></div><div class="pagination clearfix">'.__( 'Pages:', 'spacious' ),
-					'after'             => '</div>',
-					'link_before'       => '<span>',
-					'link_after'        => '</span>'
-		      ) );
-				?>
+				<a href="https://itunes.apple.com/us/app/laurens-kingdom/id1028748234?mt=8" class="app-download">
+					<img class="itunes" src="<?= get_stylesheet_directory_uri(); ?>/assets/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg">
+				</a>
 			</div>
 
 			<?php endwhile; ?>

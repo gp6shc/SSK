@@ -68,7 +68,7 @@
 	margin: 60px 0 75px 0;
 }
 #clouds{
-	position: absolute;
+	position: fixed;
 	height: 200px;
 	margin-top: 85px;
 	background: transparent;
@@ -208,7 +208,7 @@ html.clouds{
 	margin-top: 0px;
 }
 #sun{
-	position: absolute;
+	position: fixed;
 	left: 10px;
 	top: 80px;
 	width: 10%!important;
@@ -360,4 +360,18 @@ html.clouds{
 .one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{ position:relative; margin-right:4%; float:left; }
 .last{ margin-right:0 !important; clear:right; }
 .clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+
+.buddypuppet-btn {
+    border-radius: 4px;
+    box-shadow: -3px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 111px;
+    background: url('../img/BuddyPuppet.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #CA0378;
+}
+.buddypuppet-btn:hover {
+    opacity: 0.8;
+}
 

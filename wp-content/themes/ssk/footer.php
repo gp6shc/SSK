@@ -14,32 +14,32 @@
 	</div><!-- #page -->
 
 		<!-- conditional footer bg image -->
-		<?php if (is_page(76) || in_array(76, $post->ancestors)) { // if is kindergarden & its children ?>
+		<?php if (is_page(76) || in_array(76, array($post->ancestors) )) { // if is kindergarden & its children ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-kindergarden.png" />
 		</div>
 
-		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade ?>
+		<?php } elseif (is_page(78) || in_array(78, array($post->ancestors) )) { //1st grade ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-first-grade.png" />
 		</div>
 
-		<?php } elseif (is_page(80) || in_array(80, $post->ancestors)) { //2nd ?>
+		<?php } elseif (is_page(80) || in_array(80, array($post->ancestors) )) { //2nd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-second-grade.png" />
 		</div>
 
-		<?php } elseif (is_page(82) || in_array(82, $post->ancestors)) { //3rd ?>
+		<?php } elseif (is_page(82) || in_array(82, array($post->ancestors) )) { //3rd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-third-grade.png" />
 		</div>
 
-		<?php } elseif (is_page(420) || in_array(420, $post->ancestors)) { //3rd ?>
+		<?php } elseif (is_page(420) || in_array(420, array($post->ancestors) )) { //3rd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fourth-grade.png" />
 		</div>
 
-		<?php } elseif (is_page(424) || in_array(424, $post->ancestors)) { //3rd ?>
+		<?php } elseif (is_page(424) || in_array(424, array($post->ancestors) )) { //3rd ?>
 		<div class="footer">
 			<img class="" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/footer-fifth-grade.png" />
 		</div>
@@ -76,7 +76,7 @@
 				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
-		<?php } elseif (is_page(78) || in_array(78, $post->ancestors)) { //1st grade & ancestors ?>
+		<?php } elseif (is_page(78) || in_array(78, array($post->ancestors) )) { //1st grade & ancestors ?>
 		<style>#menu-top.menu a, #menu-top.menu li:after{color:#444;}</style>
 		<div class="end brown">
 			<div class="copy">
@@ -84,7 +84,7 @@
 				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
-		<?php } elseif (is_page(424) || in_array(424, $post->ancestors)) { //5th grade & ancestors ?>
+		<?php } elseif (is_page(424) || in_array(424, array($post->ancestors) )) { //5th grade & ancestors ?>
 		<style>#menu-top.menu a, #menu-top.menu li:after{color:#00ABD3;}</style>
 		<div class="end grey">
 			<div class="copy">

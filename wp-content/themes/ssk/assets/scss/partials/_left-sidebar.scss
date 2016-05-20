@@ -49,12 +49,13 @@
 }
 
 .green-bg {
-	background-color: $g5 !important;
-	color: white;
-	
-	h2,p,a {
-		color: white !important;
-	}
+	background-color: #56A261 !important;
+	color: white
+}
+.green-bg h2,
+.green-bg p,
+.green-bg a {
+    color: white !important
 }
 
 /* Curriculum Menu by Grade */
@@ -174,10 +175,9 @@
 	}	
 }
 
-.fourth-grade, .fifth-grade {
-	#secondary {
-		margin-top: -80px;
-	}
+.fourth-grade #secondary,
+.fifth-grade #secondary {
+    margin-top: -80px
 }
 
 /* Order button */

@@ -1,0 +1,90 @@
+/* =Background Conditionals
+-------------------------------------------------------------- */
+body{
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: repeat-y;
+}
+
+.default{ //DEFAULT BG FOR PAGES
+	background: $ssk-brand;
+}
+
+/* Landing Page Conditional bg */
+.landing-main{ //main SSK landing bg
+	background: $sky;
+}
+.landing-teachers{ //teachers landing page bg
+	background: $ssk-brand;
+}
+.landing-parents{ //parents landing page bg
+	background: $ssk-brand;
+}
+/*.landing-kids{ //kids landing page bg
+	background: $ssk-brand;
+}*/
+
+
+/* Child & Ancestor pages of Landing pgs */
+.child-teachers{ //child of teachers pages bg
+	background: $ssk-brand;
+}
+.child-parents{ //child of parents pages bg
+	background: $ssk-brand;
+}
+.child-kids{ //child of kids pages bg
+	background: $ssk-brand;
+}
+
+/* Curriculum pages */
+.page-id-28{ //curriculum main pg
+	background: $ssk-brand;
+}
+.kindergarden{ //page id=76
+	background: $ssk-brand;
+	/*background: transparent url('../img/bg-kindergarden.jpg') no-repeat no-repeat left top;*/
+}
+.first-grade{
+	background-color: $parents-brand;
+	background-image: url('../img/bg-first-grade.png');
+}
+.second-grade{ //page id=80
+	background-image: url('../img/bg-second-grade.jpg');
+}
+.third-grade{ //page id=82
+	background-image: url('../img/bg-third-grade.jpg');
+}
+.fourth-grade{ //page id=408
+	background-image: url('../img/bg-fourth-grade.jpg');
+}
+.fifth-grade{ //page id=410
+	background-image: url('../img/bg-fifth-grade.jpg');
+	
+	#nav_menu-2 {
+		margin-top: 6px;
+		
+		#menu-top.menu li {
+			padding-bottom: 34px;
+		}
+	}
+	
+	.page-thumb {
+		
+		&:before {
+			content: url('../img/tape.png');
+			position: absolute;
+			top: -24px;
+			left: -7px;
+			transform: rotate(-40deg);
+		}
+		&:after {
+			content: url('../img/tape.png');
+			position: absolute;
+			right: -16px;
+			bottom: -22px;
+		}
+	}
+}
+.page-id-267{ //special needs pg
+	background: transparent url('../img/bg-special-needs.jpg') repeat-y center top;
+}

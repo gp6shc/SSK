@@ -140,6 +140,7 @@
 			margin-left: 0;
 		}
 	}
+		
 }
 @media screen and (max-width: 767px) {
 	body {
@@ -186,6 +187,14 @@
 	}
 	.wide-978 #primary, .narrow-978 #primary, .wide-978 #secondary, .narrow-978 #secondary {
 		width: 100%;
+	}
+	
+	#secondary {
+		margin-top: 125px;
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
 	}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -327,12 +336,18 @@ $phone-landscape: 480px;
 	#primary, #secondary{
 		width: 100%;
 	}
-	#secondary{
-		margin-top: 25px;
+	#secondary#secondary {
+		margin-top: 125px;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+
 		.widget{
 			text-align: center;
 		}
 	}
+
 	.buddy-thoughts{
 		width: 90px;
 	}
@@ -349,16 +364,16 @@ $phone-landscape: 480px;
 		background: url('../img/button-apply-mobile.jpg') center center;
 	}
 	
-	#diduknow, #ti, #menu-curriculum {
+	#diduknow, #ti {
 		&:before{
-			background: none !important;
-			display: none;
+			background: none!important;
+        display: none
 		}
 	}
-	.fourth-grade #secondary, .fifth-grade #secondary {
-		margin-top: 25px;
-	}
-	
+  .fourth-grade #secondary,
+  .fifth-grade #secondary {
+		margin-top: 25px
+	}	
 }
 
 
