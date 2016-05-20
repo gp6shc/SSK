@@ -79,7 +79,7 @@
 	margin: 0 auto;
 	display: block;
 	max-width: 70%;
-	z-index: 999999999;
+	z-index: 30;
 	.push2{
 		margin-left: 8%;
 	}
@@ -110,7 +110,7 @@ img#ssk{
 		padding: 0px 10px;
 		text-align: left;
 		color: $white;
-		z-index: 9999999999999;
+		z-index: 20;
 	}
 	p.copy{
 		margin-top: 15px;

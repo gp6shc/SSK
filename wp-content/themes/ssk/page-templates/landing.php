@@ -67,5 +67,33 @@ jQuery(document).ready(function() {
   });
 });
 </script>
+
+<div id="temp" class="modal fade out" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Visit SaferSmarterFamilies.org</h4>
+      </div>
+      <div class="modal-body">
+        <p>Learn what customized resources are available to your family on <a href="http://safersmarterfamilies.org" target="_blank" data-dismiss="modal">SaferSmarterFamilies</a> – or continue to the Parent Toolkit.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="/parents/toolkit/" class="btn">Continue to Toolkit</a>
+        <a href="http://safersmarterfamilies.org" target="_blank" class="btn">SaferSmarterFamilies.org</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory') ?>/assets/js/mediaelement-and-player.min.js"></script>
+<script src="<?= get_template_directory_uri();?>/assets/js/modal.js"></script>
+<script>
+jQuery('article.thoughts > div.col3.push4 > a').on('click', function(e) {
+	e.preventDefault();
+	jQuery("#temp").modal();
+})	;
+</script>
 <?php wp_footer(); ?>
+</body>
+</html>
