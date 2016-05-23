@@ -1581,11 +1581,20 @@ a#scroll-up:hover {
 
 .app-download {
 	display: block;
+	text-align: center;
+	margin-top: 30px;
+	
+	+ .app-download {
+		margin: auto;
+		margin-top: 10px;
+		
+		img {
+			width: 150px;
+		}
+	}
 	
 	img {
-		display: block;
-		width: 270px;
-		margin: auto;
+		max-width: 270px;
 	}
 }
 
