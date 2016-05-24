@@ -198,7 +198,7 @@ html.clouds{
 }
 .btn-learn, .btn-teach, .btn-order{
 	position: relative;
-	z-index: 9999999;
+	z-index: 10;
 	&:hover{
 		opacity: 0.9;
 		cursor: pointer;
@@ -224,7 +224,7 @@ html.clouds{
 }
 .dog img, .ball img, .bowl img, .house img{
 	position: relative;
-	z-index: 99999999999;
+	z-index: 99999;
 }
 .dog{
 	margin-top: 10px;
@@ -249,7 +249,7 @@ html.clouds{
 }
 #secondary .widget{
 	position: relative;
-	z-index: 99999;
+	z-index: 10;
 }
 #secondary{
 	margin-bottom: 35px;
@@ -271,7 +271,7 @@ html.clouds{
 	border-radius: $rounded;
 	box-shadow: $shadow-five;
 	position: relative;
-	z-index: 999;
+	z-index: 10;
 }
 .pushdown{
 	margin: 40px 0;
