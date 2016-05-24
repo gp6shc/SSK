@@ -1,0 +1,52 @@
+#RewriteEngine on
+#RewriteCond %{HTTP_COOKIE} !^.*developer [NC]
+#RewriteCond %{REQUEST_URI} !^.*developer [NC]
+#RewriteRule (.*) http://laurenskids.org/ [R=302,L]
+
+Redirect 301 /teachersinstitute/application/ http://safersmarterkids.org/teachersinstitute/
+#Redirect 301 /teachersinstitute/ http://safersmarterkids.org/
+
+# June site updates, redirect retired pages:
+Redirect 301 /teachers/about/ /teachers/curriculum/
+RedirectMatch 301 ^/parents/.* /teachers/curriculum/?modal
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^sitemap_index.xml$ /index.php?sitemap=1 [L]
+RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /index.php?sitemap=$1&sitemap_n=$2 [L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+<IfModule mod_rewrite.c>
+
+#blocks script injections and any attempts to modify the PHP GLOBALS and _REQUEST variables.
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+
+</IfModule>
+
+#Prevent Directory Browsing
+Options All -Indexes
+
+#Protect The wp-config File
+<files wp-config.php>
+  order allow,deny
+  deny from all
+</files>
+
+Redirect 301	/teachersinstitute	https://safersmarterkids.org/teachersconference/
+

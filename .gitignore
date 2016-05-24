@@ -1,5 +1,9 @@
 #Untracked Files
 wp-config.php
-.htaccess
 .DS_Store
 .sass-cache
+*/.htaccess
+*/*/.htaccess
+*/*/*/.htaccess
+*/*/*/*/.htaccess
+wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/logs/.htaccess
