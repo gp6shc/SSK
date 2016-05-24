@@ -1,4 +1,4 @@
-/* =Thought Bubble Animations on footer
+/* Thought Bubble Animations on footer
 -------------------------------------------------------------- */
 .buddy-thoughts {
 	margin-top: 70px;
@@ -8,6 +8,7 @@
 	height: auto;
 	width: 130px;
 	animation: bubble-fade 21s ease infinite;
+	filter: drop-shadow( 0 2px 6px rgba(100, 100, 100, 0.3) );
 }
 
 #thought1 {

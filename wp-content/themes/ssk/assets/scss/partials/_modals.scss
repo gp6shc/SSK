@@ -17,12 +17,11 @@
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 50%;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 999999999;
-  transform: translateY(-50%);
   -webkit-overflow-scrolling: touch;
 
   // Prevent Chrome on Windows from adding a focus outline. For details, see
@@ -31,10 +30,12 @@
 
   // When fading in the modal, animate it to slide down
   &.fade .modal-dialog {
-    transform: translate(0, -25%);
-    transition: transform 0.3s ease-out;
+
   }
-  &.in .modal-dialog { transform: translate(0, 0) }
+  &.in .modal-dialog { 
+	  transform: translate(0, 80%);
+    transition: transform 0.3s ease-out;
+	}
 }
 .modal-open .modal {
   overflow-x: hidden;
@@ -46,7 +47,10 @@
   position: relative;
   width: auto;
   margin: 10px;
-  transform: translate(0, 0);
+  top: 50%;
+  width: 575px;
+  margin: 30px auto;
+  transform: translate(0, -125%);
   transition: transform 0.5s ease-in;
 }
 
@@ -56,7 +60,7 @@
   background-color: white;
   border: 1px solid white;
   border-radius: 3px;
-  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
@@ -108,9 +112,8 @@
 
 // Footer (for actions)
 .modal-footer {
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   text-align: right; // right align buttons
-  border-top: 1px solid grey;
 	
 	a {
 		display: inline-block;
@@ -118,6 +121,7 @@
 	
 	.btn {
 		padding: 0.7em;
+		margin-bottom: 10px;
 	}
   // Properly space out buttons
   .btn + .btn {
@@ -143,21 +147,6 @@
   overflow: scroll;
 }
 
-// Scale up the modal
-@media (min-width: 767px) {
-  // Automatically set modal's width for larger viewports
-  .modal-dialog {
-    width: 40%;
-    margin: 30px auto;
-  }
-  .modal-content {
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  }
-
-  // Modal sizes
-  .modal-sm { width: 60%; }
-}
-
-@media (min-width: 500px) {
-  .modal-lg { width: 60%; }
+@media (max-width: 580px) {
+  .modal-dialog { width: 96%; }
 }

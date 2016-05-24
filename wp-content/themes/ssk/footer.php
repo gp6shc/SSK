@@ -73,7 +73,7 @@
 		<div class="end white">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk-dark.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } elseif (is_page(78) || in_array(78, array($post->ancestors) )) { //1st grade & ancestors ?>
@@ -81,7 +81,7 @@
 		<div class="end brown">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } elseif (is_page(424) || in_array(424, array($post->ancestors) )) { //5th grade & ancestors ?>
@@ -89,14 +89,14 @@
 		<div class="end grey">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" />
-				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
+				<p><a style="color: #F06CA8" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank"> Laurens Kids.org</a></p>
 			</div>
 		</div>
 		<?php } else { // all pages, the default is green ($grass) to blend in ?>
 		<div class="end green">
 			<div class="copy">
 				<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo-lk.png" /><img style="height:50px" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/SSSLogoWhite.png" />
-				<p><a style="color: #EB068B" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="http://safersmarterkids.org/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
+				<p><a style="color: #EB068B" href="http://safersmarterkids.org/teachersconference/" >Teachers' Conference</a> | <a href="/parents/" >Parents</a> | All content &copy; <?php echo date('Y') ?> Lauren's Kids. | All rights reserved. <a href="http://laurenskids.org" target="_blank">LaurensKids.org</a></p>
 			</div>
 		</div>
 		<?php } ?>
@@ -139,10 +139,19 @@
 
 <script src="<?= get_template_directory_uri();?>/assets/js/modal.js"></script>
 <script>
-jQuery('#menu-top li:nth-child(3)').on('click', function(e) {
+
+if ( window.location.search === "?modal" ) jQuery("#temp").modal();
+	
+jQuery('a[href="/parents/"]').on('click', function(e) {
 	e.preventDefault();
 	jQuery("#temp").modal();
 })	;
+jQuery('a[href="'+ window.location.origin +'/parents/toolkit/"]').on('click', function(e) {
+	e.preventDefault();
+	jQuery("#temp").modal();
+})	;
+
+/*
 
 jQuery('div.end.green p > a:nth-child(2)').on('click', function(e) {
 	e.preventDefault();
@@ -153,6 +162,7 @@ jQuery('article.thoughts > div.col3.push4 > a').on('click', function(e) {
 	e.preventDefault();
 	jQuery("#temp").modal();
 })	;
+*/
 </script>
 	<?php wp_footer(); ?>
 </body>
