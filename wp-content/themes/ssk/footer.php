@@ -119,51 +119,40 @@
 
 </script>
 
-<div id="temp" class="modal fade out" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Visit SaferSmarterFamilies.org</h4>
-      </div>
-      <div class="modal-body">
-        <p>Learn what customized resources are available to your family on <a href="http://safersmarterfamilies.org" target="_blank" data-dismiss="modal">SaferSmarterFamilies</a> – or continue to the Parent Toolkit.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="/parents/toolkit/" class="btn">Continue to Toolkit</a>
-        <a href="http://safersmarterfamilies.org" target="_blank" class="btn">SaferSmarterFamilies.org</a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<script src="<?= get_template_directory_uri();?>/assets/js/modal.js"></script>
-<script>
-
-if ( window.location.search === "?modal" ) jQuery("#temp").modal();
+<?php if ( get_option("parent_modal") == 1): ?>
+	<div id="temp" class="modal fade out" tabindex="-1" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Visit SaferSmarterFamilies.org</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<p>Learn what customized resources are available to your family on <a href="http://safersmarterfamilies.org" target="_blank" data-dismiss="modal">SaferSmarterFamilies.org</a> – or continue to the Parent Toolkit. The toolkit is especially great for parents with younger children, while the Safer, Smarter Families website is best for parents of kids in Pre-K through high school.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <a href="/parents/toolkit/" class="btn">Continue to Toolkit</a>
+	        <a href="http://safersmarterfamilies.org" target="_blank" class="btn">SaferSmarterFamilies.org</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 	
-jQuery('a[href="/parents/"]').on('click', function(e) {
-	e.preventDefault();
-	jQuery("#temp").modal();
-})	;
-jQuery('a[href="'+ window.location.origin +'/parents/toolkit/"]').on('click', function(e) {
-	e.preventDefault();
-	jQuery("#temp").modal();
-})	;
-
-/*
-
-jQuery('div.end.green p > a:nth-child(2)').on('click', function(e) {
-	e.preventDefault();
-	jQuery("#temp").modal();
-})	;
-
-jQuery('article.thoughts > div.col3.push4 > a').on('click', function(e) {
-	e.preventDefault();
-	jQuery("#temp").modal();
-})	;
-*/
-</script>
+	<script src="<?= get_template_directory_uri();?>/assets/js/modal.js"></script>
+	<script>
+		if ( window.location.search === "?modal" ) jQuery("#temp").modal();
+			
+		jQuery('a[href="/parents/"]').on('click', function(e) {
+			e.preventDefault();
+			jQuery("#temp").modal();
+		})	;
+		jQuery('a[href="'+ window.location.origin +'/parents/toolkit/"]').on('click', function(e) {
+			e.preventDefault();
+			jQuery("#temp").modal();
+		})	;
+	</script>
+<?php endif; ?>
+	
 	<?php wp_footer(); ?>
 </body>
 </html>

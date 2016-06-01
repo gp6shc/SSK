@@ -7,8 +7,17 @@ Redirect 301 /teachersinstitute/application/ http://safersmarterkids.org/teacher
 #Redirect 301 /teachersinstitute/ http://safersmarterkids.org/
 
 # June site updates, redirect retired pages:
-Redirect 301 /teachers/about/ /teachers/curriculum/
-RedirectMatch 301 ^/parents/.* /teachers/curriculum/?modal
+	Redirect 301 /teachers/about/ /teachers/curriculum/
+	
+	# redirect all pages related to parents to the toolkit
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+		RewriteBase /
+		RewriteCond %{REQUEST_URI} !^/parents/toolkit/$
+		RewriteCond %{REQUEST_URI} !^/parents/toolkit$
+		RewriteRule parents/.* parents/toolkit [R=301,L]
+	</IfModule>
+	
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
