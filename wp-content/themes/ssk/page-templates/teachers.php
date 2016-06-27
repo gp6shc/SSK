@@ -9,8 +9,8 @@ Template Name: Teachers Landing pg
 
 	<div id="primary">
 		<div id="content" class="teachers clearfix">
-		
-			<?php echo do_shortcode( '[rsSlider id="44"]' ); ?>
+
+			<?php echo do_shortcode( '[rsSlider id="44"]' ); ?></a>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
