@@ -1579,10 +1579,19 @@ a#scroll-up:hover {
 	}
 	
 	&.half {
-		padding-bottom: 28.125%;
+		padding-bottom: 35.125%;
 		width: 50%;
-		margin: 1.5em 0 1.5em 1.5em;
+		margin: 0 0 1.5em 1.5em;
 		float: right;
+		
+		iframe {
+			height: 80%;
+		}
+		p {
+			padding: 0 0.8em;
+			position: absolute;
+			bottom: 0;
+		}
 	}
 }
 
