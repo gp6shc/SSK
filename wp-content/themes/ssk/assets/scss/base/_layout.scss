@@ -1575,23 +1575,18 @@ a#scroll-up:hover {
 		top:0;
 		left:0;
 		width:100%;
-		height:100%
+		height:100%;
 	}
-	
-	&.half {
-		padding-bottom: 35.125%;
-		width: 50%;
-		margin: 0 0 1.5em 1.5em;
-		float: right;
-		
-		iframe {
-			height: 80%;
-		}
-		p {
-			padding: 0 0.8em;
-			position: absolute;
-			bottom: 0;
-		}
+}
+
+.half {
+	float: right;
+	width: 50%;
+	margin: 0 0 1.5em 1.5em;
+	background-color: #eaeaea;
+
+	p {
+		padding: 0 0.8em;
 	}
 }
 
