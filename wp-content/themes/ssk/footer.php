@@ -128,7 +128,7 @@
 	        <h4 class="modal-title">Visit SaferSmarterFamilies.org</h4>
 	      </div>
 	      <div class="modal-body">
-	      		<p>Learn what customized resources are available to your family on <a href="http://safersmarterfamilies.org" target="_blank" data-dismiss="modal">SaferSmarterFamilies.org</a> – or continue to the Parent Toolkit. The toolkit is especially great for parents with younger children, while the Safer, Smarter Families website is best for parents of kids in Pre-K through high school.</p>
+	      		<p>Learn what customized resources are available to your family on <a href="http://safersmarterfamilies.org" target="_blank" data-dismiss="modal">SaferSmarterFamilies.org</a> – or continue to the Parent Toolkit. The toolkit is especially great for parents with younger children, while the <i>Safer, Smarter Families</i> website is best for parents of kids in Pre-K through high school.</p>
 	      </div>
 	      <div class="modal-footer">
 	        <a href="/parents/toolkit/" class="btn">Continue to Toolkit</a>
